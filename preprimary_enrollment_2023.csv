@@ -1,0 +1,4443 @@
+id,Country,enrollment
+ALB,Albania,69750.0
+DZA,Algeria,538084.0
+AND,Andorra,1966.0
+ARM,Armenia,76621.344
+AZE,Azerbaijan,205670.0
+BHS,Bahamas,3744.0
+BHR,Bahrain,31926.0
+BGD,Bangladesh,3464279.0
+BRB,Barbados,4344.0
+BLR,Belarus,315431.0
+BLZ,Belize,7007.0
+BMU,Bermuda,515.0
+BOL,Bolivia (Plurinational State of),346394.0
+BIH,Bosnia and Herzegovina,29406.0
+BRN,Brunei Darussalam,11884.0
+BFA,Burkina Faso,142304.0
+KHM,Cambodia,385642.0
+CMR,Cameroon,627798.0
+CYM,Cayman Islands,1342.0
+TCD,Chad,33182.0
+CHN,China,46280548.0
+COM,Comoros,14836.0
+COG,Congo,25723.0
+COK,Cook Islands,372.0
+CIV,Côte d'Ivoire,263451.0
+CUB,Cuba,357512.0
+COD,Democratic Republic of the Congo,837832.0
+DJI,Djibouti,7167.0
+DMA,Dominica,1355.0
+DOM,Dominican Republic,326209.0
+ECU,Ecuador,607005.0
+EGY,Egypt,1237331.0
+SLV,El Salvador,202723.0
+ETH,Ethiopia,4041915.0
+FJI,Fiji,19178.0
+GMB,Gambia,136283.0
+GEO,Georgia,148658.0
+GIB,Gibraltar,915.0
+GTM,Guatemala,673123.0
+GUY,Guyana,30915.0
+HND,Honduras,208280.0
+HKG,"China, Hong Kong Special Administrative Region",145686.0
+IND,India,34673802.0
+IDN,Indonesia,4976088.0
+JAM,Jamaica,96548.0
+JOR,Jordan,162071.0
+KAZ,Kazakhstan,970563.0
+KIR,Kiribati,8961.0
+KGZ,Kyrgyzstan,323946.0
+LAO,Lao People's Democratic Republic,176978.0
+LBN,Lebanon,208216.0
+MDG,Madagascar,989765.0
+MYS,Malaysia,957086.0
+MLI,Mali,165707.0
+MUS,Mauritius,23787.0
+MDA,Republic of Moldova,118614.0
+MCO,Monaco,985.0
+MNG,Mongolia,258335.0
+MAR,Morocco,887338.0
+NRU,Nauru,
+NPL,Nepal,1208425.0
+NIC,Nicaragua,263618.0
+NER,Niger,190358.0
+NIU,Niue,23.0
+PSE,Palestine,169671.0
+OMN,Oman,105978.0
+PLW,Palau,618.0
+PAN,Panama,87899.0
+PRY,Paraguay,220263.0
+PER,Peru,1605414.0
+PHL,Philippines,2148186.0
+PRI,Puerto Rico,21998.0
+QAT,Qatar,49378.0
+RUS,Russian Federation,
+RWA,Rwanda,540998.0
+LCA,Saint Lucia,1540.0
+VCT,Saint Vincent and the Grenadines,3237.0
+WSM,Samoa,5256.0
+SMR,San Marino,730.0
+SEN,Senegal,303484.0
+SYC,Seychelles,3286.0
+SLE,Sierra Leone,171574.0
+SLB,Solomon Islands,40105.0
+SUR,Suriname,11534.0
+SYR,Syrian Arab Republic,144715.0
+TJK,Tajikistan,104921.0
+TZA,United Republic of Tanzania,1679542.0
+THA,Thailand,1676009.0
+TGO,Togo,240424.0
+TKL,Tokelau,32.0
+TON,Tonga,2475.0
+TTO,Trinidad and Tobago,26559.0
+TCA,Turks and Caicos Islands,1092.0
+TUV,Tuvalu,745.0
+UKR,Ukraine,827141.0
+ARE,United Arab Emirates,241917.0
+UZB,Uzbekistan,2009825.0
+VUT,Vanuatu,15058.0
+VEN,Venezuela (Bolivarian Republic of),1667303.0
+VNM,Viet Nam,4249838.0
+MAC,"China, Macao Special Administrative Region",17108.0
+MNE,Montenegro,17669.0
+SXM,Sint Maarten (Dutch part),181.0
+40330,Landlocked Developing Countries,12806147.01308
+40344,Small Island Developing States,2315770.90779
+40525,Arab States,6149301.88459
+40530,Central and Eastern Europe,12526560.16531
+40505,Central Asia,3396625.56054
+40515,East Asia and the Pacific,67118568.24357
+40520,Latin America and the Caribbean,20539821.6737
+40500,North America and Western Europe,21416436.80154
+40535,South and West Asia,50142483.97216
+40540,Sub-Saharan Africa,21412712.07494
+40510,World,202702510.37635
+40044,Low income countries,11781196.46753
+40042,Lower middle income countries,73088510.54735
+40030,Middle income countries,157909245.78353
+40043,Upper middle income countries,78987898.97176
+40041,High income countries,37176792.94209
+40675,World,202702510.37635
+40606,Sub-Saharan Africa,21458571.67548
+40617,Northern Africa and Western Asia,8946944.27906
+40603,Northern Africa,4198098.50413
+40614,Western Asia,4748845.77494
+40618,Central and Southern Asia,52886431.17016
+40612,Central Asia,2743947.198
+40616,Southern Asia,50142483.97216
+40619,Eastern and South-Eastern Asia,66164592.23681
+40611,Eastern Asia,50929202.31424
+40630,Latin America and the Caribbean,20539306.6737
+40650,Oceania,1204820.5484
+40651,Australia and New Zealand,689181.87066
+40642,Europe and Northern America,31501843.79274
+40620,Europe,22646090.88833
+40640,Northern America ,8855752.9044
+40550,Small Island Developing States,2295146.90779
+ALB,Albania,33425.0
+DZA,Algeria,267182.0
+AND,Andorra,942.0
+ARM,Armenia,37070.584
+AZE,Azerbaijan,96584.0
+BHS,Bahamas,1938.0
+BHR,Bahrain,15721.0
+BGD,Bangladesh,1748083.0
+BRB,Barbados,2151.0
+BLR,Belarus,149213.0
+BLZ,Belize,3535.0
+BMU,Bermuda,228.0
+BOL,Bolivia (Plurinational State of),171226.0
+BIH,Bosnia and Herzegovina,13894.0
+BRN,Brunei Darussalam,5736.0
+BFA,Burkina Faso,69908.0
+KHM,Cambodia,193277.0
+CMR,Cameroon,314661.0
+CYM,Cayman Islands,631.0
+TCD,Chad,15949.0
+CHN,China,21910871.0
+COM,Comoros,7473.0
+COG,Congo,13478.0
+COK,Cook Islands,191.0
+CIV,Côte d'Ivoire,133170.0
+CUB,Cuba,173265.0
+COD,Democratic Republic of the Congo,427300.0
+DJI,Djibouti,3395.0
+DMA,Dominica,679.0
+DOM,Dominican Republic,163097.0
+ECU,Ecuador,305138.0
+EGY,Egypt,602577.0
+SLV,El Salvador,101628.0
+ETH,Ethiopia,1939896.0
+FJI,Fiji,9246.0
+GMB,Gambia,70752.0
+GIB,Gibraltar,442.0
+GTM,Guatemala,332863.0
+GUY,Guyana,15242.0
+HND,Honduras,103385.0
+HKG,"China, Hong Kong Special Administrative Region",69874.0
+IND,India,17026082.93674
+IDN,Indonesia,2413338.0
+JAM,Jamaica,46334.0
+JOR,Jordan,79593.0
+KAZ,Kazakhstan,469493.0
+KGZ,Kyrgyzstan,159609.0
+LAO,Lao People's Democratic Republic,88023.0
+LBN,Lebanon,101306.0
+MDG,Madagascar,512720.0
+MYS,Malaysia,471054.0
+MLI,Mali,83509.0
+MUS,Mauritius,11705.0
+MDA,Republic of Moldova,57362.0
+MCO,Monaco,464.0
+MNG,Mongolia,126865.0
+MAR,Morocco,438701.0
+NRU,Nauru,
+NPL,Nepal,551320.0
+NIC,Nicaragua,131337.0
+NER,Niger,96293.0
+NIU,Niue,16.0
+PSE,Palestine,83420.0
+OMN,Oman,52162.0
+PLW,Palau,319.0
+PAN,Panama,43530.0
+PRY,Paraguay,108387.0
+PER,Peru,791649.0
+PHL,Philippines,1033390.0
+PRI,Puerto Rico,10641.0
+QAT,Qatar,24100.0
+RUS,Russian Federation,
+RWA,Rwanda,269154.0
+LCA,Saint Lucia,798.0
+VCT,Saint Vincent and the Grenadines,1603.0
+WSM,Samoa,2643.0
+SMR,San Marino,354.0
+SEN,Senegal,160666.0
+SYC,Seychelles,1615.0
+SLE,Sierra Leone,89166.0
+SLB,Solomon Islands,19419.0
+SUR,Suriname,2216.0
+SYR,Syrian Arab Republic,70787.0
+TJK,Tajikistan,47268.0
+TZA,United Republic of Tanzania,825535.0
+THA,Thailand,820462.0
+TGO,Togo,121227.0
+TKL,Tokelau,14.0
+TON,Tonga,1237.0
+TTO,Trinidad and Tobago,13122.0
+TCA,Turks and Caicos Islands,539.0
+TUV,Tuvalu,332.0
+UKR,Ukraine,396988.0
+ARE,United Arab Emirates,122543.0
+UZB,Uzbekistan,946623.0
+VUT,Vanuatu,7314.0
+VEN,Venezuela (Bolivarian Republic of),816949.0
+VNM,Viet Nam,2038293.0
+MAC,"China, Macao Special Administrative Region",8252.0
+MNE,Montenegro,8354.0
+SXM,Sint Maarten (Dutch part),95.0
+40330,Landlocked Developing Countries,6226130.7749
+40344,Small Island Developing States,1141507.95492
+40525,Arab States,3030036.79858
+40530,Central and Eastern Europe,6050234.35225
+40505,Central Asia,1639372.05447
+40515,East Asia and the Pacific,31884143.39251
+40520,Latin America and the Caribbean,10137413.74247
+40500,North America and Western Europe,10302228.23398
+40535,South and West Asia,24267644.60875
+40540,Sub-Saharan Africa,10592010.48014
+40510,World,97903083.66316
+40044,Low income countries,5829901.60992
+40042,Lower middle income countries,35473912.73846
+40030,Middle income countries,76106443.37692
+40043,Upper middle income countries,37813763.82924
+40041,High income countries,17968139.78779
+40675,World,97903083.66316
+40606,Sub-Saharan Africa,10616691.64942
+40617,Northern Africa and Western Asia,4380379.72899
+40603,Northern Africa,2063926.94986
+40614,Western Asia,2316452.77913
+40618,Central and Southern Asia,25589245.01429
+40612,Central Asia,1321600.40554
+40616,Southern Asia,24267644.60875
+40619,Eastern and South-Eastern Asia,31429271.41906
+40611,Eastern Asia,24188719.32001
+40630,Latin America and the Caribbean,10137185.74247
+40650,Oceania,577745.03662
+40651,Australia and New Zealand,329965.87357
+40642,Europe and Northern America,15172565.07231
+40620,Europe,10967010.54885
+40640,Northern America ,4205554.52345
+ALB,Albania,146962.0
+DZA,Algeria,5187616.0
+AND,Andorra,4271.0
+ARM,Armenia,156224.0
+AZE,Azerbaijan,627013.0
+BHS,Bahamas,23311.0
+BHR,Bahrain,117665.0
+BGD,Bangladesh,16252802.0
+BRB,Barbados,17209.0
+BLR,Belarus,451993.0
+BLZ,Belize,44727.0
+BMU,Bermuda,3377.0
+BOL,Bolivia (Plurinational State of),1394417.0
+BIH,Bosnia and Herzegovina,141518.0
+BRN,Brunei Darussalam,38604.0
+BFA,Burkina Faso,2835544.0
+KHM,Cambodia,2198282.72711
+CMR,Cameroon,5155547.0
+CYM,Cayman Islands,4575.0
+TCD,Chad,2955477.0
+CHN,China,107539967.0
+COM,Comoros,120186.0
+COG,Congo,880625.0
+COK,Cook Islands,1571.0
+CIV,Côte d'Ivoire,4632737.0
+CUB,Cuba,726675.0
+COD,Democratic Republic of the Congo,21145525.0
+DJI,Djibouti,69705.0
+DMA,Dominica,5766.0
+DOM,Dominican Republic,1165161.0
+ECU,Ecuador,1773277.0
+EGY,Egypt,13821921.0
+SLV,El Salvador,609862.0
+ETH,Ethiopia,15545095.0
+FJI,Fiji,115485.0
+GMB,Gambia,428053.0
+GEO,Georgia,345099.0
+GIB,Gibraltar,2824.0
+GTM,Guatemala,2413805.0
+GUY,Guyana,91199.0
+HND,Honduras,1074043.0
+HKG,"China, Hong Kong Special Administrative Region",337549.0
+IND,India,131298001.0
+IDN,Indonesia,28619329.0
+JAM,Jamaica,195202.0
+JOR,Jordan,1105189.0
+KAZ,Kazakhstan,1573512.0
+KIR,Kiribati,17777.0
+KGZ,Kyrgyzstan,607542.0
+LAO,Lao People's Democratic Republic,741976.0
+LBN,Lebanon,524141.0
+LSO,Lesotho,312005.0
+MDG,Madagascar,5113497.0
+MWI,Malawi,4623698.0
+MYS,Malaysia,3092312.0
+MDV,Maldives,45617.0
+MLI,Mali,2972650.0
+MRT,Mauritania,861768.0
+MUS,Mauritius,89001.0
+MDA,Republic of Moldova,137227.0
+MCO,Monaco,2024.0
+MNG,Mongolia,381720.0
+MSR,Montserrat,341.0
+MAR,Morocco,4683013.0
+MOZ,Mozambique,7746890.0
+NRU,Nauru,2041.0
+NPL,Nepal,3610603.0
+NIC,Nicaragua,880080.0
+NER,Niger,3022704.0
+NIU,Niue,183.0
+PSE,Palestine,514700.0
+OMN,Oman,348024.0
+PLW,Palau,1401.0
+PAN,Panama,443447.0
+PRY,Paraguay,718847.0
+PER,Peru,3775989.0
+PHL,Philippines,12953380.0
+PRI,Puerto Rico,150261.0
+QAT,Qatar,173438.0
+RUS,Russian Federation,7554896.0
+RWA,Rwanda,2838343.0
+LCA,Saint Lucia,14936.0
+VCT,Saint Vincent and the Grenadines,12163.0
+WSM,Samoa,35003.0
+SMR,San Marino,1462.0
+SEN,Senegal,2340219.0
+SYC,Seychelles,9598.0
+SLE,Sierra Leone,2017170.0
+SLB,Solomon Islands,95872.0
+SOM,Somalia,464607.0
+SUR,Suriname,42524.0
+SWZ,Eswatini,222351.0
+SYR,Syrian Arab Republic,2172256.0
+TJK,Tajikistan,994877.0
+TZA,United Republic of Tanzania,11428969.0
+THA,Thailand,4611695.0
+TLS,Timor-Leste,227656.0
+TGO,Togo,1664472.0
+TKL,Tokelau,155.0
+TON,Tonga,16114.0
+TTO,Trinidad and Tobago,128993.0
+TUN,Tunisia,1337527.0
+TCA,Turks and Caicos Islands,3511.0
+TUV,Tuvalu,1432.0
+UKR,Ukraine,1524174.0
+ARE,United Arab Emirates,554644.0
+UZB,Uzbekistan,2543859.0
+VUT,Vanuatu,55233.0
+VEN,Venezuela (Bolivarian Republic of),3540946.0
+VNM,Viet Nam,9192690.0
+MAC,"China, Macao Special Administrative Region",37854.0
+MNE,Montenegro,38834.0
+CUW,Curaçao,11693.0
+SXM,Sint Maarten (Dutch part),3913.0
+40344,Small Island Developing States,8362779.36181
+40525,Arab States,53945465.61866
+40530,Central and Eastern Europe,20240500.49102
+40505,Central Asia,7839079.48239
+40515,East Asia and the Pacific,191835204.84827
+40520,Latin America and the Caribbean,61444603.98569
+40500,North America and Western Europe,51835618.64594
+40535,South and West Asia,194713998.61094
+40540,Sub-Saharan Africa,189571830.5658
+40510,World,771426302.24871
+40044,Low income countries,114312543.16705
+40042,Lower middle income countries,330102969.65572
+40030,Middle income countries,577130897.15969
+40043,Upper middle income countries,239237623.1052
+40041,High income countries,84228716.84355
+40675,World,771426302.24871
+40606,Sub-Saharan Africa,190503303.5658
+40617,Northern Africa and Western Asia,60624724.55709
+40603,Northern Africa,31651463.00588
+40614,Western Asia,28973261.55121
+40618,Central and Southern Asia,201041745.96757
+40612,Central Asia,6327747.35662
+40616,Southern Asia,194713998.61094
+40619,Eastern and South-Eastern Asia,187712901.8614
+40611,Eastern Asia,118739736.12064
+40630,Latin America and the Caribbean,61441226.98569
+40650,Oceania,4505299.11263
+40651,Australia and New Zealand,2618872.99443
+40642,Europe and Northern America,65597100.19852
+40620,Europe,39329771.81688
+40640,Northern America ,26267328.38164
+40550,Small Island Developing States,8217248.36181
+ALB,Albania,70505.0
+DZA,Algeria,2514748.0
+AND,Andorra,2103.0
+ARM,Armenia,73830.0
+AZE,Azerbaijan,293031.0
+BHS,Bahamas,11440.0
+BHR,Bahrain,57832.0
+BGD,Bangladesh,8302408.0
+BRB,Barbados,8307.0
+BLR,Belarus,218838.0
+BLZ,Belize,21706.0
+BMU,Bermuda,1669.0
+BOL,Bolivia (Plurinational State of),681911.0
+BIH,Bosnia and Herzegovina,68930.0
+BRN,Brunei Darussalam,18668.0
+BFA,Burkina Faso,1419282.0
+KHM,Cambodia,1055881.77823
+CMR,Cameroon,2446722.0
+CYM,Cayman Islands,2279.0
+TCD,Chad,1329555.0
+CHN,China,50362647.0
+COM,Comoros,57274.0
+COG,Congo,431379.0
+COK,Cook Islands,765.0
+CIV,Côte d'Ivoire,2254174.0
+CUB,Cuba,348405.0
+COD,Democratic Republic of the Congo,10276181.0
+DJI,Djibouti,32848.0
+DMA,Dominica,2803.0
+DOM,Dominican Republic,561910.0
+ECU,Ecuador,878803.0
+EGY,Egypt,6769719.0
+SLV,El Salvador,295973.0
+ETH,Ethiopia,7361589.0
+FJI,Fiji,55421.0
+GMB,Gambia,226633.0
+GEO,Georgia,166327.0
+GIB,Gibraltar,1393.0
+GTM,Guatemala,1178547.0
+GUY,Guyana,44742.0
+HND,Honduras,527533.0
+HKG,"China, Hong Kong Special Administrative Region",161670.0
+IND,India,62588484.17349
+IDN,Indonesia,13718519.0
+JAM,Jamaica,95912.0
+JOR,Jordan,538686.0
+KAZ,Kazakhstan,764559.0
+KIR,Kiribati,8626.0
+KGZ,Kyrgyzstan,295972.0
+LAO,Lao People's Democratic Republic,360486.0
+LBN,Lebanon,253583.0
+LSO,Lesotho,152718.0
+MDG,Madagascar,2571165.0
+MWI,Malawi,2339332.0
+MYS,Malaysia,1508575.0
+MDV,Maldives,22105.0
+MLI,Mali,1399791.0
+MRT,Mauritania,423959.0
+MUS,Mauritius,43920.0
+MDA,Republic of Moldova,66100.0
+MCO,Monaco,1009.0
+MNG,Mongolia,186513.0
+MSR,Montserrat,179.0
+MAR,Morocco,2252141.0
+MOZ,Mozambique,3788110.0
+NRU,Nauru,995.0
+NPL,Nepal,1740144.0
+NIC,Nicaragua,427559.0
+NER,Niger,1442486.0
+NIU,Niue,98.0
+PSE,Palestine,251063.0
+OMN,Oman,172043.0
+PLW,Palau,640.0
+PAN,Panama,216103.0
+PRY,Paraguay,349748.0
+PER,Peru,1862178.0
+PHL,Philippines,6224405.0
+PRI,Puerto Rico,73346.0
+QAT,Qatar,85109.0
+RUS,Russian Federation,3678824.0
+RWA,Rwanda,1392931.0
+LCA,Saint Lucia,7364.0
+VCT,Saint Vincent and the Grenadines,6023.0
+WSM,Samoa,16804.0
+SMR,San Marino,727.0
+SEN,Senegal,1256179.0
+SYC,Seychelles,4705.0
+SLE,Sierra Leone,1028545.0
+SLB,Solomon Islands,46011.0
+SOM,Somalia,207913.0
+SUR,Suriname,8397.0
+SWZ,Eswatini,107218.0
+SYR,Syrian Arab Republic,1059756.0
+TJK,Tajikistan,483011.0
+TZA,United Republic of Tanzania,5810253.0
+THA,Thailand,2204701.0
+TLS,Timor-Leste,112858.0
+TGO,Togo,815497.0
+TKL,Tokelau,87.0
+TON,Tonga,7700.0
+TTO,Trinidad and Tobago,63052.0
+TUN,Tunisia,642334.0
+TCA,Turks and Caicos Islands,1796.0
+TUV,Tuvalu,685.0
+UKR,Ukraine,743508.0
+ARE,United Arab Emirates,278214.0
+UZB,Uzbekistan,1223979.0
+VUT,Vanuatu,26401.0
+VEN,Venezuela (Bolivarian Republic of),1710650.0
+VNM,Viet Nam,4391641.0
+MAC,"China, Macao Special Administrative Region",18112.0
+MNE,Montenegro,18750.0
+CUW,Curaçao,5572.0
+SXM,Sint Maarten (Dutch part),1928.0
+40344,Small Island Developing States,4036367.51269
+40525,Arab States,25747854.84808
+40530,Central and Eastern Europe,9835959.27929
+40505,Central Asia,3780507.72515
+40515,East Asia and the Pacific,90922956.14616
+40520,Latin America and the Caribbean,30002399.21954
+40500,North America and Western Europe,25284309.86219
+40535,South and West Asia,92486814.24727
+40540,Sub-Saharan Africa,92494453.69382
+40510,World,370555255.0215
+40044,Low income countries,54498124.54306
+40042,Lower middle income countries,159231758.21561
+40030,Middle income countries,277089422.16538
+40043,Upper middle income countries,114064596.26356
+40041,High income countries,41048398.2239
+40675,World,370555255.0215
+40606,Sub-Saharan Africa,92951260.69382
+40617,Northern Africa and Western Asia,28972556.7721
+40603,Northern Africa,15328595.89866
+40614,Western Asia,13643960.87344
+40618,Central and Southern Asia,95546849.21161
+40612,Central Asia,3060034.96435
+40616,Southern Asia,92486814.24727
+40619,Eastern and South-Eastern Asia,88950974.70909
+40611,Eastern Asia,55817466.37661
+40630,Latin America and the Caribbean,30000730.21954
+40650,Oceania,2159266.19787
+40651,Australia and New Zealand,1274056.78529
+40642,Europe and Northern America,31973617.21746
+40620,Europe,19149983.79067
+40640,Northern America ,12823633.42679
+40550,Small Island Developing States,3965387.51269
+ALB,Albania,120313.0
+DZA,Algeria,
+AND,Andorra,3422.0
+ARM,Armenia,188396.0
+AZE,Azerbaijan,783094.0
+BHS,Bahamas,17114.0
+BHR,Bahrain,56360.0
+BGD,Bangladesh,7535007.0
+BRB,Barbados,10660.0
+BLR,Belarus,522696.0
+BLZ,Belize,28250.0
+BMU,Bermuda,1613.0
+BOL,Bolivia (Plurinational State of),472216.0
+BIH,Bosnia and Herzegovina,118819.0
+BRN,Brunei Darussalam,13438.0
+BFA,Burkina Faso,887529.0
+KHM,Cambodia,710154.14006
+CMR,Cameroon,1270288.0
+CYM,Cayman Islands,2305.0
+TCD,Chad,505931.0
+CHN,China,51316906.0
+COM,Comoros,44231.0
+COK,Cook Islands,1262.0
+CIV,Côte d'Ivoire,2278672.0
+CUB,Cuba,353252.0
+COD,Democratic Republic of the Congo,3668210.0
+DJI,Djibouti,45204.0
+DMA,Dominica,2837.0
+DOM,Dominican Republic,510575.0
+ECU,Ecuador,937393.0
+SLV,El Salvador,266845.0
+ETH,Ethiopia,5311412.0
+FJI,Fiji,73215.0
+GEO,Georgia,155229.0
+GIB,Gibraltar,1503.0
+GTM,Guatemala,723543.0
+GUY,Guyana,39449.0
+HND,Honduras,368380.0
+HKG,"China, Hong Kong Special Administrative Region",171671.0
+IND,India,63737716.68004
+IDN,Indonesia,13935884.0
+JAM,Jamaica,111284.0
+JOR,Jordan,728494.0
+KAZ,Kazakhstan,1777237.0
+KIR,Kiribati,8407.0
+KGZ,Kyrgyzstan,652260.0
+LAO,Lao People's Democratic Republic,388346.0
+LBN,Lebanon,218182.0
+MYS,Malaysia,1401328.0
+MDV,Maldives,28579.0
+MLI,Mali,784391.0
+MRT,Mauritania,229343.0
+MDA,Republic of Moldova,159189.0
+MCO,Monaco,1858.0
+MNG,Mongolia,251347.0
+MSR,Montserrat,188.0
+MAR,Morocco,2175513.0
+NRU,Nauru,1068.0
+NPL,Nepal,1827433.0
+NIC,Nicaragua,294163.0
+NER,Niger,732071.0
+NIU,Niue,109.0
+PSE,Palestine,600132.0
+OMN,Oman,404130.0
+PLW,Palau,475.0
+PRY,Paraguay,303682.0
+PER,Peru,2070590.0
+PHL,Philippines,8416401.0
+PRI,Puerto Rico,103436.0
+QAT,Qatar,76532.0
+RUS,Russian Federation,9422596.0
+RWA,Rwanda,536427.0
+LCA,Saint Lucia,6585.0
+VCT,Saint Vincent and the Grenadines,6267.0
+WSM,Samoa,10594.0
+SMR,San Marino,1005.0
+SEN,Senegal,878437.0
+SYC,Seychelles,4588.0
+SLE,Sierra Leone,640393.0
+SLB,Solomon Islands,36126.0
+SOM,Somalia,
+SUR,Suriname,40666.0
+SYR,Syrian Arab Republic,862530.0
+TJK,Tajikistan,1019325.0
+THA,Thailand,2704598.0
+TGO,Togo,666374.0
+TKL,Tokelau,86.0
+TON,Tonga,10503.0
+TTO,Trinidad and Tobago,53968.0
+TUN,Tunisia,592246.0
+TCA,Turks and Caicos Islands,1922.0
+TUV,Tuvalu,862.0
+UKR,Ukraine,2021458.0
+ARE,United Arab Emirates,466390.0
+UZB,Uzbekistan,3064092.0
+VUT,Vanuatu,19302.0
+VEN,Venezuela (Bolivarian Republic of),1786967.0
+VNM,Viet Nam,6054255.0
+MAC,"China, Macao Special Administrative Region",16211.0
+MNE,Montenegro,31468.0
+CUW,Curaçao,7766.0
+40344,Small Island Developing States,2758828.08851
+40530,Central and Eastern Europe,22231919.9329
+40515,East Asia and the Pacific,97230161.76622
+40520,Latin America and the Caribbean,37008516.14987
+40500,North America and Western Europe,32905707.69159
+40535,South and West Asia,88620166.03081
+40510,World,356939298.20858
+40042,Lower middle income countries,142997899.99746
+40030,Middle income countries,281273942.16227
+40043,Upper middle income countries,128658611.77316
+40041,High income countries,57598824.00563
+40675,World,356939298.20858
+40617,Northern Africa and Western Asia,31276728.80232
+40614,Western Asia,15823515.36658
+40618,Central and Southern Asia,95805016.31099
+40616,Southern Asia,88620166.03081
+40619,Eastern and South-Eastern Asia,95131154.86872
+40611,Eastern Asia,57329538.64505
+40630,Latin America and the Caribbean,37006903.14987
+40650,Oceania,2354077.49313
+40651,Australia and New Zealand,1700031.54851
+40642,Europe and Northern America,49369729.85672
+40620,Europe,35159104.95903
+40640,Northern America ,14210624.89769
+40550,Small Island Developing States,2657783.08851
+ALB,Albania,57136.0
+DZA,Algeria,
+AND,Andorra,1672.0
+ARM,Armenia,88717.0
+AZE,Azerbaijan,364046.0
+BHS,Bahamas,9603.0
+BHR,Bahrain,27700.0
+BGD,Bangladesh,4157569.0
+BRB,Barbados,5228.0
+BLR,Belarus,254138.0
+BLZ,Belize,13641.0
+BMU,Bermuda,822.0
+BOL,Bolivia (Plurinational State of),228575.0
+BIH,Bosnia and Herzegovina,57778.0
+BRN,Brunei Darussalam,6403.0
+BFA,Burkina Faso,489293.0
+KHM,Cambodia,362802.81452
+CMR,Cameroon,599440.0
+CYM,Cayman Islands,1115.0
+TCD,Chad,206276.0
+CHN,China,23844069.0
+COM,Comoros,22178.0
+COK,Cook Islands,601.0
+CIV,Côte d'Ivoire,1114160.0
+CUB,Cuba,167543.0
+DJI,Djibouti,20845.0
+DMA,Dominica,1314.0
+DOM,Dominican Republic,254694.0
+ECU,Ecuador,461810.0
+SLV,El Salvador,132946.0
+ETH,Ethiopia,2635594.0
+FJI,Fiji,35654.0
+GEO,Georgia,74089.0
+GIB,Gibraltar,750.0
+GTM,Guatemala,354954.0
+GUY,Guyana,19017.0
+HND,Honduras,190681.0
+HKG,"China, Hong Kong Special Administrative Region",81844.0
+IND,India,30764973.21358
+IDN,Indonesia,6733716.0
+JAM,Jamaica,54471.0
+JOR,Jordan,359749.0
+KAZ,Kazakhstan,864331.0
+KIR,Kiribati,4307.0
+KGZ,Kyrgyzstan,318516.0
+LAO,Lao People's Democratic Republic,190064.0
+LBN,Lebanon,110399.0
+MYS,Malaysia,684573.0
+MDV,Maldives,13859.0
+MLI,Mali,377753.0
+MRT,Mauritania,122965.0
+MDA,Republic of Moldova,76744.0
+MCO,Monaco,929.0
+MNG,Mongolia,123527.0
+MSR,Montserrat,103.0
+MAR,Morocco,1007033.0
+NRU,Nauru,521.0
+NPL,Nepal,887518.0
+NIC,Nicaragua,148882.0
+NER,Niger,353210.0
+NIU,Niue,60.0
+PSE,Palestine,298801.0
+OMN,Oman,197657.0
+PLW,Palau,241.0
+PRY,Paraguay,149251.0
+PER,Peru,1046901.0
+PHL,Philippines,4126820.0
+PRI,Puerto Rico,50631.0
+QAT,Qatar,37184.0
+RUS,Russian Federation,4487289.0
+RWA,Rwanda,293146.0
+LCA,Saint Lucia,3277.0
+VCT,Saint Vincent and the Grenadines,2995.0
+WSM,Samoa,5156.0
+SMR,San Marino,485.0
+SEN,Senegal,483972.0
+SYC,Seychelles,2296.0
+SLE,Sierra Leone,340231.0
+SLB,Solomon Islands,18127.0
+SOM,Somalia,
+SUR,Suriname,
+SYR,Syrian Arab Republic,439817.0
+TJK,Tajikistan,495464.0
+THA,Thailand,1315099.0
+TGO,Togo,307030.0
+TKL,Tokelau,44.0
+TON,Tonga,5053.0
+TTO,Trinidad and Tobago,26940.0
+TUN,Tunisia,291216.0
+TCA,Turks and Caicos Islands,953.0
+TUV,Tuvalu,425.0
+UKR,Ukraine,987242.0
+ARE,United Arab Emirates,233305.0
+UZB,Uzbekistan,1483124.0
+VUT,Vanuatu,9724.0
+VEN,Venezuela (Bolivarian Republic of),913087.0
+VNM,Viet Nam,2921781.0
+MAC,"China, Macao Special Administrative Region",7714.0
+MNE,Montenegro,15048.0
+CUW,Curaçao,3769.0
+40344,Small Island Developing States,1336055.44603
+40530,Central and Eastern Europe,10736006.33427
+40515,East Asia and the Pacific,46301447.74506
+40520,Latin America and the Caribbean,18433652.63883
+40500,North America and Western Europe,16004425.53865
+40535,South and West Asia,42823504.14213
+40510,World,172053246.91161
+40042,Lower middle income countries,69795272.94319
+40030,Middle income countries,135981749.98462
+40043,Upper middle income countries,61604673.64316
+40041,High income countries,27920388.64993
+40675,World,172053246.91161
+40617,Northern Africa and Western Asia,14880287.35767
+40614,Western Asia,7505291.71305
+40618,Central and Southern Asia,46303095.23184
+40616,Southern Asia,42823504.14213
+40619,Eastern and South-Eastern Asia,45317790.72432
+40611,Eastern Asia,26774208.59251
+40630,Latin America and the Caribbean,18432830.63883
+40650,Oceania,1110511.0505
+40651,Australia and New Zealand,815327.10892
+40642,Europe and Northern America,23911865.66452
+40620,Europe,16978355.97844
+40640,Northern America ,6933509.68608
+40550,Small Island Developing States,1286583.44603
+ALB,Albania,95845.0
+DZA,Algeria,
+AND,Andorra,1641.0
+ARM,Armenia,86519.0
+AZE,Azerbaijan,283115.0
+BHS,Bahamas,12295.0
+BHR,Bahrain,54118.0
+BGD,Bangladesh,8126725.0
+BRB,Barbados,7855.0
+BLR,Belarus,203025.0
+BLZ,Belize,9194.0
+BMU,Bermuda,1871.0
+BOL,Bolivia (Plurinational State of),820070.0
+BIH,Bosnia and Herzegovina,107936.0
+BRN,Brunei Darussalam,27486.0
+BFA,Burkina Faso,297951.0
+KHM,Cambodia,422468.0
+CMR,Cameroon,737073.0
+CYM,Cayman Islands,1731.0
+TCD,Chad,244249.0
+CHN,China,45005892.0
+COM,Comoros,23533.0
+COK,Cook Islands,611.0
+CIV,Côte d'Ivoire,819603.0
+CUB,Cuba,331428.0
+COD,Democratic Republic of the Congo,4260121.0
+DJI,Djibouti,24158.0
+DMA,Dominica,1646.0
+DOM,Dominican Republic,345924.0
+ECU,Ecuador,885123.0
+EGY,Egypt,4374731.0
+SLV,El Salvador,175649.0
+FJI,Fiji,40390.0
+GEO,Georgia,147361.0
+GIB,Gibraltar,926.0
+GTM,Guatemala,354723.0
+GUY,Guyana,24028.0
+HND,Honduras,212337.0
+HKG,"China, Hong Kong Special Administrative Region",162103.0
+IND,India,70604424.13249
+IDN,Indonesia,12947226.0
+JAM,Jamaica,73516.0
+JOR,Jordan,278586.0
+KAZ,Kazakhstan,598677.0
+KIR,Kiribati,8538.0
+KGZ,Kyrgyzstan,188196.0
+LAO,Lao People's Democratic Republic,180056.0
+LBN,Lebanon,187256.0
+MYS,Malaysia,1227826.0
+MDV,Maldives,4423.0
+MLI,Mali,520749.0
+MDA,Republic of Moldova,68707.0
+MCO,Monaco,1620.0
+MNG,Mongolia,160723.0
+MSR,Montserrat,106.0
+MAR,Morocco,1258760.0
+MOZ,Mozambique,794313.0
+NRU,Nauru,370.0
+NPL,Nepal,1868127.0
+NIC,Nicaragua,169497.0
+NER,Niger,178113.0
+NIU,Niue,118.0
+PSE,Palestine,268100.0
+OMN,Oman,109276.0
+PLW,Palau,923.0
+PRY,Paraguay,277461.0
+PER,Peru,1139052.0
+PHL,Philippines,4177815.0
+PRI,Puerto Rico,132822.0
+QAT,Qatar,67878.0
+RUS,Russian Federation,1375624.0
+RWA,Rwanda,282835.0
+LCA,Saint Lucia,4220.0
+VCT,Saint Vincent and the Grenadines,3440.0
+SMR,San Marino,710.0
+SEN,Senegal,404803.0
+SYC,Seychelles,3273.0
+SOM,Somalia,
+SUR,Suriname,17603.0
+SYR,Syrian Arab Republic,491095.0
+TJK,Tajikistan,237810.0
+THA,Thailand,2434587.0
+TGO,Togo,248840.0
+TKL,Tokelau,62.0
+TON,Tonga,5478.0
+TTO,Trinidad and Tobago,34440.0
+TCA,Turks and Caicos Islands,924.0
+TUV,Tuvalu,390.0
+UKR,Ukraine,623706.0
+ARE,United Arab Emirates,393891.0
+UZB,Uzbekistan,1048028.0
+VUT,Vanuatu,38726.0
+VEN,Venezuela (Bolivarian Republic of),908721.0
+MAC,"China, Macao Special Administrative Region",14063.0
+MNE,Montenegro,25093.0
+CUW,Curaçao,4909.0
+40344,Small Island Developing States,1835137.75535
+40530,Central and Eastern Europe,13560174.65131
+40515,East Asia and the Pacific,72398017.2927
+40520,Latin America and the Caribbean,26001529.62079
+40500,North America and Western Europe,33245676.03046
+40535,South and West Asia,92263442.26353
+40510,World,284245258.84828
+40042,Lower middle income countries,117164150.37273
+40030,Middle income countries,220286049.98493
+40043,Upper middle income countries,101449522.37188
+40041,High income countries,49753848.30562
+40675,World,284245258.84828
+40617,Northern Africa and Western Asia,23109429.81035
+40614,Western Asia,13707942.59142
+40618,Central and Southern Asia,94530213.4865
+40616,Southern Asia,92263442.26353
+40619,Eastern and South-Eastern Asia,70948108.13995
+40611,Eastern Asia,50916820.59696
+40630,Latin America and the Caribbean,25999658.62079
+40650,Oceania,1570931.2339
+40651,Australia and New Zealand,1389587.1727
+40642,Europe and Northern America,39816538.2969
+40620,Europe,25548960.5345
+40640,Northern America ,14267577.7624
+40550,Small Island Developing States,1704108.75535
+ALB,Albania,45420.0
+DZA,Algeria,
+AND,Andorra,762.0
+ARM,Armenia,42178.0
+AZE,Azerbaijan,123128.0
+BHS,Bahamas,6321.0
+BHR,Bahrain,25779.0
+BGD,Bangladesh,4107339.0
+BRB,Barbados,3958.0
+BLR,Belarus,97201.0
+BLZ,Belize,4900.0
+BMU,Bermuda,959.0
+BOL,Bolivia (Plurinational State of),403854.0
+BIH,Bosnia and Herzegovina,54482.0
+BRN,Brunei Darussalam,13548.0
+BFA,Burkina Faso,147978.0
+KHM,Cambodia,226373.0
+CMR,Cameroon,349222.0
+CYM,Cayman Islands,868.0
+TCD,Chad,87773.0
+CHN,China,21045521.0
+COM,Comoros,11766.0
+COK,Cook Islands,349.0
+CIV,Côte d'Ivoire,374096.0
+CUB,Cuba,167798.0
+DJI,Djibouti,11068.0
+DMA,Dominica,863.0
+DOM,Dominican Republic,187818.0
+ECU,Ecuador,440529.0
+EGY,Egypt,2076916.0
+SLV,El Salvador,90762.0
+FJI,Fiji,21886.0
+GEO,Georgia,68701.0
+GIB,Gibraltar,452.0
+GTM,Guatemala,187646.0
+GUY,Guyana,12129.0
+HND,Honduras,118439.0
+HKG,"China, Hong Kong Special Administrative Region",77377.0
+IND,India,33339560.63984
+IDN,Indonesia,6551863.0
+JAM,Jamaica,36500.0
+JOR,Jordan,143168.0
+KAZ,Kazakhstan,292302.0
+KIR,Kiribati,4808.0
+KGZ,Kyrgyzstan,92487.0
+LAO,Lao People's Democratic Republic,83658.0
+LBN,Lebanon,97848.0
+MYS,Malaysia,626447.0
+MDV,Maldives,2504.0
+MLI,Mali,236622.0
+MDA,Republic of Moldova,33428.0
+MCO,Monaco,813.0
+MNG,Mongolia,81149.0
+MSR,Montserrat,46.0
+MAR,Morocco,658299.0
+MOZ,Mozambique,389543.0
+NRU,Nauru,177.0
+NPL,Nepal,935462.0
+NIC,Nicaragua,81344.0
+NER,Niger,75536.0
+NIU,Niue,55.0
+PSE,Palestine,148915.0
+OMN,Oman,51981.0
+PLW,Palau,456.0
+PRY,Paraguay,142353.0
+PER,Peru,557197.0
+PHL,Philippines,2126755.0
+PRI,Puerto Rico,66464.0
+QAT,Qatar,32471.0
+RUS,Russian Federation,712364.0
+RWA,Rwanda,152076.0
+LCA,Saint Lucia,2088.0
+VCT,Saint Vincent and the Grenadines,1795.0
+SMR,San Marino,323.0
+SEN,Senegal,221667.0
+SYC,Seychelles,1719.0
+SUR,Suriname,10467.0
+SYR,Syrian Arab Republic,264799.0
+TJK,Tajikistan,105148.0
+THA,Thailand,1206455.0
+TGO,Togo,114543.0
+TKL,Tokelau,26.0
+TON,Tonga,3040.0
+TTO,Trinidad and Tobago,17466.0
+TCA,Turks and Caicos Islands,466.0
+TUV,Tuvalu,228.0
+UKR,Ukraine,299741.0
+ARE,United Arab Emirates,190956.0
+UZB,Uzbekistan,503682.0
+VUT,Vanuatu,18487.0
+VEN,Venezuela (Bolivarian Republic of),461172.0
+MAC,"China, Macao Special Administrative Region",6882.0
+MNE,Montenegro,12370.0
+CUW,Curaçao,2768.0
+40344,Small Island Developing States,925691.42844
+40530,Central and Eastern Europe,6541464.5228
+40515,East Asia and the Pacific,34596950.09498
+40520,Latin America and the Caribbean,13373462.40003
+40500,North America and Western Europe,16426591.96066
+40535,South and West Asia,43703761.89096
+40510,World,136958280.2971
+40042,Lower middle income countries,55879623.43298
+40030,Middle income countries,106221154.60713
+40043,Upper middle income countries,49488115.45767
+40041,High income countries,24520120.2753
+40675,World,136958280.2971
+40617,Northern Africa and Western Asia,11291390.25316
+40614,Western Asia,6482186.71653
+40618,Central and Southern Asia,44784221.34684
+40616,Southern Asia,43703761.89096
+40619,Eastern and South-Eastern Asia,33908423.87285
+40611,Eastern Asia,23925331.83899
+40630,Latin America and the Caribbean,13372503.40003
+40650,Oceania,748649.03601
+40651,Australia and New Zealand,665493.48511
+40642,Europe and Northern America,19666009.40831
+40620,Europe,12551825.15967
+40640,Northern America ,7114184.24863
+40550,Small Island Developing States,860121.42844
+ALB,Albania,216158.0
+DZA,Algeria,5580053.0
+AND,Andorra,5063.0
+ARM,Armenia,274915.0
+AZE,Azerbaijan,1066209.0
+BHS,Bahamas,29409.0
+BHR,Bahrain,110478.0
+BGD,Bangladesh,15661732.0
+BRB,Barbados,18515.0
+BLR,Belarus,725721.0
+BLZ,Belize,37444.0
+BMU,Bermuda,3484.0
+BOL,Bolivia (Plurinational State of),1292286.0
+BIH,Bosnia and Herzegovina,226755.0
+BRN,Brunei Darussalam,40924.0
+BFA,Burkina Faso,1185480.0
+KHM,Cambodia,1132622.14006
+CMR,Cameroon,2007361.0
+CYM,Cayman Islands,4036.0
+TCD,Chad,750180.0
+CHN,China,96322798.0
+COM,Comoros,67764.0
+COK,Cook Islands,1873.0
+CIV,Côte d'Ivoire,3098275.0
+CUB,Cuba,684680.0
+COD,Democratic Republic of the Congo,7928331.0
+DJI,Djibouti,69362.0
+DMA,Dominica,4483.0
+DOM,Dominican Republic,856499.0
+ECU,Ecuador,1822516.0
+SLV,El Salvador,442494.0
+FJI,Fiji,113605.0
+GEO,Georgia,302590.0
+GIB,Gibraltar,2429.0
+GTM,Guatemala,1078266.0
+GUY,Guyana,63477.0
+HND,Honduras,580717.0
+HKG,"China, Hong Kong Special Administrative Region",333774.0
+IND,India,134342140.81252
+IDN,Indonesia,26883110.0
+JAM,Jamaica,184800.0
+JOR,Jordan,1007080.0
+KAZ,Kazakhstan,2375914.0
+KIR,Kiribati,16945.0
+KGZ,Kyrgyzstan,840456.0
+LAO,Lao People's Democratic Republic,568402.0
+LBN,Lebanon,405438.0
+MYS,Malaysia,2629154.0
+MDV,Maldives,33002.0
+MLI,Mali,1305140.0
+MDA,Republic of Moldova,227896.0
+MCO,Monaco,3478.0
+MNG,Mongolia,412070.0
+MSR,Montserrat,294.0
+MAR,Morocco,3434273.0
+NRU,Nauru,1438.0
+NPL,Nepal,3695560.0
+NIC,Nicaragua,463660.0
+NER,Niger,910184.0
+NIU,Niue,227.0
+PSE,Palestine,868232.0
+OMN,Oman,513406.0
+PLW,Palau,1398.0
+PRY,Paraguay,581143.0
+PER,Peru,3209642.0
+PHL,Philippines,12594216.0
+PRI,Puerto Rico,236258.0
+QAT,Qatar,144410.0
+RUS,Russian Federation,10798220.0
+RWA,Rwanda,819262.0
+LCA,Saint Lucia,10805.0
+VCT,Saint Vincent and the Grenadines,9707.0
+SMR,San Marino,1715.0
+SEN,Senegal,1283240.0
+SYC,Seychelles,7861.0
+SOM,Somalia,115828.0
+SUR,Suriname,58269.0
+SYR,Syrian Arab Republic,1353625.0
+TJK,Tajikistan,1257135.0
+THA,Thailand,5139185.0
+TGO,Togo,915214.0
+TKL,Tokelau,148.0
+TON,Tonga,15981.0
+TTO,Trinidad and Tobago,88408.0
+TCA,Turks and Caicos Islands,2846.0
+TUV,Tuvalu,1252.0
+UKR,Ukraine,2645164.0
+ARE,United Arab Emirates,860281.0
+UZB,Uzbekistan,4112120.0
+VUT,Vanuatu,58028.0
+VEN,Venezuela (Bolivarian Republic of),2695688.0
+MAC,"China, Macao Special Administrative Region",30274.0
+MNE,Montenegro,56561.0
+40344,Small Island Developing States,4593965.84386
+40525,Arab States,40338622.46903
+40530,Central and Eastern Europe,35792094.58421
+40505,Central Asia,11471428.17991
+40515,East Asia and the Pacific,169628179.05893
+40520,Latin America and the Caribbean,63010045.77066
+40500,North America and Western Europe,66151383.72205
+40535,South and West Asia,180883608.29434
+40540,Sub-Saharan Africa,73909194.97772
+40510,World,641184557.05686
+40044,Low income countries,40862400.15138
+40042,Lower middle income countries,260162050.3702
+40030,Middle income countries,501559992.1472
+40043,Upper middle income countries,230108134.14503
+40041,High income countries,107352672.31126
+40675,World,641184557.05686
+40606,Sub-Saharan Africa,74266066.98673
+40617,Northern Africa and Western Asia,54386158.61266
+40614,Western Asia,29531457.958
+40618,Central and Southern Asia,190335229.79749
+40612,Central Asia,9451621.50314
+40616,Southern Asia,180883608.29434
+40619,Eastern and South-Eastern Asia,166079263.00866
+40611,Eastern Asia,108246359.24201
+40630,Latin America and the Caribbean,63006561.77066
+40650,Oceania,3925008.72703
+40651,Australia and New Zealand,3089618.72121
+40642,Europe and Northern America,89186268.15362
+40620,Europe,60708065.49353
+40640,Northern America ,28478202.66009
+40550,Small Island Developing States,4361891.84386
+ALB,Albania,102556.0
+DZA,Algeria,2780759.0
+AND,Andorra,2434.0
+ARM,Armenia,130895.0
+AZE,Azerbaijan,487174.0
+BHS,Bahamas,15924.0
+BHR,Bahrain,53479.0
+BGD,Bangladesh,8264908.0
+BRB,Barbados,9186.0
+BLR,Belarus,351339.0
+BLZ,Belize,18541.0
+BMU,Bermuda,1781.0
+BOL,Bolivia (Plurinational State of),632429.0
+BIH,Bosnia and Herzegovina,112260.0
+BRN,Brunei Darussalam,19951.0
+BFA,Burkina Faso,637271.0
+KHM,Cambodia,589175.81452
+CMR,Cameroon,948662.0
+CYM,Cayman Islands,1983.0
+TCD,Chad,294049.0
+CHN,China,44889590.0
+COM,Comoros,33944.0
+COK,Cook Islands,950.0
+CIV,Côte d'Ivoire,1488256.0
+CUB,Cuba,335341.0
+DJI,Djibouti,31913.0
+DMA,Dominica,2177.0
+DOM,Dominican Republic,442512.0
+ECU,Ecuador,902339.0
+SLV,El Salvador,223708.0
+FJI,Fiji,57540.0
+GEO,Georgia,142790.0
+GIB,Gibraltar,1202.0
+GTM,Guatemala,542600.0
+GUY,Guyana,31146.0
+HND,Honduras,309120.0
+HKG,"China, Hong Kong Special Administrative Region",159221.0
+IND,India,64104533.85342
+IDN,Indonesia,13285579.0
+JAM,Jamaica,90971.0
+JOR,Jordan,502917.0
+KAZ,Kazakhstan,1156633.0
+KIR,Kiribati,9115.0
+KGZ,Kyrgyzstan,411003.0
+LAO,Lao People's Democratic Republic,273722.0
+LBN,Lebanon,208247.0
+MYS,Malaysia,1311020.0
+MDV,Maldives,16363.0
+MLI,Mali,614375.0
+MDA,Republic of Moldova,110172.0
+MCO,Monaco,1742.0
+MNG,Mongolia,204676.0
+MSR,Montserrat,149.0
+MAR,Morocco,1665332.0
+NRU,Nauru,698.0
+NPL,Nepal,1822980.0
+NIC,Nicaragua,230226.0
+NER,Niger,428746.0
+NIU,Niue,115.0
+PSE,Palestine,447716.0
+OMN,Oman,249638.0
+PLW,Palau,697.0
+PRY,Paraguay,291604.0
+PER,Peru,1604098.0
+PHL,Philippines,6253575.0
+PRI,Puerto Rico,117095.0
+QAT,Qatar,69655.0
+RUS,Russian Federation,5199653.0
+RWA,Rwanda,445222.0
+LCA,Saint Lucia,5365.0
+VCT,Saint Vincent and the Grenadines,4790.0
+SMR,San Marino,808.0
+SEN,Senegal,705639.0
+SYC,Seychelles,4015.0
+SOM,Somalia,47085.0
+SUR,Suriname,
+SYR,Syrian Arab Republic,704616.0
+TJK,Tajikistan,600612.0
+THA,Thailand,2521554.0
+TGO,Togo,421573.0
+TKL,Tokelau,70.0
+TON,Tonga,8093.0
+TTO,Trinidad and Tobago,44406.0
+TCA,Turks and Caicos Islands,1419.0
+UKR,Ukraine,1286983.0
+ARE,United Arab Emirates,424261.0
+UZB,Uzbekistan,1986806.0
+VUT,Vanuatu,28211.0
+VEN,Venezuela (Bolivarian Republic of),1374259.0
+MAC,"China, Macao Special Administrative Region",14596.0
+MNE,Montenegro,27418.0
+40344,Small Island Developing States,2261746.87447
+40525,Arab States,19456678.77182
+40530,Central and Eastern Europe,17277470.85707
+40505,Central Asia,5507886.38923
+40515,East Asia and the Pacific,80898397.84004
+40520,Latin America and the Caribbean,31807115.03886
+40500,North America and Western Europe,32431017.49931
+40535,South and West Asia,86527266.03309
+40510,World,309011527.20871
+40042,Lower middle income countries,125674896.37617
+40030,Middle income countries,242202904.59175
+40043,Upper middle income countries,111092789.10083
+40041,High income countries,52440508.92523
+40675,World,309011527.20871
+40617,Northern Africa and Western Asia,26171677.61083
+40614,Western Asia,13987478.42957
+40618,Central and Southern Asia,91087316.57868
+40612,Central Asia,4560050.54559
+40616,Southern Asia,86527266.03309
+40619,Eastern and South-Eastern Asia,79226214.59718
+40611,Eastern Asia,50699540.43151
+40630,Latin America and the Caribbean,31805334.03886
+40650,Oceania,1859160.0865
+40651,Australia and New Zealand,1480820.59403
+40642,Europe and Northern America,43577875.07283
+40620,Europe,29530181.13811
+40640,Northern America ,14047693.93472
+40550,Small Island Developing States,2146704.87447
+ALB,Albania,
+DZA,Algeria,
+AND,Andorra,156.0
+AGO,Angola,
+ARG,Argentina,
+ARM,Armenia,
+AZE,Azerbaijan,37896.0
+BHR,Bahrain,16320.0
+BGD,Bangladesh,502496.0
+BRB,Barbados,2698.0
+BLR,Belarus,7388.0
+BMU,Bermuda,
+BOL,Bolivia (Plurinational State of),
+BWA,Botswana,8990.0
+BRN,Brunei Darussalam,
+KHM,Cambodia,33018.0
+CYM,Cayman Islands,548.0
+COK,Cook Islands,287.0
+CUB,Cuba,5723.0
+COD,Democratic Republic of the Congo,
+DJI,Djibouti,
+DMA,Dominica,1481.0
+DOM,Dominican Republic,
+ECU,Ecuador,
+EGY,Egypt,199125.0
+SLV,El Salvador,
+GEO,Georgia,14395.0
+GIB,Gibraltar,852.0
+GTM,Guatemala,
+GIN,Guinea,
+GUY,Guyana,457.0
+HND,Honduras,
+HKG,"China, Hong Kong Special Administrative Region",20054.0
+IND,India,1522607.19105
+IDN,Indonesia,
+IRN,Iran (Islamic Republic of),
+JAM,Jamaica,141373.0
+JOR,Jordan,
+KAZ,Kazakhstan,205260.0
+KGZ,Kyrgyzstan,9345.0
+LAO,Lao People's Democratic Republic,13149.0
+LBN,Lebanon,
+MYS,Malaysia,
+MDV,Maldives,
+MLI,Mali,12829.0
+MRT,Mauritania,
+MDA,Republic of Moldova,49.0
+MCO,Monaco,12.0
+MNG,Mongolia,4753.0
+MOZ,Mozambique,
+NPL,Nepal,
+NIC,Nicaragua,8208.0
+NGA,Nigeria,
+NIU,Niue,
+PSE,Palestine,174.0
+OMN,Oman,
+PAN,Panama,
+PRY,Paraguay,
+PER,Peru,
+PRI,Puerto Rico,25853.0
+QAT,Qatar,349.0
+RWA,Rwanda,
+LCA,Saint Lucia,672.0
+SMR,San Marino,
+STP,Sao Tome and Principe,
+SYC,Seychelles,2875.0
+SOM,Somalia,
+SYR,Syrian Arab Republic,32532.0
+TJK,Tajikistan,
+TZA,United Republic of Tanzania,403910.0
+THA,Thailand,6378.0
+TLS,Timor-Leste,
+TKL,Tokelau,9.0
+TON,Tonga,4557.0
+TTO,Trinidad and Tobago,11053.0
+TCA,Turks and Caicos Islands,50.0
+TUV,Tuvalu,
+UGA,Uganda,
+UKR,Ukraine,70524.0
+ARE,United Arab Emirates,30209.0
+URY,Uruguay,
+UZB,Uzbekistan,95114.0
+VUT,Vanuatu,
+VEN,Venezuela (Bolivarian Republic of),
+MAC,"China, Macao Special Administrative Region",
+SXM,Sint Maarten (Dutch part),118.0
+40525,Arab States,636522.79537
+40530,Central and Eastern Europe,540423.12317
+40505,Central Asia,332189.21029
+40520,Latin America and the Caribbean,1481879.23537
+40500,North America and Western Europe,2592757.89442
+40535,South and West Asia,1993349.1954
+40510,World,11720455.6053
+40042,Lower middle income countries,4287772.02035
+40030,Middle income countries,7272072.50161
+40041,High income countries,3990640.33466
+40675,World,11720455.6053
+40617,Northern Africa and Western Asia,703391.65855
+40603,Northern Africa,291349.1666
+40614,Western Asia,412042.49194
+40618,Central and Southern Asia,2266896.47461
+40616,Southern Asia,1993349.1954
+40630,Latin America and the Caribbean,1481879.23537
+40650,Oceania,516079.81065
+40651,Australia and New Zealand,494356.33598
+40642,Europe and Northern America,3118603.15441
+40620,Europe,1593503.35088
+40640,Northern America ,1525099.80353
+ALB,Albania,
+DZA,Algeria,
+AND,Andorra,66.0
+AGO,Angola,
+ARG,Argentina,
+ARM,Armenia,
+AZE,Azerbaijan,16220.0
+BHR,Bahrain,7053.0
+BGD,Bangladesh,172901.0
+BRB,Barbados,1329.0
+BLR,Belarus,2649.0
+BMU,Bermuda,
+BOL,Bolivia (Plurinational State of),
+BWA,Botswana,3858.0
+BRN,Brunei Darussalam,
+KHM,Cambodia,13953.0
+CYM,Cayman Islands,294.0
+COK,Cook Islands,95.0
+CUB,Cuba,3662.0
+COD,Democratic Republic of the Congo,
+DJI,Djibouti,
+DMA,Dominica,980.0
+DOM,Dominican Republic,
+ECU,Ecuador,
+EGY,Egypt,111285.0
+SLV,El Salvador,
+GEO,Georgia,9988.0
+GIB,Gibraltar,420.0
+GTM,Guatemala,
+GIN,Guinea,
+GUY,Guyana,227.0
+HND,Honduras,
+HKG,"China, Hong Kong Special Administrative Region",8172.0
+IND,India,751999.16846
+IDN,Indonesia,
+IRN,Iran (Islamic Republic of),
+JAM,Jamaica,86722.0
+JOR,Jordan,
+KAZ,Kazakhstan,105375.0
+KGZ,Kyrgyzstan,3821.0
+LAO,Lao People's Democratic Republic,5346.0
+LBN,Lebanon,
+MYS,Malaysia,
+MDV,Maldives,
+MLI,Mali,4263.0
+MRT,Mauritania,
+MDA,Republic of Moldova,41.0
+MCO,Monaco,8.0
+MNG,Mongolia,1877.0
+MOZ,Mozambique,
+NPL,Nepal,
+NGA,Nigeria,
+NIU,Niue,
+PSE,Palestine,124.0
+OMN,Oman,
+PAN,Panama,
+PRY,Paraguay,
+PER,Peru,
+PRI,Puerto Rico,13333.0
+QAT,Qatar,207.0
+RWA,Rwanda,
+LCA,Saint Lucia,485.0
+SMR,San Marino,
+STP,Sao Tome and Principe,
+SYC,Seychelles,1919.0
+SOM,Somalia,
+SYR,Syrian Arab Republic,13649.0
+TJK,Tajikistan,
+TZA,United Republic of Tanzania,152782.0
+THA,Thailand,2013.0
+TLS,Timor-Leste,
+TKL,Tokelau,2.0
+TON,Tonga,2938.0
+TTO,Trinidad and Tobago,6280.0
+TCA,Turks and Caicos Islands,20.0
+TUV,Tuvalu,
+UGA,Uganda,
+UKR,Ukraine,26048.0
+ARE,United Arab Emirates,10519.0
+URY,Uruguay,
+UZB,Uzbekistan,82689.0
+VUT,Vanuatu,
+VEN,Venezuela (Bolivarian Republic of),
+MAC,"China, Macao Special Administrative Region",
+40525,Arab States,277779.46436
+40530,Central and Eastern Europe,332787.55396
+40505,Central Asia,161578.20675
+40520,Latin America and the Caribbean,852508.35254
+40500,North America and Western Europe,1414446.86833
+40535,South and West Asia,867429.27934
+40510,World,5931759.8857
+40042,Lower middle income countries,1958263.25557
+40030,Middle income countries,3578000.50251
+40041,High income countries,2150692.54633
+40675,World,5931759.8857
+40617,Northern Africa and Western Asia,309814.27883
+40603,Northern Africa,150326.58504
+40614,Western Asia,159487.69379
+40618,Central and Southern Asia,999711.85357
+40616,Southern Asia,867429.27934
+40630,Latin America and the Caribbean,852508.35254
+40650,Oceania,254698.7896
+40651,Australia and New Zealand,243463.65079
+40642,Europe and Northern America,1741407.60783
+40620,Europe,897194.28383
+40640,Northern America ,844213.324
+40043,Upper middle income countries,118525690.51959
+SMR,San Marino,16.0
+AND,Andorra,37.5
+BRN,Brunei Darussalam,4126.0
+40043,Upper middle income countries,34420887.08629
+40500,North America and Western Europe,1153406.90601
+40525,Arab States,1024556.83919
+40525,Arab States,13977959.14842
+UZB,Uzbekistan,119002.0
+GHA,Ghana,126281.0
+40334,Least Developed Countries,12306980.9173
+40505,Central Asia,3313832.96863
+BDI,Burundi,69897.0
+JAM,Jamaica,37406.0
+40617,Northern Africa and Western Asia,23228746.27435
+40651,Australia and New Zealand,405046.33239
+CUB,Cuba,15829.0
+40620,Europe,3786019.3024
+EGY,Egypt,31207.0
+BWA,Botswana,11049.0
+ARM,Armenia,754.0
+UKR,Ukraine,362495.0
+40614,Western Asia,212150.75793
+40515,East Asia and the Pacific,1044665.0889
+PSE,Palestine,758.0
+CMR,Cameroon,8924.0
+QAT,Qatar,6968.0
+40620,Europe,31174265.87633
+TZA,United Republic of Tanzania,1652.0
+BIH,Bosnia and Herzegovina,1263.0
+40500,North America and Western Europe,7622394.33077
+40616,Southern Asia,591068.72193
+IND,India,
+SMR,San Marino,
+40642,Europe and Northern America,1405380.32796
+GEO,Georgia,3569.0
+AND,Andorra,2708.0
+40613,South-Eastern Asia,2535476.55948
+40030,Middle income countries,2184323.15096
+BLZ,Belize,6513.0
+40550,Small Island Developing States,11857.47313
+VGB,British Virgin Islands,
+SEN,Senegal,13225.0
+40613,South-Eastern Asia,22400928.99448
+BTN,Bhutan,
+MAR,Morocco,191314.0
+MCO,Monaco,139.0
+MDG,Madagascar,2013.0
+NPL,Nepal,2056.0
+40651,Australia and New Zealand,1912979.82945
+40530,Central and Eastern Europe,374851.35516
+TZA,United Republic of Tanzania,40205.0
+ALB,Albania,121352.0
+40650,Oceania,65799.44037
+ALB,Albania,6958.0
+40630,Latin America and the Caribbean,2676410.79083
+COG,Congo,35650.0
+UZB,Uzbekistan,6765.0
+AND,Andorra,35.0
+QAT,Qatar,763.0
+40043,Upper middle income countries,1553428.50452
+SRB,Serbia,
+40630,Latin America and the Caribbean,31124291.40372
+TUN,Tunisia,
+40525,Arab States,253493.89677
+CIV,Côte d'Ivoire,139874.0
+BRN,Brunei Darussalam,402.0
+40510,World,50060764.0167
+PER,Peru,8217.0
+CHN,China,26100529.0
+IDN,Indonesia,936547.0
+GHA,Ghana,6125.0
+40334,Least Developed Countries,66901.66183
+40505,Central Asia,30311.55739
+ARE,United Arab Emirates,339951.0
+NRU,Nauru,214.0
+40042,Lower middle income countries,74393015.75605
+40640,Northern America ,19356588.88519
+DZA,Algeria,120938.0
+CUB,Cuba,6133.0
+40041,High income countries,62232295.76276
+40620,Europe,998205.17944
+40619,Eastern and South-Eastern Asia,29948790.24747
+UKR,Ukraine,35132.0
+AGO,Angola,332175.0
+MNG,Mongolia,2799.0
+40510,World,263855482.47177
+CUW,Curaçao,12675.0
+GTM,Guatemala,81185.0
+40616,Southern Asia,540659.73893
+40344,Small Island Developing States,1672072.63514
+KGZ,Kyrgyzstan,54598.0
+IND,India,235616.0
+SEN,Senegal,9675.0
+BLZ,Belize,
+MAC,"China, Macao Special Administrative Region",186.0
+BDI,Burundi,16303.0
+40505,Central Asia,441693.31806
+40613,South-Eastern Asia,214174.34289
+MAR,Morocco,46329.0
+THA,Thailand,363274.0
+BHR,Bahrain,4854.0
+MCO,Monaco,25.0
+40651,Australia and New Zealand,65274.80992
+BTN,Bhutan,
+40618,Central and Southern Asia,966141.03999
+40334,Least Developed Countries,920383.70131
+40618,Central and Southern Asia,56974471.41018
+40617,Northern Africa and Western Asia,4398324.60298
+OMN,Oman,17963.0
+BLR,Belarus,69792.0
+40344,Small Island Developing States,267175.2891
+BWA,Botswana,339.0
+ALB,Albania,219.0
+LBN,Lebanon,36710.0
+40619,Eastern and South-Eastern Asia,89395507.37896
+SLV,El Salvador,18226.0
+TUN,Tunisia,10692.0
+40630,Latin America and the Caribbean,263260.49979
+SRB,Serbia,11965.0
+BGD,Bangladesh,108223.0
+CIV,Côte d'Ivoire,11608.0
+40612,Central Asia,375072.31806
+MDA,Republic of Moldova,15330.0
+MYS,Malaysia,64501.0
+40603,Northern Africa,527870.90724
+40612,Central Asia,2629916.96863
+COG,Congo,986.0
+40520,Latin America and the Caribbean,2676993.79083
+PAK,Pakistan,
+IDN,Indonesia,59881.0
+LAO,Lao People's Democratic Republic,69266.0
+40042,Lower middle income countries,526378.10193
+40535,South and West Asia,591068.72193
+40611,Eastern Asia,27413313.688
+40640,Northern America ,407175.14852
+40611,Eastern Asia,66994578.38448
+40535,South and West Asia,54344554.44155
+NIC,Nicaragua,3882.0
+40650,Oceania,1982931.28537
+KGZ,Kyrgyzstan,2479.0
+AZE,Azerbaijan,45440.0
+MAC,"China, Macao Special Administrative Region",5475.0
+40510,World,3780091.12182
+40675,World,263855482.47177
+KHM,Cambodia,33018.0
+AZE,Azerbaijan,278578.0
+40675,World,50060764.0167
+40344,Small Island Developing States,17652.12329
+CHN,China,582346.0
+GTM,Guatemala,279.0
+MYS,Malaysia,306001.0
+OMN,Oman,224.0
+40603,Northern Africa,8197256.9717
+40520,Latin America and the Caribbean,31124874.40372
+40640,Northern America ,5810054.59778
+SLV,El Salvador,105.0
+40617,Northern Africa and Western Asia,383616.44479
+ARE,United Arab Emirates,8393.0
+BHR,Bahrain,310.0
+40618,Central and Southern Asia,558863.29632
+40042,Lower middle income countries,3092982.72439
+THA,Thailand,28860.0
+MNG,Mongolia,4508.0
+BLR,Belarus,5117.0
+LBN,Lebanon,6535.0
+TUV,Tuvalu,653.0
+40041,High income countries,11541298.83912
+40619,Eastern and South-Eastern Asia,983373.64853
+JOR,Jordan,23636.0
+PSE,Palestine,31585.0
+PHL,Philippines,41012.0
+GEO,Georgia,3439.0
+40500,North America and Western Europe,39161490.24177
+40616,Southern Asia,54344554.44155
+MDA,Republic of Moldova,2151.0
+WSM,Samoa,12.0
+40550,Small Island Developing States,252140.20332
+40612,Central Asia,18203.55739
+GIN,Guinea,306.0
+SXM,Sint Maarten (Dutch part),26.0
+PAK,Pakistan,27870.0
+40530,Central and Eastern Europe,5284589.71162
+EGY,Egypt,
+40611,Eastern Asia,769199.30564
+40535,South and West Asia,540659.73893
+SYC,Seychelles,3.0
+BMU,Bermuda,
+40614,Western Asia,3870453.69575
+HKG,"China, Hong Kong Special Administrative Region",14865.0
+CMR,Cameroon,102956.0
+ARM,Armenia,14943.0
+40614,Western Asia,15031489.30266
+40515,East Asia and the Pacific,91233171.66433
+40515,East Asia and the Pacific,30368978.63732
+SOM,Somalia,
+40675,World,3780091.12182
+40642,Europe and Northern America,9596073.90018
+BIH,Bosnia and Herzegovina,118.0
+AZE,Azerbaijan,3277.0
+40642,Europe and Northern America,50530854.76152
+PRI,Puerto Rico,
+KHM,Cambodia,974.0
+LAO,Lao People's Democratic Republic,18.0
+CUW,Curaçao,6537.0
+NPL,Nepal,
+40603,Northern Africa,171465.68685
+VGB,British Virgin Islands,614.0
+40030,Middle income countries,199218135.35452
+40520,Latin America and the Caribbean,263260.49979
+BGD,Bangladesh,14102.0
+40030,Middle income countries,39051440.24634
+40550,Small Island Developing States,1513903.3611
+ARE,United Arab Emirates,1845.0
+MDG,Madagascar,1598.0
+40530,Central and Eastern Europe,20113848.08438
+JOR,Jordan,4185.0
+HKG,"China, Hong Kong Special Administrative Region",58223.0
+SYC,Seychelles,289.0
+ARM,Armenia,95210.0
+40041,High income countries,1660432.1368
+BMU,Bermuda,583.0
+40650,Oceania,422987.38984
+RWA,Rwanda,375.0
+PHL,Philippines,72568.0
+BLR,Belarus,2889.0
+CHN,China,244849.0
+KHM,Cambodia,13953.0
+TLS,Timor-Leste,23599.0
+40619,Eastern and South-Eastern Asia,425951.15095
+WSM,Samoa,1856.0
+RWA,Rwanda,5614.0
+40612,Central Asia,1327048.00129
+MDA,Republic of Moldova,45774.0
+UZB,Uzbekistan,1167868.0
+BGD,Bangladesh,1812506.0
+ARE,United Arab Emirates,3491.0
+40520,Latin America and the Caribbean,1440224.15346
+MNG,Mongolia,2602.0
+LBN,Lebanon,
+JOR,Jordan,13199.0
+40603,Northern Africa,4305860.94956
+40041,High income countries,6383857.09361
+40520,Latin America and the Caribbean,17942315.85218
+SLV,El Salvador,45.0
+LAO,Lao People's Democratic Republic,18180.0
+PAK,Pakistan,1312123.0
+AZE,Azerbaijan,28546.0
+BRN,Brunei Darussalam,13210.0
+40603,Northern Africa,253400.41953
+THA,Thailand,14887.0
+40630,Latin America and the Caribbean,137398.28971
+UKR,Ukraine,1441106.0
+CUB,Cuba,327396.0
+COG,Congo,298.0
+GHA,Ghana,702457.0
+TJK,Tajikistan,154323.0
+LAO,Lao People's Democratic Republic,26808.0
+40618,Central and Southern Asia,263614.32252
+AZE,Azerbaijan,144378.0
+40675,World,137013398.99038
+KHM,Cambodia,134804.0
+TUN,Tunisia,6642.0
+40675,World,24777868.55673
+40535,South and West Asia,26507000.31167
+40510,World,1777240.72032
+BGD,Bangladesh,67796.0
+40344,Small Island Developing States,9009.97048
+SXM,Sint Maarten (Dutch part),179.0
+SRB,Serbia,
+TCA,Turks and Caicos Islands,647.0
+QAT,Qatar,46283.0
+IDN,Indonesia,545317.0
+GHA,Ghana,1952.0
+MYS,Malaysia,637942.0
+TUN,Tunisia,
+SXM,Sint Maarten (Dutch part),97.0
+MAC,"China, Macao Special Administrative Region",2788.0
+IND,India,41377424.0
+40505,Central Asia,16290.59767
+AGO,Angola,164529.0
+40640,Northern America ,3426189.56799
+40041,High income countries,34133941.97418
+RWA,Rwanda,52860.0
+BTN,Bhutan,10901.0
+40630,Latin America and the Caribbean,1439881.15346
+JOR,Jordan,212678.0
+TUV,Tuvalu,
+NRU,Nauru,56.0
+BWA,Botswana,51198.0
+BHR,Bahrain,182.0
+SEN,Senegal,286169.0
+PER,Peru,2257.0
+40640,Northern America ,11281576.50125
+PRI,Puerto Rico,
+40334,Least Developed Countries,21263.46418
+COG,Congo,14929.0
+GTM,Guatemala,134.0
+SRB,Serbia,145666.0
+CIV,Côte d'Ivoire,71674.0
+40042,Lower middle income countries,1465300.05208
+BLZ,Belize,8912.0
+40525,Arab States,119876.18551
+DZA,Algeria,55098.0
+40617,Northern Africa and Western Asia,184373.18303
+40042,Lower middle income countries,36876793.2884
+MYS,Malaysia,153640.0
+OMN,Oman,150.0
+MNE,Montenegro,128.0
+KGZ,Kyrgyzstan,1478.0
+CIV,Côte d'Ivoire,145485.0
+MAR,Morocco,1405470.0
+ARE,United Arab Emirates,172358.0
+UZB,Uzbekistan,2806.0
+NIC,Nicaragua,797.0
+DZA,Algeria,1639750.0
+NPL,Nepal,
+MDG,Madagascar,621.0
+BGD,Bangladesh,4809.0
+WSM,Samoa,6.0
+TUN,Tunisia,305918.0
+40550,Small Island Developing States,907612.01279
+40612,Central Asia,9595.59767
+VGB,British Virgin Islands,384.0
+MDA,Republic of Moldova,1276.0
+40642,Europe and Northern America,5344425.02685
+GIN,Guinea,53.0
+40030,Middle income countries,18723463.47323
+BIH,Bosnia and Herzegovina,37.0
+ARM,Armenia,53910.0
+40603,Northern Africa,87094.95263
+CMR,Cameroon,188830.0
+40030,Middle income countries,102275674.15675
+NIC,Nicaragua,110644.0
+40520,Latin America and the Caribbean,137398.28971
+PAK,Pakistan,11812.0
+40515,East Asia and the Pacific,46478297.38317
+SRB,Serbia,248508.0
+LAO,Lao People's Democratic Republic,8.0
+ARM,Armenia,8162.0
+TUV,Tuvalu,
+40535,South and West Asia,254018.72485
+MNE,Montenegro,
+PRI,Puerto Rico,
+AZE,Azerbaijan,1775.0
+CIV,Côte d'Ivoire,316506.0
+NIC,Nicaragua,4483.0
+GEO,Georgia,85766.0
+40530,Central and Eastern Europe,2708900.14581
+IDN,Indonesia,9852262.0
+MYS,Malaysia,1136127.0
+GEO,Georgia,1642.0
+40530,Central and Eastern Europe,10500677.08704
+40550,Small Island Developing States,137353.6193
+KHM,Cambodia,116.0
+COG,Congo,55025.0
+40675,World,1777240.72032
+BFA,Burkina Faso,87666.0
+VGB,British Virgin Islands,384.0
+KAZ,Kazakhstan,381404.0
+40650,Oceania,1159686.21182
+KGZ,Kyrgyzstan,284659.0
+MAC,"China, Macao Special Administrative Region",49594.0
+MYS,Malaysia,34462.0
+IDN,Indonesia,22134.0
+SLV,El Salvador,200598.0
+PHL,Philippines,37483.0
+HKG,"China, Hong Kong Special Administrative Region",26289.0
+BMU,Bermuda,343.0
+SYC,Seychelles,641.0
+MNE,Montenegro,12381.0
+BHR,Bahrain,54099.0
+PAK,Pakistan,
+40041,High income countries,798366.43746
+THA,Thailand,2071742.0
+CHN,China,59416887.0
+40611,Eastern Asia,12885527.19736
+HKG,"China, Hong Kong Special Administrative Region",146046.0
+RWA,Rwanda,115.0
+JOR,Jordan,2320.0
+GTM,Guatemala,504766.0
+SYC,Seychelles,113.0
+PHL,Philippines,2740734.0
+SXM,Sint Maarten (Dutch part),
+MNG,Mongolia,145345.0
+TON,Tonga,2938.0
+40642,Europe and Northern America,28182108.71567
+OMN,Oman,117981.0
+40640,Northern America ,205805.02409
+BIH,Bosnia and Herzegovina,46642.0
+40535,South and West Asia,257555.94166
+FJI,Fiji,26578.0
+LBN,Lebanon,265390.0
+40611,Eastern Asia,33150554.71664
+ARE,United Arab Emirates,1106.0
+PRI,Puerto Rico,96025.0
+SRB,Serbia,7006.0
+BMU,Bermuda,343.0
+VCT,Saint Vincent and the Grenadines,2035.0
+40650,Oceania,242919.93131
+MDG,Madagascar,95322.0
+BLR,Belarus,313452.0
+NPL,Nepal,319337.0
+CIV,Côte d'Ivoire,4583.0
+MDA,Republic of Moldova,8412.0
+40042,Lower middle income countries,247266.24488
+40612,Central Asia,228769.69671
+PHL,Philippines,4792160.0
+40620,Europe,16900532.21442
+PAK,Pakistan,2749419.0
+NPL,Nepal,389.0
+SXM,Sint Maarten (Dutch part),71.0
+40550,Small Island Developing States,5430.36643
+BWA,Botswana,31527.0
+VGB,British Virgin Islands,
+BTN,Bhutan,
+SEN,Senegal,7125.0
+QAT,Qatar,31114.0
+MNE,Montenegro,67.0
+40651,Australia and New Zealand,233143.7359
+CMR,Cameroon,3707.0
+ARM,Armenia,375.0
+ALB,Albania,2615.0
+TON,Tonga,4557.0
+ALB,Albania,71248.0
+40030,Middle income countries,1008951.86024
+UKR,Ukraine,696487.0
+40651,Australia and New Zealand,1123126.06573
+MDA,Republic of Moldova,79254.0
+SYC,Seychelles,1036.0
+MAR,Morocco,97445.0
+TLS,Timor-Leste,8361.0
+GEO,Georgia,1943.0
+IND,India,
+BTN,Bhutan,5317.0
+40642,Europe and Northern America,686395.78326
+40525,Arab States,7164851.92622
+HKG,"China, Hong Kong Special Administrative Region",283903.0
+TLS,Timor-Leste,46781.0
+BWA,Botswana,7695.0
+40530,Central and Eastern Europe,173759.30911
+AND,Andorra,1424.0
+BRN,Brunei Darussalam,7631.0
+FJI,Fiji,45365.0
+40043,Upper middle income countries,62066338.13687
+BMU,Bermuda,583.0
+IND,India,19569684.0
+CUB,Cuba,210136.0
+40613,South-Eastern Asia,1229085.82969
+BLZ,Belize,3988.0
+TCA,Turks and Caicos Islands,464.0
+TZA,United Republic of Tanzania,141637.0
+HKG,"China, Hong Kong Special Administrative Region",6258.0
+TZA,United Republic of Tanzania,19729.0
+SYC,Seychelles,2.0
+40613,South-Eastern Asia,12256879.4547
+40614,Western Asia,7515356.8209
+SEN,Senegal,144998.0
+RWA,Rwanda,119716.0
+BMU,Bermuda,
+40515,East Asia and the Pacific,14355311.95836
+40650,Oceania,35091.14167
+BLZ,Belize,5694.0
+TJK,Tajikistan,305328.0
+MAR,Morocco,748140.0
+WSM,Samoa,2595.0
+KHM,Cambodia,251581.0
+MCO,Monaco,84.0
+40616,Southern Asia,257555.94166
+PHL,Philippines,25256.0
+LAO,Lao People's Democratic Republic,37523.0
+SMR,San Marino,412.0
+PSE,Palestine,137352.0
+EGY,Egypt,
+40611,Eastern Asia,319925.1751
+CMR,Cameroon,47510.0
+JOR,Jordan,379008.0
+40616,Southern Asia,26507000.31167
+40500,North America and Western Europe,4347885.9679
+MCO,Monaco,702.0
+PSE,Palestine,16164.0
+BIH,Bosnia and Herzegovina,674.0
+BGD,Bangladesh,3976981.0
+SXM,Sint Maarten (Dutch part),146.0
+EGY,Egypt,1816127.0
+MDG,Madagascar,837.0
+RWA,Rwanda,16884.0
+PRI,Puerto Rico,
+40614,Western Asia,1921699.3752
+40500,North America and Western Europe,22065930.57057
+PLW,Palau,245.0
+SMR,San Marino,
+MCO,Monaco,1160.0
+40613,South-Eastern Asia,106025.97585
+SLV,El Salvador,8911.0
+CHN,China,12207801.0
+40620,Europe,480590.75917
+MAC,"China, Macao Special Administrative Region",112.0
+MNG,Mongolia,88601.0
+BLR,Belarus,164184.0
+BWA,Botswana,144.0
+40619,Eastern and South-Eastern Asia,45407434.17134
+MAR,Morocco,20325.0
+LBN,Lebanon,
+40344,Small Island Developing States,147966.49754
+IDN,Indonesia,5337606.0
+QAT,Qatar,393.0
+ALB,Albania,123.0
+40618,Central and Southern Asia,486325.63838
+UKR,Ukraine,12217.0
+BHR,Bahrain,2569.0
+COG,Congo,21953.0
+40510,World,137013398.99038
+THA,Thailand,1174220.0
+PLW,Palau,422.0
+GTM,Guatemala,56609.0
+LBN,Lebanon,
+IND,India,113466.0
+EGY,Egypt,3704460.0
+THA,Thailand,154888.0
+40630,Latin America and the Caribbean,17941972.85218
+BTN,Bhutan,
+40651,Australia and New Zealand,34870.4754
+OMN,Oman,9210.0
+BRN,Brunei Darussalam,213.0
+TZA,United Republic of Tanzania,314642.0
+AND,Andorra,17.0
+40043,Upper middle income countries,718271.72721
+40510,World,24777868.55673
+KGZ,Kyrgyzstan,36176.0
+SMR,San Marino,923.0
+PSE,Palestine,220384.0
+SXM,Sint Maarten (Dutch part),
+CMR,Cameroon,416866.0
+MNG,Mongolia,2221.0
+BLR,Belarus,36007.0
+DZA,Algeria,973448.0
+TLS,Timor-Leste,
+40619,Eastern and South-Eastern Asia,14114613.02705
+TUN,Tunisia,193362.0
+CHN,China,29655638.0
+40617,Northern Africa and Western Asia,2175099.79473
+CUB,Cuba,3024.0
+BLZ,Belize,
+UZB,Uzbekistan,80119.0
+QAT,Qatar,4014.0
+TZA,United Republic of Tanzania,307.0
+BRN,Brunei Darussalam,2103.0
+KAZ,Kazakhstan,710267.0
+40614,Western Asia,97278.23041
+SEN,Senegal,3605.0
+MDG,Madagascar,189752.0
+40344,Small Island Developing States,1002962.37692
+GHA,Ghana,341853.0
+40505,Central Asia,269340.69671
+GHA,Ghana,76543.0
+40505,Central Asia,1699925.00129
+SLV,El Salvador,112531.0
+BDI,Burundi,30584.0
+40515,East Asia and the Pacific,458440.29262
+BFA,Burkina Faso,220128.0
+BIH,Bosnia and Herzegovina,76962.0
+NPL,Nepal,579448.0
+MAC,"China, Macao Special Administrative Region",27151.0
+VGB,British Virgin Islands,614.0
+VCT,Saint Vincent and the Grenadines,1349.0
+BDI,Burundi,9712.0
+PSE,Palestine,424.0
+SMR,San Marino,3.0
+UKR,Ukraine,165638.0
+BHR,Bahrain,31746.0
+40616,Southern Asia,254018.72485
+40525,Arab States,424635.9282
+JAM,Jamaica,25337.0
+40618,Central and Southern Asia,27834048.31296
+PRI,Puerto Rico,159149.0
+40334,Least Developed Countries,5412767.8913
+MCO,Monaco,15.0
+NIC,Nicaragua,190957.0
+40617,Northern Africa and Western Asia,11821217.77046
+MNE,Montenegro,
+UZB,Uzbekistan,577684.0
+EGY,Egypt,16701.0
+CUB,Cuba,11056.0
+GTM,Guatemala,279477.0
+40620,Europe,1918235.45886
+KGZ,Kyrgyzstan,155880.0
+AND,Andorra,26.5
+GEO,Georgia,164861.0
+40043,Upper middle income countries,16468613.71759
+40334,Least Developed Countries,383675.84601
+40500,North America and Western Europe,573143.43375
+MNE,Montenegro,21177.0
+OMN,Oman,68766.0
+TLS,Timor-Leste,
+TLS,Timor-Leste,4192.0
+NIC,Nicaragua,319.0
+NIC,Nicaragua,7541.0
+AIA,Anguilla,
+TGO,Togo,121227.0
+TUV,Tuvalu,745.0
+BLZ,Belize,4294.0
+OMN,Oman,263768.0
+BHR,Bahrain,1903.0
+BFA,Burkina Faso,
+SYC,Seychelles,956.0
+BGD,Bangladesh,7950394.0
+JOR,Jordan,504163.0
+DMA,Dominica,85.0
+PSE,Palestine,83420.0
+PER,Peru,1705248.0
+BOL,Bolivia (Plurinational State of),659857.0
+HKG,"China, Hong Kong Special Administrative Region",175879.0
+VEN,Venezuela (Bolivarian Republic of),120571.0
+SMR,San Marino,499.0
+LAO,Lao People's Democratic Republic,281367.0
+ETH,Ethiopia,8183506.0
+CIV,Côte d'Ivoire,1610019.0
+TCD,Chad,
+SUR,Suriname,
+BOL,Bolivia (Plurinational State of),346394.0
+MLI,Mali,284127.0
+BMU,Bermuda,
+LAO,Lao People's Democratic Republic,7803.0
+COK,Cook Islands,192.0
+40630,Latin America and the Caribbean,2600398.74112
+CIV,Côte d'Ivoire,263451.0
+UZB,Uzbekistan,1063202.0
+NER,Niger,102577.0
+NPL,Nepal,
+AND,Andorra,1024.0
+40612,Central Asia,3267712.39228
+MDG,Madagascar,
+COG,Congo,28323.0
+JOR,Jordan,162071.0
+NIU,Niue,49.0
+40650,Oceania,261381.02105
+MDA,Republic of Moldova,8.0
+BRN,Brunei Darussalam,6148.0
+QAT,Qatar,25278.0
+40520,Latin America and the Caribbean,31442204.76615
+BHS,Bahamas,7511.0
+HKG,"China, Hong Kong Special Administrative Region",
+COD,Democratic Republic of the Congo,410532.0
+NER,Niger,94065.0
+MAC,"China, Macao Special Administrative Region",8856.0
+ZWE,Zimbabwe,
+VUT,Vanuatu,15058.0
+40041,High income countries,54912163.38603
+SYR,Syrian Arab Republic,70787.0
+KHM,Cambodia,1142400.94888
+40614,Western Asia,8318223.65354
+BMU,Bermuda,1708.0
+SUR,Suriname,
+40619,Eastern and South-Eastern Asia,86853048.41149
+MNG,Mongolia,207394.0
+SXM,Sint Maarten (Dutch part),86.0
+CHN,China,24369677.0
+MYS,Malaysia,1318134.0
+DJI,Djibouti,
+PRI,Puerto Rico,12520.0
+40540,Sub-Saharan Africa,10820701.59479
+PRY,Paraguay,111876.0
+TLS,Timor-Leste,114798.0
+MRT,Mauritania,
+NPL,Nepal,939915.0
+40620,Europe,12997135.37482
+40344,Small Island Developing States,2332218.96939
+KAZ,Kazakhstan,86768.0
+COM,Comoros,7363.0
+GUY,Guyana,15673.0
+IDN,Indonesia,4258192.0
+THA,Thailand,313787.0
+MSR,Montserrat,162.0
+BGD,Bangladesh,329595.0
+PHL,Philippines,
+TCA,Turks and Caicos Islands,553.0
+BLZ,Belize,
+DJI,Djibouti,7167.0
+40603,Northern Africa,141022.58156
+GTM,Guatemala,27249.0
+HND,Honduras,
+MCO,Monaco,464.0
+MUS,Mauritius,12940.0
+BHS,Bahamas,
+TKL,Tokelau,18.0
+40550,Small Island Developing States,1371199.64247
+40650,Oceania,1243566.44263
+SEN,Senegal,183136.0
+40614,Western Asia,444845.7844
+SEN,Senegal,
+BLR,Belarus,374382.0
+UGA,Uganda,
+SWZ,Eswatini,115133.0
+NRU,Nauru,
+MYS,Malaysia,957086.0
+CMR,Cameroon,
+SLV,El Salvador,218786.0
+PAN,Panama,45157.0
+DZA,Algeria,
+BFA,Burkina Faso,69908.0
+BGD,Bangladesh,3464279.0
+DMA,Dominica,1523.0
+GUY,Guyana,32331.0
+NRU,Nauru,740.0
+40651,Australia and New Zealand,359215.99709
+LCA,Saint Lucia,4300.0
+QAT,Qatar,35407.0
+40520,Latin America and the Caribbean,629370.88283
+PER,Peru,48810.0
+ARM,Armenia,
+ERI,Eritrea,
+IDN,Indonesia,8120719.0
+MAR,Morocco,600461.0
+MNG,Mongolia,
+VEN,Venezuela (Bolivarian Republic of),934370.0
+LAO,Lao People's Democratic Republic,381490.0
+IRN,Iran (Islamic Republic of),
+ARE,United Arab Emirates,30655.0
+BOL,Bolivia (Plurinational State of),
+TUN,Tunisia,
+MAR,Morocco,44055.0
+MDV,Maldives,1886.0
+VUT,Vanuatu,
+CIV,Côte d'Ivoire,
+TUV,Tuvalu,413.0
+SOM,Somalia,68743.0
+ALB,Albania,36325.0
+LBN,Lebanon,197191.0
+EGY,Egypt,602577.0
+NPL,Nepal,551320.0
+SYC,Seychelles,4893.0
+40044,Low income countries,5951294.85761
+DMA,Dominica,181.0
+SUR,Suriname,
+COG,Congo,80027.0
+JOR,Jordan,566503.0
+SYC,Seychelles,
+SYR,Syrian Arab Republic,
+MCO,Monaco,521.0
+VUT,Vanuatu,28832.0
+TLS,Timor-Leste,
+ETH,Ethiopia,
+LBN,Lebanon,106910.0
+40515,East Asia and the Pacific,50928714.02117
+ARM,Armenia,99679.0
+IDN,Indonesia,13597531.0
+TUV,Tuvalu,599.0
+SLB,Solomon Islands,20686.0
+40603,Northern Africa,16322867.10722
+WSM,Samoa,18199.0
+TZA,United Republic of Tanzania,
+VCT,Saint Vincent and the Grenadines,
+PRY,Paraguay,2520.0
+ALB,Albania,50425.0
+MAC,"China, Macao Special Administrative Region",15678.0
+GIN,Guinea,
+CYM,Cayman Islands,2056.0
+40030,Middle income countries,145292192.17765
+UKR,Ukraine,323965.0
+MUS,Mauritius,1225.0
+BHR,Bahrain,18446.0
+SLV,El Salvador,122338.0
+TCD,Chad,456131.0
+40616,Southern Asia,25874839.36341
+SEN,Senegal,142818.0
+NGA,Nigeria,
+PLW,Palau,319.0
+PRY,Paraguay,135108.0
+TKL,Tokelau,78.0
+40041,High income countries,43180318.61965
+RWA,Rwanda,1445412.0
+40330,Landlocked Developing Countries,6580016.23819
+TTO,Trinidad and Tobago,
+NRU,Nauru,534.0
+CYM,Cayman Islands,254.0
+HKG,"China, Hong Kong Special Administrative Region",11882.0
+PSE,Palestine,
+BRB,Barbados,2193.0
+ECU,Ecuador,894474.0
+MUS,Mauritius,2460.0
+MYS,Malaysia,
+BLZ,Belize,3535.0
+HND,Honduras,104895.0
+TGO,Togo,134297.0
+MNE,Montenegro,3633.0
+KAZ,Kazakhstan,169049.0
+BRB,Barbados,5432.0
+40651,Australia and New Zealand,724093.68759
+JAM,Jamaica,37016.0
+TJK,Tajikistan,511866.0
+40530,Central and Eastern Europe,668076.07498
+GIB,Gibraltar,1201.0
+NRU,Nauru,278.0
+VNM,Viet Nam,2622616.0
+LCA,Saint Lucia,7572.0
+PRI,Puerto Rico,4089.0
+IDN,Indonesia,1449189.0
+AZE,Azerbaijan,333982.0
+40500,North America and Western Europe,16901282.15294
+ARM,Armenia,
+40510,World,332173029.84815
+TZA,United Republic of Tanzania,825535.0
+ARE,United Arab Emirates,302693.0
+MAR,Morocco,448637.0
+SMR,San Marino,520.0
+40042,Lower middle income countries,134487153.99403
+RUS,Russian Federation,
+40344,Small Island Developing States,288653.70222
+CHN,China,
+KIR,Kiribati,8961.0
+40535,South and West Asia,102227184.36367
+NIC,Nicaragua,145281.0
+PSE,Palestine,301331.0
+40611,Eastern Asia,62922269.74403
+MDV,Maldives,14720.0
+CMR,Cameroon,
+40640,Northern America ,14430508.72538
+DZA,Algeria,2799294.0
+GTM,Guatemala,369872.0
+MCO,Monaco,
+GEO,Georgia,81140.0
+TKL,Tokelau,
+BHS,Bahamas,1938.0
+MOZ,Mozambique,
+SSD,South Sudan,
+40500,North America and Western Europe,11114208.56756
+TON,Tonga,8414.0
+IND,India,17647719.06326
+COG,Congo,38226.0
+SLE,Sierra Leone,4097.0
+CMR,Cameroon,670848.0
+ECU,Ecuador,
+UKR,Ukraine,430153.0
+40656,Oceania (excluding Australia and New Zealand),210.44211
+SYR,Syrian Arab Republic,422713.0
+40630,Latin America and the Caribbean,31201227.7318
+40525,Arab States,3119265.08601
+CYM,Cayman Islands,2296.0
+MNE,Montenegro,16420.0
+SEN,Senegal,160666.0
+PLW,Palau,299.0
+TGO,Togo,119197.0
+40640,Northern America ,13443694.95485
+VCT,Saint Vincent and the Grenadines,4917.0
+COK,Cook Islands,
+JAM,Jamaica,50214.0
+TCD,Chad,17233.0
+SMR,San Marino,289.0
+RWA,Rwanda,540998.0
+BIH,Bosnia and Herzegovina,61041.0
+BHR,Bahrain,56999.0
+TTO,Trinidad and Tobago,13437.0
+GUY,Guyana,
+ECU,Ecuador,607005.0
+40618,Central and Southern Asia,99247913.21881
+40675,World,5788695.7196
+LCA,Saint Lucia,187.0
+THA,Thailand,1185428.0
+40642,Europe and Northern America,25457864.1922
+40650,Oceania,257284.71055
+MDA,Republic of Moldova,71127.0
+VEN,Venezuela (Bolivarian Republic of),237992.0
+UZB,Uzbekistan,544346.0
+AZE,Azerbaijan,21676.0
+TUV,Tuvalu,
+GMB,Gambia,65531.0
+40530,Central and Eastern Europe,1291763.44679
+EGY,Egypt,
+TJK,Tajikistan,104921.0
+DOM,Dominican Republic,158106.0
+FSM,Micronesia (Federated States of),
+DMA,Dominica,775.0
+BFA,Burkina Faso,398236.0
+40617,Northern Africa and Western Asia,11818039.55719
+GIB,Gibraltar,1431.0
+FJI,Fiji,
+HND,Honduras,271597.0
+AZE,Azerbaijan,224629.0
+CUB,Cuba,184247.0
+DZA,Algeria,270902.0
+BFA,Burkina Faso,
+ARM,Armenia,37070.584
+ARE,United Arab Emirates,276430.0
+BRN,Brunei Darussalam,13938.0
+MAC,"China, Macao Special Administrative Region",
+SYR,Syrian Arab Republic,
+AND,Andorra,879.0
+KIR,Kiribati,9151.0
+40620,Europe,11679080.33948
+CIV,Côte d'Ivoire,130281.0
+40535,South and West Asia,1125919.91606
+PAN,Panama,694.0
+MNG,Mongolia,131470.0
+40043,Upper middle income countries,51961406.91421
+RUS,Russian Federation,663260.0
+BOL,Bolivia (Plurinational State of),175168.0
+GTM,Guatemala,535666.0
+CMR,Cameroon,314661.0
+KGZ,Kyrgyzstan,175285.0
+PER,Peru,864789.0
+40530,Central and Eastern Europe,11495913.59863
+BHS,Bahamas,
+TCA,Turks and Caicos Islands,458.0
+PER,Peru,1605544.0
+VCT,Saint Vincent and the Grenadines,1634.0
+MRT,Mauritania,437809.0
+40043,Upper middle income countries,41174135.14252
+STP,Sao Tome and Principe,
+MLI,Mali,82198.0
+CUB,Cuba,163630.0
+IND,India,37264863.49265
+SLE,Sierra Leone,82408.0
+THA,Thailand,2617631.0
+IND,India,
+40675,World,400871047.2272
+ARE,United Arab Emirates,436020.0
+BLR,Belarus,198623.0
+DOM,Dominican Republic,182241.0
+COK,Cook Islands,661.0
+KAZ,Kazakhstan,912906.0
+PLW,Palau,234.0
+TJK,Tajikistan,
+TON,Tonga,1619.0
+LBN,Lebanon,
+PRI,Puerto Rico,52805.0
+BLZ,Belize,3472.0
+KHM,Cambodia,19065.0
+PLW,Palau,
+TGO,Togo,
+DJI,Djibouti,36857.0
+LSO,Lesotho,159287.0
+IRN,Iran (Islamic Republic of),
+40614,Western Asia,2432392.99581
+SLV,El Salvador,21038.0
+SMR,San Marino,376.0
+VEN,Venezuela (Bolivarian Republic of),873880.0
+BMU,Bermuda,
+MYS,Malaysia,486032.0
+CHN,China,51433208.0
+40505,Central Asia,1757253.50607
+SLV,El Salvador,101095.0
+MDA,Republic of Moldova,133359.0
+JAM,Jamaica,51524.0
+TJK,Tajikistan,
+40617,Northern Africa and Western Asia,4566564.55007
+GUY,Guyana,15673.0
+RWA,Rwanda,271844.0
+QAT,Qatar,3213.0
+COK,Cook Islands,923.0
+40030,Middle income countries,3694071.9991
+LCA,Saint Lucia,1354.0
+VCT,Saint Vincent and the Grenadines,1603.0
+BHS,Bahamas,11871.0
+TZA,United Republic of Tanzania,5618716.0
+COM,Comoros,22053.0
+LKA,Sri Lanka,
+AZE,Azerbaijan,8664.0
+BLZ,Belize,14609.0
+TKL,Tokelau,36.0
+BMU,Bermuda,1703.0
+BRN,Brunei Darussalam,
+40515,East Asia and the Pacific,100912248.70211
+CUB,Cuba,337310.0
+NIU,Niue,85.0
+40650,Oceania,2065848.64053
+AND,Andorra,
+SXM,Sint Maarten (Dutch part),63.0
+FJI,Fiji,
+40614,Western Asia,15329300.67777
+40043,Upper middle income countries,6909258.95784
+SYC,Seychelles,3286.0
+40611,Eastern Asia,316125.86373
+ERI,Eritrea,
+NER,Niger,378861.0
+MLI,Mali,406638.0
+URY,Uruguay,
+COK,Cook Islands,372.0
+40620,Europe,18180748.9806
+SEN,Senegal,394465.0
+TCA,Turks and Caicos Islands,
+IDN,Indonesia,2562750.0
+PRI,Puerto Rico,30262.0
+MLI,Mali,
+MSR,Montserrat,73.0
+MYS,Malaysia,601379.0
+KGZ,Kyrgyzstan,164337.0
+SLB,Solomon Islands,
+ARM,Armenia,76621.344
+WSM,Samoa,5256.0
+40650,Oceania,2346032.91476
+MDA,Republic of Moldova,117724.0
+MAC,"China, Macao Special Administrative Region",8856.0
+BHR,Bahrain,17624.0
+40344,Small Island Developing States,681470.8551
+PAN,Panama,44369.0
+CYM,Cayman Islands,356.0
+NPL,Nepal,1870459.0
+40344,Small Island Developing States,909446.32691
+MNG,Mongolia,79574.0
+40612,Central Asia,4891570.95756
+SYC,Seychelles,3846.0
+BLR,Belarus,105824.0
+BOL,Bolivia (Plurinational State of),416216.0
+EGY,Egypt,87840.0
+TKL,Tokelau,18.0
+BLR,Belarus,62743.0
+40550,Small Island Developing States,4251860.84912
+SUR,Suriname,34127.0
+40619,Eastern and South-Eastern Asia,37039684.26709
+SLE,Sierra Leone,91331.0
+40330,Landlocked Developing Countries,363781.7048
+STP,Sao Tome and Principe,
+CHN,China,24369677.0
+BFA,Burkina Faso,1416262.0
+BGD,Bangladesh,7396824.0
+ARM,Armenia,
+TGO,Togo,
+SLB,Solomon Islands,17999.0
+MDA,Republic of Moldova,7013.0
+UZB,Uzbekistan,946623.0
+40505,Central Asia,323042.83334
+SLV,El Salvador,42281.0
+NIC,Nicaragua,263618.0
+40651,Australia and New Zealand,257060.71109
+COM,Comoros,
+JAM,Jamaica,5599.0
+DOM,Dominican Republic,181128.0
+GUY,Guyana,
+UKR,Ukraine,1034216.0
+GTM,Guatemala,360112.0
+HKG,"China, Hong Kong Special Administrative Region",145686.0
+CYM,Cayman Islands,2053.0
+40614,Western Asia,252554.79815
+PHL,Philippines,6728975.0
+LBN,Lebanon,89408.0
+BIH,Bosnia and Herzegovina,72588.0
+BRN,Brunei Darussalam,5736.0
+NRU,Nauru,193.0
+RWA,Rwanda,374040.0
+JOR,Jordan,82478.0
+LAO,Lao People's Democratic Republic,141056.0
+ECU,Ecuador,920177.0
+FJI,Fiji,19178.0
+AND,Andorra,942.0
+SXM,Sint Maarten (Dutch part),167.0
+RUS,Russian Federation,3217166.0
+LBN,Lebanon,
+LKA,Sri Lanka,
+GUY,Guyana,11899.0
+VUT,Vanuatu,29817.0
+MUS,Mauritius,45081.0
+VNM,Viet Nam,776822.0
+SLV,El Salvador,84887.0
+QAT,Qatar,6007.0
+TCA,Turks and Caicos Islands,539.0
+COD,Democratic Republic of the Congo,
+TCD,Chad,156476.0
+CUW,Curaçao,6138.0
+COK,Cook Islands,
+WSM,Samoa,2613.0
+CUB,Cuba,333676.0
+KGZ,Kyrgyzstan,170999.0
+BMU,Bermuda,515.0
+TTO,Trinidad and Tobago,27028.0
+LAO,Lao People's Democratic Republic,294680.0
+PHL,Philippines,6340641.0
+ECU,Ecuador,301867.0
+ARM,Armenia,82394.0
+IDN,Indonesia,6395363.0
+PSE,Palestine,50.0
+MAC,"China, Macao Special Administrative Region",
+UKR,Ukraine,107214.0
+40606,Sub-Saharan Africa,97552042.87198
+40344,Small Island Developing States,1174262.95288
+40630,Latin America and the Caribbean,10402120.93122
+PAN,Panama,1482.0
+HKG,"China, Hong Kong Special Administrative Region",174553.0
+DMA,Dominica,2963.0
+ALB,Albania,63177.0
+MCO,Monaco,
+LSO,Lesotho,
+MDG,Madagascar,
+TCD,Chad,
+QAT,Qatar,39348.0
+40520,Latin America and the Caribbean,31202930.7318
+DJI,Djibouti,
+SEN,Senegal,
+SLB,Solomon Islands,
+PRY,Paraguay,154431.0
+BHR,Bahrain,16205.0
+ETH,Ethiopia,2102019.0
+MAC,"China, Macao Special Administrative Region",7181.0
+40618,Central and Southern Asia,27297186.15587
+TUV,Tuvalu,162.0
+NIC,Nicaragua,4326.0
+TZA,United Republic of Tanzania,251128.0
+MNE,Montenegro,24663.0
+40030,Middle income countries,300041474.99431
+AZE,Azerbaijan,119381.0
+40500,North America and Western Europe,26551308.78374
+NIC,Nicaragua,452521.0
+40525,Arab States,76584.68688
+NRU,Nauru,
+BGD,Bangladesh,
+COM,Comoros,7473.0
+40510,World,147286978.55118
+HKG,"China, Hong Kong Special Administrative Region",
+40651,Australia and New Zealand,496955.76488
+VCT,Saint Vincent and the Grenadines,1645.0
+MAR,Morocco,21851.0
+HND,Honduras,104895.0
+BIH,Bosnia and Herzegovina,38762.0
+PHL,Philippines,2148186.0
+MDV,Maldives,23512.0
+KIR,Kiribati,7830.0
+ETH,Ethiopia,
+UGA,Uganda,
+MLI,Mali,83509.0
+GIB,Gibraltar,1227.0
+MCO,Monaco,4.0
+40616,Southern Asia,45796661.88868
+IND,India,32972743.46646
+JAM,Jamaica,56813.0
+DOM,Dominican Republic,163112.0
+BIH,Bosnia and Herzegovina,114495.0
+40642,Europe and Northern America,1377195.54658
+KAZ,Kazakhstan,99885.0
+NER,Niger,96293.0
+VUT,Vanuatu,7744.0
+FJI,Fiji,60064.0
+THA,Thailand,1228132.0
+EGY,Egypt,
+KAZ,Kazakhstan,1139612.0
+GEO,Georgia,4407.0
+RUS,Russian Federation,
+LBN,Lebanon,106910.0
+BRB,Barbados,8902.0
+40520,Latin America and the Caribbean,2600398.74112
+GTM,Guatemala,340260.0
+VNM,Viet Nam,2211545.0
+TGO,Togo,359344.0
+PER,Peru,813765.0
+40530,Central and Eastern Europe,10404541.21173
+PSE,Palestine,263637.0
+40611,Eastern Asia,57546818.8105
+LCA,Saint Lucia,5440.0
+CUB,Cuba,176899.0
+IND,India,
+BMU,Bermuda,
+40043,Upper middle income countries,14207587.55667
+CMR,Cameroon,2708825.0
+THA,Thailand,855547.0
+40642,Europe and Northern America,33623482.98105
+40618,Central and Southern Asia,49745992.13966
+40640,Northern America ,7153393.51377
+40650,Oceania,240105.4959
+BRB,Barbados,1369.0
+DMA,Dominica,501.0
+TLS,Timor-Leste,
+FSM,Micronesia (Federated States of),
+BHR,Bahrain,28339.0
+TTO,Trinidad and Tobago,
+UKR,Ukraine,54955.0
+TJK,Tajikistan,57653.0
+40651,Australia and New Zealand,884704.4396
+40675,World,332173029.84815
+MDV,Maldives,
+COG,Congo,12245.0
+SLB,Solomon Islands,19419.0
+VCT,Saint Vincent and the Grenadines,
+MDG,Madagascar,989765.0
+TCD,Chad,17233.0
+AZE,Azerbaijan,579035.0
+PLW,Palau,
+GIN,Guinea,
+BHR,Bahrain,4144.0
+SYR,Syrian Arab Republic,1112500.0
+MAR,Morocco,1168480.0
+MCO,Monaco,929.0
+40630,Latin America and the Caribbean,12627155.22077
+CYM,Cayman Islands,1069.0
+SWZ,Eswatini,
+MNE,Montenegro,20084.0
+FJI,Fiji,56065.0
+MOZ,Mozambique,404770.0
+BLZ,Belize,
+OMN,Oman,53816.0
+AND,Andorra,1750.0
+SYR,Syrian Arab Republic,18883.0
+40617,Northern Africa and Western Asia,488900.7844
+BRN,Brunei Darussalam,7035.0
+NPL,Nepal,
+PSE,Palestine,
+BOL,Bolivia (Plurinational State of),175168.0
+GTM,Guatemala,167077.0
+KHM,Cambodia,543446.32554
+40616,Southern Asia,1125919.91606
+CUW,Curaçao,
+QAT,Qatar,26894.0
+SMR,San Marino,144.0
+CIV,Côte d'Ivoire,130281.0
+40043,Upper middle income countries,67053938.13
+CPV,Cabo Verde,
+ETH,Ethiopia,4041915.0
+BIH,Bosnia and Herzegovina,4364.0
+LAO,Lao People's Democratic Republic,52288.0
+PHL,Philippines,
+MAR,Morocco,460905.0
+MLI,Mali,
+TZA,United Republic of Tanzania,
+40510,World,104799426.71319
+DOM,Dominican Republic,37160.0
+VNM,Viet Nam,2404044.0
+GEO,Georgia,178772.0
+40500,North America and Western Europe,1178311.02609
+RUS,Russian Federation,
+UZB,Uzbekistan,
+HND,Honduras,93898.0
+MSR,Montserrat,145.0
+SYC,Seychelles,
+AND,Andorra,
+KAZ,Kazakhstan,808953.0
+ZWE,Zimbabwe,
+PAK,Pakistan,
+SLV,El Salvador,122666.0
+BRN,Brunei Darussalam,
+GTM,Guatemala,56861.0
+ARE,United Arab Emirates,149495.0
+GIB,Gibraltar,624.0
+MDA,Republic of Moldova,68984.0
+DJI,Djibouti,37449.0
+JOR,Jordan,
+COK,Cook Islands,806.0
+VUT,Vanuatu,
+NER,Niger,
+EGY,Egypt,7052202.0
+40619,Eastern and South-Eastern Asia,34735320.81775
+VEN,Venezuela (Bolivarian Republic of),1830296.0
+40042,Lower middle income countries,61284526.93975
+KGZ,Kyrgyzstan,95709.0
+NIU,Niue,
+MNG,Mongolia,131470.0
+PRI,Puerto Rico,76915.0
+SMR,San Marino,735.0
+DJI,Djibouti,3772.0
+DZA,Algeria,
+40603,Northern Africa,22204.0
+WSM,Samoa,
+KGZ,Kyrgyzstan,22338.0
+THA,Thailand,643668.0
+40614,Western Asia,237014.8046
+COD,Democratic Republic of the Congo,427300.0
+TCA,Turks and Caicos Islands,969.0
+40535,South and West Asia,94356342.26125
+TJK,Tajikistan,656523.0
+RUS,Russian Federation,4935307.0
+UKR,Ukraine,449247.0
+40525,Arab States,139401.66027
+MSR,Montserrat,169.0
+NPL,Nepal,1208425.0
+BGD,Bangladesh,1716196.0
+CHN,China,23960371.0
+CIV,Côte d'Ivoire,445507.0
+TTO,Trinidad and Tobago,13122.0
+VCT,Saint Vincent and the Grenadines,1634.0
+PER,Peru,581855.0
+40530,Central and Eastern Europe,207635.56921
+TCA,Turks and Caicos Islands,
+MDG,Madagascar,2542332.0
+ARE,United Arab Emirates,202935.0
+OMN,Oman,57295.0
+BLR,Belarus,166218.0
+CUB,Cuba,185709.0
+RWA,Rwanda,
+MAC,"China, Macao Special Administrative Region",8252.0
+JAM,Jamaica,10789.0
+SLE,Sierra Leone,1932.0
+LCA,Saint Lucia,2148.0
+BFA,Burkina Faso,142304.0
+UZB,Uzbekistan,1580968.0
+TON,Tonga,7888.0
+ECU,Ecuador,
+MOZ,Mozambique,
+UZB,Uzbekistan,
+COG,Congo,41801.0
+MDG,Madagascar,477045.0
+BLR,Belarus,268558.0
+CUB,Cuba,2061.0
+JOR,Jordan,
+CHN,China,27472837.0
+40650,Oceania,822282.19789
+BWA,Botswana,5132.0
+BHS,Bahamas,1806.0
+NPL,Nepal,657105.0
+40344,Small Island Developing States,1422772.64247
+40620,Europe,696309.06705
+ALB,Albania,
+IRN,Iran (Islamic Republic of),
+BOL,Bolivia (Plurinational State of),
+PLW,Palau,701.0
+40617,Northern Africa and Western Asia,258865.8046
+KHM,Cambodia,192365.0
+MLI,Mali,1572859.0
+TTO,Trinidad and Tobago,4773.0
+MDV,Maldives,1832.0
+CIV,Côte d'Ivoire,
+SLB,Solomon Islands,40105.0
+NER,Niger,1580218.0
+40619,Eastern and South-Eastern Asia,49813364.1444
+PLW,Palau,618.0
+MYS,Malaysia,716755.0
+TKL,Tokelau,42.0
+40550,Small Island Developing States,2215186.96939
+CPV,Cabo Verde,
+VEN,Venezuela (Bolivarian Republic of),970925.0
+40540,Sub-Saharan Africa,97077376.87198
+ECU,Ecuador,301867.0
+THA,Thailand,1134249.0
+40030,Middle income countries,259357087.55545
+GUY,Guyana,
+BLZ,Belize,23021.0
+IDN,Indonesia,7202168.0
+UKR,Ukraine,44476.0
+SEN,Senegal,303484.0
+SLV,El Salvador,21243.0
+COM,Comoros,62912.0
+EGY,Egypt,1237331.0
+DOM,Dominican Republic,
+40530,Central and Eastern Europe,623687.37182
+PSE,Palestine,
+BFA,Burkina Faso,72396.0
+BOL,Bolivia (Plurinational State of),243641.0
+KGZ,Kyrgyzstan,10948.0
+MNG,Mongolia,
+MDA,Republic of Moldova,35279.0
+CMR,Cameroon,
+NIU,Niue,26.0
+40505,Central Asia,4058571.75724
+DZA,Algeria,
+IDN,Indonesia,1695442.0
+ARE,United Arab Emirates,119374.0
+MYS,Malaysia,
+BGD,Bangladesh,4019386.0
+TGO,Togo,
+COD,Democratic Republic of the Congo,
+CHN,China,
+BHS,Bahamas,13485.0
+BLZ,Belize,18903.0
+TUN,Tunisia,
+MLI,Mali,8566.0
+40520,Latin America and the Caribbean,10402407.93122
+40620,Europe,20179788.0262
+MAC,"China, Macao Special Administrative Region",
+BRN,Brunei Darussalam,19936.0
+SYR,Syrian Arab Republic,
+BMU,Bermuda,912.0
+PAN,Panama,788.0
+HKG,"China, Hong Kong Special Administrative Region",75812.0
+TZA,United Republic of Tanzania,854007.0
+40614,Western Asia,15543979.52843
+MNE,Montenegro,3361.0
+MNG,Mongolia,127820.0
+SYC,Seychelles,1554.0
+LBN,Lebanon,107783.0
+ECU,Ecuador,444594.0
+ARM,Armenia,144020.0
+SUR,Suriname,
+BIH,Bosnia and Herzegovina,20504.0
+PRY,Paraguay,369099.0
+NRU,Nauru,
+UGA,Uganda,
+COD,Democratic Republic of the Congo,10869344.0
+MAC,"China, Macao Special Administrative Region",8497.0
+JOR,Jordan,82478.0
+SYC,Seychelles,1671.0
+ALB,Albania,76457.0
+STP,Sao Tome and Principe,
+UKR,Ukraine,780666.0
+TZA,United Republic of Tanzania,1679542.0
+BHS,Bahamas,3744.0
+MCO,Monaco,1015.0
+CMR,Cameroon,1058699.0
+SLB,Solomon Islands,49861.0
+VUT,Vanuatu,20239.0
+MUS,Mauritius,13307.0
+RWA,Rwanda,
+NER,Niger,
+THA,Thailand,329881.0
+SWZ,Eswatini,
+MNE,Montenegro,29143.0
+AGO,Angola,
+ECU,Ecuador,
+CYM,Cayman Islands,863.0
+PHL,Philippines,1114796.0
+KAZ,Kazakhstan,82281.0
+HND,Honduras,103385.0
+BLZ,Belize,7007.0
+TTO,Trinidad and Tobago,65941.0
+DMA,Dominica,2306.0
+40640,Northern America ,4650198.38095
+SEN,Senegal,1084040.0
+40041,High income countries,25233728.03033
+RWA,Rwanda,130759.0
+FSM,Micronesia (Federated States of),
+PSE,Palestine,169671.0
+40520,Latin America and the Caribbean,12628067.22077
+EGY,Egypt,
+40041,High income countries,19208653.1543
+40611,Eastern Asia,26740482.99424
+QAT,Qatar,88329.0
+IDN,Indonesia,3144631.0
+CMR,Cameroon,627798.0
+PRI,Puerto Rico,4175.0
+SMR,San Marino,145.0
+VEN,Venezuela (Bolivarian Republic of),117421.0
+VNM,Viet Nam,3132474.0
+HKG,"China, Hong Kong Special Administrative Region",84726.0
+SLV,El Salvador,133899.0
+LAO,Lao People's Democratic Republic,96398.0
+NIC,Nicaragua,233434.0
+DZA,Algeria,267182.0
+TUV,Tuvalu,
+BHR,Bahrain,2241.0
+DMA,Dominica,761.0
+40344,Small Island Developing States,392817.15287
+WSM,Samoa,2613.0
+PHL,Philippines,2051060.0
+40505,Central Asia,170611.00353
+CHN,China,21910871.0
+CIV,Côte d'Ivoire,133170.0
+40044,Low income countries,59814418.62399
+TUV,Tuvalu,437.0
+AZE,Azerbaijan,109086.0
+ETH,Ethiopia,2102019.0
+ARE,United Arab Emirates,153198.0
+PER,Peru,840459.0
+COG,Congo,54304.0
+MAR,Morocco,931393.0
+40630,Latin America and the Caribbean,2812433.92308
+PSE,Palestine,420516.0
+AIA,Anguilla,
+TKL,Tokelau,
+JOR,Jordan,135418.0
+40515,East Asia and the Pacific,88729781.21889
+ARM,Armenia,39550.76
+40603,Northern Africa,2134171.55427
+THA,Thailand,1389499.0
+40642,Europe and Northern America,45608393.0808
+KAZ,Kazakhstan,1219281.0
+DOM,Dominican Republic,19129.0
+ZWE,Zimbabwe,
+SLE,Sierra Leone,175671.0
+SYR,Syrian Arab Republic,73928.0
+40630,Latin America and the Caribbean,18574072.51103
+GTM,Guatemala,29612.0
+CYM,Cayman Islands,711.0
+MWI,Malawi,2284366.0
+TON,Tonga,2438.0
+BHS,Bahamas,
+TZA,United Republic of Tanzania,
+LBN,Lebanon,
+MCO,Monaco,985.0
+SXM,Sint Maarten (Dutch part),316.0
+GEO,Georgia,159800.0
+TKL,Tokelau,14.0
+KIR,Kiribati,
+IND,India,68709516.82651
+VNM,Viet Nam,411071.0
+GIB,Gibraltar,286.0
+BHR,Bahrain,28660.0
+COD,Democratic Republic of the Congo,
+40614,Western Asia,207830.9798
+LCA,Saint Lucia,2132.0
+HND,Honduras,
+VUT,Vanuatu,7744.0
+TJK,Tajikistan,132662.0
+40651,Australia and New Zealand,250892.68519
+KGZ,Kyrgyzstan,5524.0
+BLZ,Belize,
+DJI,Djibouti,3772.0
+40616,Southern Asia,102227184.36367
+JAM,Jamaica,99290.0
+DZA,Algeria,
+MUS,Mauritius,26247.0
+MAC,"China, Macao Special Administrative Region",
+PRY,Paraguay,
+TCD,Chad,299655.0
+VCT,Saint Vincent and the Grenadines,3272.0
+TCD,Chad,
+GMB,Gambia,201420.0
+BRB,Barbados,9329.0
+LCA,Saint Lucia,2760.0
+LAO,Lao People's Democratic Republic,88955.0
+SMR,San Marino,1019.0
+VEN,Venezuela (Bolivarian Republic of),1905295.0
+MCO,Monaco,1736.0
+MDV,Maldives,16639.0
+UZB,Uzbekistan,12425.0
+MYS,Malaysia,471054.0
+40618,Central and Southern Asia,49501921.07915
+HND,Honduras,177699.0
+GIB,Gibraltar,474.0
+TUV,Tuvalu,413.0
+MNE,Montenegro,12948.0
+AND,Andorra,90.0
+TGO,Togo,848975.0
+AZE,Azerbaijan,159987.0
+40535,South and West Asia,25874839.36341
+TJK,Tajikistan,57653.0
+PSE,Palestine,86251.0
+40525,Arab States,28197610.77057
+40651,Australia and New Zealand,1344816.20914
+NRU,Nauru,547.0
+QAT,Qatar,142.0
+40630,Latin America and the Caribbean,5412832.6642
+CMR,Cameroon,313137.0
+NPL,Nepal,
+MNG,Mongolia,126865.0
+DMA,Dominica,1536.0
+FJI,Fiji,18504.0
+PER,Peru,51024.0
+AZE,Azerbaijan,18959.0
+40617,Northern Africa and Western Asia,393577.37972
+BLR,Belarus,179551.0
+BOL,Bolivia (Plurinational State of),171226.0
+MAR,Morocco,2430872.0
+40616,Southern Asia,94356342.26125
+SUR,Suriname,
+NIC,Nicaragua,132281.0
+40611,Eastern Asia,26991488.75797
+SMR,San Marino,907.0
+BFA,Burkina Faso,
+COG,Congo,25981.0
+40043,Upper middle income countries,125173026.84164
+SLE,Sierra Leone,988625.0
+GTM,Guatemala,368589.0
+40675,World,147286978.55118
+VCT,Saint Vincent and the Grenadines,
+BHR,Bahrain,9267.0
+DOM,Dominican Republic,255881.0
+NPL,Nepal,1872580.0
+TKL,Tokelau,
+HND,Honduras,
+IND,India,34673802.0
+MSR,Montserrat,60.0
+LBN,Lebanon,101306.0
+CUB,Cuba,378270.0
+SXM,Sint Maarten (Dutch part),1985.0
+40042,Lower middle income countries,37614597.8089
+NIU,Niue,62.0
+NRU,Nauru,256.0
+DJI,Djibouti,13090.0
+SYR,Syrian Arab Republic,649009.0
+GIB,Gibraltar,473.0
+BMU,Bermuda,287.0
+PLW,Palau,761.0
+COK,Cook Islands,181.0
+KAZ,Kazakhstan,587838.0
+BFA,Burkina Faso,548209.0
+GUY,Guyana,15242.0
+TCA,Turks and Caicos Islands,1715.0
+RWA,Rwanda,269154.0
+DJI,Djibouti,
+MOZ,Mozambique,
+COM,Comoros,14836.0
+PRI,Puerto Rico,119163.0
+VEN,Venezuela (Bolivarian Republic of),1321429.0
+MUS,Mauritius,1235.0
+40617,Northern Africa and Western Asia,16396441.44464
+KHM,Cambodia,196095.0
+TCD,Chad,15949.0
+PER,Peru,99834.0
+40525,Arab States,358743.33101
+LCA,Saint Lucia,742.0
+TUN,Tunisia,301030.0
+CIV,Côte d'Ivoire,1164512.0
+MDA,Republic of Moldova,61252.0
+TGO,Togo,240424.0
+JAM,Jamaica,54651.0
+ARM,Armenia,
+IDN,Indonesia,3862527.0
+ARE,United Arab Emirates,60776.0
+40042,Lower middle income countries,73202627.05427
+OMN,Oman,206473.0
+40500,North America and Western Europe,33720366.22274
+MYS,Malaysia,486032.0
+FJI,Fiji,9932.0
+PRI,Puerto Rico,15446.0
+UZB,Uzbekistan,1319880.0
+BRN,Brunei Darussalam,
+GTM,Guatemala,
+MNG,Mongolia,
+40612,Central Asia,1422346.79246
+ERI,Eritrea,
+40535,South and West Asia,48559680.37257
+TGO,Togo,493641.0
+DMA,Dominica,96.0
+40675,World,104799426.71319
+RUS,Russian Federation,3876072.0
+KGZ,Kyrgyzstan,333744.0
+BLR,Belarus,32405.0
+BOL,Bolivia (Plurinational State of),
+EGY,Egypt,634754.0
+DZA,Algeria,
+TUN,Tunisia,
+SYR,Syrian Arab Republic,144715.0
+NIU,Niue,112.0
+IND,India,770608.0226
+JOR,Jordan,79593.0
+40510,World,184886051.29697
+PER,Peru,1023689.0
+KIR,Kiribati,3730.0
+40530,Central and Eastern Europe,18514623.72714
+BGD,Bangladesh,1716196.0
+AND,Andorra,2168.0
+PAN,Panama,44224.0
+TUV,Tuvalu,332.0
+CHN,China,
+COK,Cook Islands,262.0
+ECU,Ecuador,
+SUR,Suriname,9318.0
+40619,Eastern and South-Eastern Asia,98761927.15231
+IDN,Indonesia,14900810.0
+TTO,Trinidad and Tobago,44002.0
+GIN,Guinea,
+SEN,Senegal,577601.0
+LSO,Lesotho,
+NPL,Nepal,657105.0
+COK,Cook Islands,
+MNG,Mongolia,258335.0
+UKR,Ukraine,934355.0
+40344,Small Island Developing States,4326411.84912
+IND,India,
+BMU,Bermuda,
+CUB,Cuba,694822.0
+MDG,Madagascar,477045.0
+MYS,Malaysia,1583737.0
+OMN,Oman,
+PER,Peru,
+40550,Small Island Developing States,673920.8551
+40650,Oceania,497390.20645
+MRT,Mauritania,106378.0
+BFA,Burkina Faso,72396.0
+MNG,Mongolia,2876.0
+LCA,Saint Lucia,2152.0
+BGD,Bangladesh,3377438.0
+CUB,Cuba,349339.0
+JOR,Jordan,
+SWZ,Eswatini,
+BOL,Bolivia (Plurinational State of),
+TUV,Tuvalu,
+TJK,Tajikistan,47268.0
+DMA,Dominica,676.0
+CHN,China,57177320.0
+HKG,"China, Hong Kong Special Administrative Region",89827.0
+WSM,Samoa,5438.0
+RWA,Rwanda,
+40620,Europe,31177884.35542
+ALB,Albania,113602.0
+JAM,Jamaica,5190.0
+VEN,Venezuela (Bolivarian Republic of),850354.0
+BLR,Belarus,233155.0
+ETH,Ethiopia,2675818.0
+40520,Latin America and the Caribbean,2812433.92308
+COM,Comoros,7363.0
+MLI,Mali,690765.0
+GUY,Guyana,46457.0
+AGO,Angola,
+PHL,Philippines,1114796.0
+TKL,Tokelau,68.0
+40550,Small Island Developing States,843987.32691
+SYC,Seychelles,2292.0
+AZE,Azerbaijan,105248.0
+BIH,Bosnia and Herzegovina,18258.0
+MDA,Republic of Moldova,14745.0
+BLR,Belarus,4739.0
+LBN,Lebanon,
+STP,Sao Tome and Principe,
+40525,Arab States,62816.97339
+40651,Australia and New Zealand,239895.05379
+BRN,Brunei Darussalam,6148.0
+BOL,Bolivia (Plurinational State of),712506.0
+BHS,Bahamas,5974.0
+PAK,Pakistan,
+HKG,"China, Hong Kong Special Administrative Region",75812.0
+SYC,Seychelles,
+WSM,Samoa,
+RUS,Russian Federation,6665045.0
+MDA,Republic of Moldova,82445.0
+40614,Western Asia,7225755.87489
+40041,High income countries,1839947.78833
+FJI,Fiji,9246.0
+NER,Niger,94065.0
+SOM,Somalia,256694.0
+ARE,United Arab Emirates,30121.0
+ETH,Ethiopia,
+LBN,Lebanon,208216.0
+BMU,Bermuda,791.0
+MAR,Morocco,22204.0
+MYS,Malaysia,
+VNM,Viet Nam,5026660.0
+MOZ,Mozambique,3958780.0
+KIR,Kiribati,
+40515,East Asia and the Pacific,35234424.85106
+NIU,Niue,7.0
+SXM,Sint Maarten (Dutch part),149.0
+BGD,Bangladesh,
+DOM,Dominican Republic,363369.0
+40642,Europe and Northern America,16329278.72043
+40043,Upper middle income countries,7298328.59883
+PRI,Puerto Rico,14816.0
+40603,Northern Africa,44055.0
+MNE,Montenegro,12723.0
+RWA,Rwanda,
+SLE,Sierra Leone,2165.0
+MUS,Mauritius,12082.0
+TUV,Tuvalu,747.0
+TCD,Chad,33182.0
+CYM,Cayman Islands,714.0
+MLI,Mali,165707.0
+SEN,Senegal,142818.0
+40041,High income countries,29678435.3557
+WSM,Samoa,
+TTO,Trinidad and Tobago,13437.0
+ECU,Ecuador,475583.0
+CUB,Cuba,160411.0
+KGZ,Kyrgyzstan,11390.0
+MSR,Montserrat,96.0
+COD,Democratic Republic of the Congo,410532.0
+GIN,Guinea,
+VCT,Saint Vincent and the Grenadines,3237.0
+MCO,Monaco,521.0
+MAC,"China, Macao Special Administrative Region",19742.0
+DJI,Djibouti,3395.0
+40030,Middle income countries,81802802.40661
+MNE,Montenegro,6994.0
+BIH,Bosnia and Herzegovina,15512.0
+PAN,Panama,227344.0
+ARM,Armenia,44341.0
+DMA,Dominica,783.0
+SUR,Suriname,7136.0
+TJK,Tajikistan,
+SLB,Solomon Islands,20686.0
+TCA,Turks and Caicos Islands,
+MDG,Madagascar,512720.0
+CMR,Cameroon,387851.0
+QAT,Qatar,74755.0
+UKR,Ukraine,485108.0
+BLR,Belarus,378174.0
+MAR,Morocco,1768941.0
+UKR,Ukraine,1358181.0
+40617,Northern Africa and Western Asia,230034.9798
+GUY,Guyana,30915.0
+40030,Middle income countries,114064895.3778
+SLV,El Salvador,313889.0
+TKL,Tokelau,32.0
+LAO,Lao People's Democratic Republic,104389.0
+PHL,Philippines,
+AZE,Azerbaijan,10295.0
+TKL,Tokelau,7.0
+UZB,Uzbekistan,
+RWA,Rwanda,243281.0
+PRY,Paraguay,289539.0
+QAT,Qatar,28491.0
+40520,Latin America and the Caribbean,18574863.51103
+JOR,Jordan,368745.0
+VUT,Vanuatu,9578.0
+RUS,Russian Federation,
+HKG,"China, Hong Kong Special Administrative Region",
+SYC,Seychelles,1671.0
+40520,Latin America and the Caribbean,5412832.6642
+TLS,Timor-Leste,
+GUY,Guyana,230.0
+IDN,Indonesia,
+LBN,Lebanon,270558.0
+40515,East Asia and the Pacific,37801067.19772
+40606,Sub-Saharan Africa,10841880.02606
+VNM,Viet Nam,4801049.0
+LAO,Lao People's Democratic Republic,198282.0
+DOM,Dominican Republic,18031.0
+COK,Cook Islands,191.0
+PHL,Philippines,4289581.0
+40505,Central Asia,5963541.79068
+AND,Andorra,
+PAN,Panama,
+SMR,San Marino,387.0
+40042,Lower middle income countries,2329508.76478
+GIB,Gibraltar,432.0
+ARM,Armenia,39550.76
+PSE,Palestine,119185.0
+COD,Democratic Republic of the Congo,837832.0
+RUS,Russian Federation,3447879.0
+BHR,Bahrain,59833.0
+40535,South and West Asia,45796661.88868
+FJI,Fiji,37561.0
+EGY,Egypt,634754.0
+TCD,Chad,1625922.0
+40611,Eastern Asia,30555330.05253
+MLI,Mali,
+40603,Northern Africa,21851.0
+VUT,Vanuatu,
+CMR,Cameroon,313137.0
+WSM,Samoa,2643.0
+KGZ,Kyrgyzstan,346284.0
+40640,Northern America ,680886.47953
+DZA,Algeria,
+NER,Niger,
+THA,Thailand,2406994.0
+40642,Europe and Northern America,20150528.88859
+DJI,Djibouti,
+NRU,Nauru,
+SYR,Syrian Arab Republic,73928.0
+MAC,"China, Macao Special Administrative Region",17108.0
+40618,Central and Southern Asia,105494896.75595
+40630,Latin America and the Caribbean,31440496.76615
+VCT,Saint Vincent and the Grenadines,6140.0
+CYM,Cayman Islands,358.0
+MNE,Montenegro,9315.0
+BIH,Bosnia and Herzegovina,9356.0
+PAN,Panama,89381.0
+TJK,Tajikistan,523861.0
+40651,Australia and New Zealand,1608798.12718
+KGZ,Kyrgyzstan,429453.0
+ARE,United Arab Emirates,19690.0
+AGO,Angola,
+COG,Congo,449246.0
+LCA,Saint Lucia,3308.0
+PRI,Puerto Rico,11357.0
+AZE,Azerbaijan,419048.0
+COM,Comoros,
+40510,World,5788695.7196
+ETH,Ethiopia,1939896.0
+40611,Eastern Asia,716791.48416
+MAR,Morocco,470488.0
+CYM,Cayman Islands,1190.0
+40616,Southern Asia,48559680.37257
+TGO,Togo,119197.0
+LKA,Sri Lanka,
+MDA,Republic of Moldova,64375.0
+MDV,Maldives,3718.0
+SLV,El Salvador,245004.0
+40640,Northern America ,7277115.21161
+AND,Andorra,2629.0
+LAO,Lao People's Democratic Republic,52101.0
+NIC,Nicaragua,132281.0
+JAM,Jamaica,55813.0
+CPV,Cabo Verde,
+BGD,Bangladesh,1748083.0
+UZB,Uzbekistan,2009825.0
+BIH,Bosnia and Herzegovina,53454.0
+MCO,Monaco,807.0
+MDV,Maldives,1919.0
+40043,Upper middle income countries,119015345.04421
+CIV,Côte d'Ivoire,
+SLV,El Salvador,
+GTM,Guatemala,1235258.0
+HND,Honduras,546510.0
+GEO,Georgia,78660.0
+BRB,Barbados,3897.0
+JOR,Jordan,
+40530,Central and Eastern Europe,6476325.81307
+40617,Northern Africa and Western Asia,28214481.00183
+BRN,Brunei Darussalam,
+BMU,Bermuda,228.0
+PSE,Palestine,86251.0
+IND,India,17647719.06326
+NRU,Nauru,1046.0
+GIB,Gibraltar,753.0
+TUV,Tuvalu,
+ARG,Argentina,
+SYC,Seychelles,1615.0
+FJI,Fiji,
+AND,Andorra,1966.0
+TON,Tonga,1238.0
+MNE,Montenegro,11715.0
+ECU,Ecuador,305138.0
+ARE,United Arab Emirates,233085.0
+MSR,Montserrat,85.0
+PRI,Puerto Rico,66358.0
+KAZ,Kazakhstan,501070.0
+CUB,Cuba,361146.0
+DZA,Algeria,2672868.0
+PLW,Palau,299.0
+COD,Democratic Republic of the Congo,
+BHR,Bahrain,36070.0
+TCA,Turks and Caicos Islands,553.0
+DJI,Djibouti,24359.0
+40656,Oceania (excluding Australia and New Zealand),223.99946
+RUS,Russian Federation,5598567.0
+UKR,Ukraine,52259.0
+NPL,Nepal,
+TLS,Timor-Leste,
+COK,Cook Islands,181.0
+MNG,Mongolia,195207.0
+VEN,Venezuela (Bolivarian Republic of),447549.0
+BMU,Bermuda,287.0
+SLB,Solomon Islands,
+VUT,Vanuatu,7314.0
+MDG,Madagascar,
+NER,Niger,190358.0
+THA,Thailand,2319677.0
+KGZ,Kyrgyzstan,311570.0
+PER,Peru,1913811.0
+40530,Central and Eastern Europe,7018710.12851
+40618,Central and Southern Asia,1267184.62104
+40650,Oceania,627075.51178
+KHM,Cambodia,347351.32554
+UZB,Uzbekistan,2125314.0
+AIA,Anguilla,
+LCA,Saint Lucia,1406.0
+DOM,Dominican Republic,413987.0
+CYM,Cayman Islands,987.0
+40675,World,184886051.29697
+BFA,Burkina Faso,149973.0
+CHN,China,46280548.0
+TTO,Trinidad and Tobago,
+JAM,Jamaica,107337.0
+EGY,Egypt,2297815.0
+NPL,Nepal,932665.0
+SYR,Syrian Arab Republic,226296.0
+40630,Latin America and the Caribbean,629370.88283
+SEN,Senegal,
+PRI,Puerto Rico,8264.0
+OMN,Oman,175981.0
+TUN,Tunisia,695193.0
+IRN,Iran (Islamic Republic of),
+40617,Northern Africa and Western Asia,31652167.78499
+BRN,Brunei Darussalam,20973.0
+QAT,Qatar,2794.0
+GIB,Gibraltar,151.0
+MDA,Republic of Moldova,7732.0
+MYS,Malaysia,
+BLZ,Belize,3472.0
+NER,Niger,481438.0
+HKG,"China, Hong Kong Special Administrative Region",69874.0
+UZB,Uzbekistan,1063202.0
+KIR,Kiribati,4100.0
+BGD,Bangladesh,
+LAO,Lao People's Democratic Republic,140311.0
+AND,Andorra,1024.0
+CIV,Côte d'Ivoire,2378563.0
+TJK,Tajikistan,
+UGA,Uganda,
+MOZ,Mozambique,
+40510,World,400871047.2272
+TCA,Turks and Caicos Islands,1427.0
+PHL,Philippines,1033390.0
+GTM,Guatemala,729984.0
+MLI,Mali,82198.0
+40525,Arab States,20881943.69721
+COM,Comoros,33820.0
+IND,India,70237606.95911
+JAM,Jamaica,93829.0
+THA,Thailand,4365.0
+VNM,Viet Nam,365751.0
+BRN,Brunei Darussalam,11884.0
+FJI,Fiji,9932.0
+KAZ,Kazakhstan,306375.0
+PLW,Palau,467.0
+HND,Honduras,
+40042,Lower middle income countries,170871211.44011
+DOM,Dominican Republic,603251.0
+40500,North America and Western Europe,16819084.0698
+NIU,Niue,19.0
+AGO,Angola,
+CUW,Curaçao,6121.0
+COM,Comoros,
+PRY,Paraguay,109558.0
+NIC,Nicaragua,131337.0
+TZA,United Republic of Tanzania,854007.0
+BIH,Bosnia and Herzegovina,4992.0
+NIU,Niue,36.0
+BLR,Belarus,30338.0
+HND,Honduras,208280.0
+COM,Comoros,11767.0
+40611,Eastern Asia,400665.62044
+KAZ,Kazakhstan,551774.0
+TTO,Trinidad and Tobago,16974.0
+DZA,Algeria,538084.0
+CUW,Curaçao,
+DZA,Algeria,270902.0
+SMR,San Marino,
+GIB,Gibraltar,135.0
+KIR,Kiribati,
+SLE,Sierra Leone,300162.0
+VEN,Venezuela (Bolivarian Republic of),
+PRY,Paraguay,1349.0
+IND,India,17026082.93674
+TTO,Trinidad and Tobago,26559.0
+GIB,Gibraltar,577.0
+PRY,Paraguay,222783.0
+SOM,Somalia,
+PLW,Palau,
+VUT,Vanuatu,
+TCA,Turks and Caicos Islands,1092.0
+MCO,Monaco,
+NIC,Nicaragua,
+40656,Oceania (excluding Australia and New Zealand),434.44157
+RWA,Rwanda,271844.0
+TCA,Turks and Caicos Islands,30.0
+GUY,Guyana,20432.0
+NIU,Niue,63.0
+TON,Tonga,5450.0
+CUW,Curaçao,3997.0
+BHS,Bahamas,1806.0
+SSD,South Sudan,
+NIC,Nicaragua,88153.0
+PAK,Pakistan,
+SLE,Sierra Leone,84340.0
+QAT,Qatar,55385.0
+PRY,Paraguay,1171.0
+SMR,San Marino,520.0
+MDG,Madagascar,82751.0
+40603,Northern Africa,84370.73422
+PAK,Pakistan,182781.0
+UKR,Ukraine,361120.0
+NPL,Nepal,289391.0
+40510,World,181147737.92679
+VGB,British Virgin Islands,230.0
+40616,Southern Asia,27837554.12988
+TZA,United Republic of Tanzania,6158.0
+BDI,Burundi,31799.0
+40614,Western Asia,606276.37766
+THA,Thailand,1580698.0
+40500,North America and Western Europe,17095559.6712
+40613,South-Eastern Asia,670592.60113
+BLZ,Belize,53.0
+40525,Arab States,5451369.63176
+40640,Northern America ,3040424.68402
+SEN,Senegal,6100.0
+40041,High income countries,5194783.8521
+PRI,Puerto Rico,
+40334,Least Developed Countries,10346171.98292
+40611,Eastern Asia,3838933.6282
+EGY,Egypt,
+MAR,Morocco,657330.0
+VNM,Viet Nam,926789.0
+LAO,Lao People's Democratic Republic,10.0
+ARM,Armenia,6781.0
+OMN,Oman,38442.0
+40618,Central and Southern Asia,47946722.44801
+40535,South and West Asia,286641.01408
+PSE,Palestine,83032.0
+ALB,Albania,31457.0
+CMR,Cameroon,228036.0
+40675,World,28866889.40646
+AZE,Azerbaijan,32965.0
+40530,Central and Eastern Europe,9613170.99734
+40620,Europe,4679217.08008
+IND,India,21807740.0
+40630,Latin America and the Caribbean,26427723.05646
+CUB,Cuba,84811.0
+JOR,Jordan,10186.0
+HKG,"China, Hong Kong Special Administrative Region",76168.0
+40030,Middle income countries,20327976.77312
+BIH,Bosnia and Herzegovina,31493.0
+SRB,Serbia,184255.0
+40510,World,12892957.46651
+PLW,Palau,177.0
+SYC,Seychelles,449.0
+ALB,Albania,28775.0
+40030,Middle income countries,73153488.34272
+40617,Northern Africa and Western Asia,16280481.49798
+GTM,Guatemala,395084.0
+TZA,United Republic of Tanzania,20476.0
+GEO,Georgia,1626.0
+MCO,Monaco,234.0
+BMU,Bermuda,
+40650,Oceania,30708.2987
+40515,East Asia and the Pacific,16013666.67896
+KAZ,Kazakhstan,328863.0
+40642,Europe and Northern America,15574784.19222
+40614,Western Asia,1948754.32054
+PHL,Philippines,2516894.0
+BLZ,Belize,2525.0
+VGB,British Virgin Islands,
+SEN,Senegal,20024.0
+QAT,Qatar,2474.0
+PSE,Palestine,15421.0
+40620,Europe,8289647.59574
+MYS,Malaysia,39906.0
+BLZ,Belize,3218.0
+40042,Lower middle income countries,62583361.82577
+KGZ,Kyrgyzstan,166360.0
+CMR,Cameroon,55446.0
+MDA,Republic of Moldova,875.0
+SMR,San Marino,511.0
+DZA,Algeria,916582.0
+ARE,United Arab Emirates,26495.0
+40334,Least Developed Countries,5730707.13147
+CHN,China,29591283.0
+CIV,Côte d'Ivoire,122895.0
+40612,Central Asia,8607.95972
+OMN,Oman,95518.0
+TUN,Tunisia,186401.0
+EGY,Egypt,1888333.0
+40619,Eastern and South-Eastern Asia,2337603.63399
+40550,Small Island Developing States,114786.58402
+BWA,Botswana,14835.0
+BGD,Bangladesh,9293.0
+ARM,Armenia,40368.0
+AND,Andorra,1212.0
+40500,North America and Western Europe,5017111.86427
+JOR,Jordan,25433.0
+BRN,Brunei Darussalam,2633.0
+MAC,"China, Macao Special Administrative Region",14608.0
+40675,World,12892957.46651
+NPL,Nepal,1667.0
+40614,Western Asia,7516132.48175
+IND,India,3355400.61292
+40043,Upper middle income countries,34091786.04733
+MDG,Madagascar,1176.0
+40515,East Asia and the Pacific,44754874.28116
+GIN,Guinea,253.0
+40611,Eastern Asia,17954048.34671
+GEO,Georgia,1797.0
+40535,South and West Asia,22062809.65945
+40505,Central Asia,1292942.82936
+40613,South-Eastern Asia,10144049.53979
+40616,Southern Asia,3932615.9857
+KHM,Cambodia,5747.0
+RWA,Rwanda,4542.0
+BFA,Burkina Faso,132462.0
+PSE,Palestine,13205.0
+40041,High income countries,12258684.70284
+CMR,Cameroon,31849.0
+MYS,Malaysia,670803.0
+SMR,San Marino,
+40042,Lower middle income countries,3769836.73563
+PHL,Philippines,15756.0
+BTN,Bhutan,
+MDA,Republic of Moldova,17546.0
+SLV,El Salvador,70224.0
+IDN,Indonesia,264260.0
+MNE,Montenegro,9384.0
+40651,Australia and New Zealand,164785.44646
+MNG,Mongolia,112451.0
+SYC,Seychelles,100.0
+CHN,China,1484045.0
+HKG,"China, Hong Kong Special Administrative Region",8607.0
+40344,Small Island Developing States,1247097.02465
+40520,Latin America and the Caribbean,125862.21008
+40530,Central and Eastern Europe,5726891.90056
+BLR,Belarus,227960.0
+ARE,United Arab Emirates,12368.0
+TUN,Tunisia,44229.0
+SXM,Sint Maarten (Dutch part),33.0
+40619,Eastern and South-Eastern Asia,53464093.25035
+TZA,United Republic of Tanzania,173005.0
+40500,North America and Western Europe,3274508.36286
+40642,Europe and Northern America,718984.5447
+PAK,Pakistan,16058.0
+40344,Small Island Developing States,483899.25965
+ALB,Albania,50104.0
+SEN,Senegal,141171.0
+40550,Small Island Developing States,698563.50726
+CUB,Cuba,32610.0
+40505,Central Asia,2555193.78308
+VGB,British Virgin Islands,
+VNM,Viet Nam,2036689.0
+GIN,Guinea,2927.0
+RWA,Rwanda,6815.0
+IND,India,18934440.12865
+MCO,Monaco,458.0
+BMU,Bermuda,
+40030,Middle income countries,1175371.29072
+BIH,Bosnia and Herzegovina,589.0
+40651,Australia and New Zealand,789853.76371
+40650,Oceania,715509.92999
+SLV,El Salvador,159896.0
+40616,Southern Asia,333512.78027
+BTN,Bhutan,5584.0
+40611,Eastern Asia,449274.13054
+EGY,Egypt,49090.0
+40530,Central and Eastern Europe,2575689.56581
+LAO,Lao People's Democratic Republic,1762.0
+40618,Central and Southern Asia,24882151.83483
+BTN,Bhutan,
+GHA,Ghana,282036.0
+SXM,Sint Maarten (Dutch part),135.0
+AZE,Azerbaijan,16166.0
+40640,Northern America ,1143138.05076
+SYC,Seychelles,1.0
+HKG,"China, Hong Kong Special Administrative Region",63499.0
+NIU,Niue,39.0
+40520,Latin America and the Caribbean,1756897.05664
+MAC,"China, Macao Special Administrative Region",31012.0
+40630,Latin America and the Caribbean,727275.4789
+ARM,Armenia,41300.0
+MNE,Montenegro,1339.0
+ARM,Armenia,379.0
+40619,Eastern and South-Eastern Asia,2661646.59861
+LBN,Lebanon,
+ALB,Albania,4343.0
+40334,Least Developed Countries,6894213.026
+UKR,Ukraine,196857.0
+EGY,Egypt,14506.0
+BHR,Bahrain,22353.0
+40614,Western Asia,4890102.83763
+40344,Small Island Developing States,82788.14391
+40515,East Asia and the Pacific,28853475.32472
+GEO,Georgia,47816.0
+CUB,Cuba,4773.0
+40603,Northern Africa,409780.87019
+CMR,Cameroon,5217.0
+40618,Central and Southern Asia,29140423.09722
+GHA,Ghana,49738.0
+BIH,Bosnia and Herzegovina,21094.0
+40613,South-Eastern Asia,10251175.04802
+OMN,Oman,8753.0
+40030,Middle income countries,8040002.65832
+40525,Arab States,6813107.22219
+CIV,Côte d'Ivoire,70875.0
+BDI,Burundi,39313.0
+40505,Central Asia,152042.75319
+LAO,Lao People's Democratic Republic,1110.0
+40500,North America and Western Europe,580263.47226
+40640,Northern America ,10098934.45487
+AZE,Azerbaijan,196896.0
+GTM,Guatemala,225289.0
+JOR,Jordan,143842.0
+40535,South and West Asia,3397565.33005
+IND,India,122150.0
+40530,Central and Eastern Europe,201092.04605
+PSE,Palestine,334.0
+THA,Thailand,897522.0
+TZA,United Republic of Tanzania,115444.0
+40611,Eastern Asia,34973131.76264
+CUB,Cuba,117260.0
+BLR,Belarus,108233.0
+BWA,Botswana,19671.0
+TCA,Turks and Caicos Islands,183.0
+40675,World,181147737.92679
+40650,Oceania,120701.01731
+EGY,Egypt,81846.0
+40620,Europe,14273733.66191
+ALB,Albania,39735.0
+SEN,Senegal,114244.0
+UKR,Ukraine,149054.0
+MDG,Madagascar,23581.0
+40619,Eastern and South-Eastern Asia,25258869.85562
+OMN,Oman,49215.0
+MCO,Monaco,369.0
+GHA,Ghana,15642.0
+MAC,"China, Macao Special Administrative Region",7847.0
+MYS,Malaysia,275879.0
+40550,Small Island Developing States,6427.1067
+MNG,Mongolia,56744.0
+40613,South-Eastern Asia,1306390.72978
+40334,Least Developed Countries,536707.8553
+KGZ,Kyrgyzstan,128779.0
+40651,Australia and New Zealand,690326.40798
+KHM,Cambodia,237243.0
+PRI,Puerto Rico,24799.0
+IDN,Indonesia,3821419.0
+UZB,Uzbekistan,590184.0
+VCT,Saint Vincent and the Grenadines,686.0
+SLV,El Salvador,13903.0
+40505,Central Asia,172352.62135
+MDA,Republic of Moldova,6510.0
+40500,North America and Western Europe,8520176.02712
+BGD,Bangladesh,207294.0
+VGB,British Virgin Islands,
+AND,Andorra,1284.0
+BLR,Belarus,149268.0
+QAT,Qatar,24233.0
+40613,South-Eastern Asia,108148.36704
+BLZ,Belize,
+40535,South and West Asia,45882644.66493
+40043,Upper middle income countries,56459352.38272
+40617,Northern Africa and Western Asia,11407528.50389
+LBN,Lebanon,
+40620,Europe,1867783.84354
+MAR,Morocco,93869.0
+40530,Central and Eastern Europe,3432614.98846
+BDI,Burundi,6591.0
+BMU,Bermuda,
+40614,Western Asia,114872.52753
+ARE,United Arab Emirates,149584.0
+40043,Upper middle income countries,17952273.3687
+SRB,Serbia,79071.0
+KGZ,Kyrgyzstan,18422.0
+THA,Thailand,57042.0
+KHM,Cambodia,107092.0
+40618,Central and Southern Asia,4019537.73889
+40630,Latin America and the Caribbean,1029621.57775
+40550,Small Island Developing States,115380.59574
+40650,Oceania,286866.22616
+MAC,"China, Macao Special Administrative Region",74.0
+40619,Eastern and South-Eastern Asia,43988073.20762
+40500,North America and Western Europe,12127789.30465
+40030,Middle income countries,17429773.13888
+40675,World,86663380.1534
+MDG,Madagascar,12468.0
+40334,Least Developed Countries,392363.72966
+VGB,British Virgin Islands,
+NPL,Nepal,34051.0
+40344,Small Island Developing States,669110.25822
+TUN,Tunisia,64277.0
+40520,Latin America and the Caribbean,727275.4789
+TZA,United Republic of Tanzania,1345.0
+MAR,Morocco,526399.0
+40617,Northern Africa and Western Asia,2223224.80825
+QAT,Qatar,2954.0
+MDA,Republic of Moldova,44227.0
+SLV,El Salvador,9315.0
+HKG,"China, Hong Kong Special Administrative Region",26168.0
+BGD,Bangladesh,3494443.0
+UZB,Uzbekistan,38883.0
+40042,Lower middle income countries,31839591.20266
+BRN,Brunei Darussalam,5579.0
+PSE,Palestine,107559.0
+40525,Arab States,820421.88145
+CMR,Cameroon,105764.0
+GTM,Guatemala,14505.0
+PAK,Pakistan,99093.0
+PHL,Philippines,67501.0
+40505,Central Asia,1613907.96734
+BDI,Burundi,203.0
+BMU,Bermuda,
+40510,World,86663380.1534
+40515,East Asia and the Pacific,586224.79628
+IND,India,17553324.29023
+ARM,Armenia,7781.0
+BTN,Bhutan,
+40043,Upper middle income countries,4242979.94733
+THA,Thailand,633295.0
+BWA,Botswana,21917.0
+BHR,Bahrain,2285.0
+40630,Latin America and the Caribbean,11092651.2252
+CHN,China,14046979.0
+40344,Small Island Developing States,119208.79156
+40642,Europe and Northern America,4741825.85313
+KGZ,Kyrgyzstan,24584.0
+40603,Northern Africa,6495761.83959
+CMR,Cameroon,70590.0
+IND,India,
+MNE,Montenegro,4269.0
+40041,High income countries,36771880.084
+RWA,Rwanda,95642.0
+GHA,Ghana,360604.0
+MAC,"China, Macao Special Administrative Region",22443.0
+UKR,Ukraine,744619.0
+OMN,Oman,2330.0
+JAM,Jamaica,12069.0
+ALB,Albania,96.0
+TZA,United Republic of Tanzania,13971.0
+40617,Northern Africa and Western Asia,1198654.04549
+40520,Latin America and the Caribbean,26427723.05646
+40640,Northern America ,4346639.17896
+PHL,Philippines,228602.0
+AND,Andorra,1308.5
+LAO,Lao People's Democratic Republic,35803.0
+BTN,Bhutan,
+BIH,Bosnia and Herzegovina,6656.0
+LBN,Lebanon,
+QAT,Qatar,15169.0
+40510,World,15973931.93995
+40525,Arab States,599920.91099
+SLV,El Salvador,88067.0
+GTM,Guatemala,24576.0
+40616,Southern Asia,286641.01408
+JOR,Jordan,325754.0
+PSE,Palestine,22014.0
+BRN,Brunei Darussalam,2023.0
+40611,Eastern Asia,1847879.63072
+SYC,Seychelles,23.0
+IDN,Indonesia,317513.0
+BTN,Bhutan,
+BGD,Bangladesh,152919.0
+AZE,Azerbaijan,134200.0
+PSE,Palestine,166027.0
+40041,High income countries,5157441.74551
+MNG,Mongolia,578.0
+MAR,Morocco,93694.0
+MYS,Malaysia,54916.0
+40642,Europe and Northern America,28211070.96692
+PER,Peru,5960.0
+MNE,Montenegro,7396.0
+40530,Central and Eastern Europe,1541489.25689
+WSM,Samoa,284.0
+40651,Australia and New Zealand,283210.71669
+ARM,Armenia,2776.0
+GTM,Guatemala,145.0
+40520,Latin America and the Caribbean,1029621.57775
+40603,Northern Africa,3122773.93001
+LBN,Lebanon,
+40630,Latin America and the Caribbean,13182318.55155
+40344,Small Island Developing States,763197.765
+EGY,Egypt,32756.0
+UKR,Ukraine,22915.0
+JOR,Jordan,10437.0
+MCO,Monaco,375.0
+THA,Thailand,13973.0
+COG,Congo,33072.0
+AND,Andorra,115.0
+BIH,Bosnia and Herzegovina,54487.0
+40043,Upper middle income countries,7823116.13672
+CIV,Côte d'Ivoire,68200.0
+CHN,China,15544304.0
+40030,Middle income countries,67399110.47561
+BRN,Brunei Darussalam,4189.0
+40334,Least Developed Countries,973523.57125
+40505,Central Asia,1262250.95372
+GEO,Georgia,110037.0
+40616,Southern Asia,7330181.31575
+LBN,Lebanon,
+PRI,Puerto Rico,54863.0
+40525,Arab States,133617.71127
+LAO,Lao People's Democratic Republic,18283.0
+40500,North America and Western Europe,3503064.16285
+SRB,Serbia,33476.0
+LAO,Lao People's Democratic Republic,652.0
+40619,Eastern and South-Eastern Asia,15834177.22042
+IDN,Indonesia,391230.0
+40042,Lower middle income countries,37516222.46765
+40041,High income countries,7063900.85074
+PSE,Palestine,8809.0
+OMN,Oman,74.0
+TUN,Tunisia,112556.0
+MYS,Malaysia,152361.0
+DZA,Algeria,666302.0
+TZA,United Republic of Tanzania,7813.0
+CUB,Cuba,3109.0
+KGZ,Kyrgyzstan,1001.0
+ARE,United Arab Emirates,167593.0
+PAK,Pakistan,83688.0
+COG,Congo,20721.0
+HKG,"China, Hong Kong Special Administrative Region",71148.0
+GHA,Ghana,247716.0
+MAC,"China, Macao Special Administrative Region",16404.0
+EGY,Egypt,3591407.0
+BLR,Belarus,33785.0
+40620,Europe,517614.42026
+CIV,Côte d'Ivoire,171021.0
+BRN,Brunei Darussalam,1036.0
+40510,World,126842083.48139
+40675,World,126842083.48139
+40550,Small Island Developing States,49116.07594
+AND,Andorra,18.0
+BLR,Belarus,2228.0
+40603,Northern Africa,592377.66782
+40043,Upper middle income countries,835156.77731
+40613,South-Eastern Asia,489724.00328
+GEO,Georgia,21241.0
+40334,Least Developed Countries,45638.19764
+SLV,El Salvador,89672.0
+MDA,Republic of Moldova,19177.0
+RWA,Rwanda,2273.0
+IND,India,6057064.3622
+BMU,Bermuda,
+MYS,Malaysia,498185.0
+NRU,Nauru,158.0
+40650,Oceania,491768.299
+40617,Northern Africa and Western Asia,199243.26175
+40500,North America and Western Europe,21865512.97787
+DZA,Algeria,65840.0
+RWA,Rwanda,66856.0
+40650,Oceania,1207278.22899
+SEN,Senegal,44643.0
+40334,Least Developed Countries,4615464.85145
+GHA,Ghana,40299.0
+BHR,Bahrain,26214.0
+ARE,United Arab Emirates,4902.0
+SLV,El Salvador,60.0
+VNM,Viet Nam,1109900.0
+NIU,Niue,20.0
+AZE,Azerbaijan,16799.0
+BWA,Botswana,3058.0
+UZB,Uzbekistan,3959.0
+CUB,Cuba,57177.0
+QAT,Qatar,370.0
+TUN,Tunisia,
+ALB,Albania,42983.0
+BRN,Brunei Darussalam,189.0
+SRB,Serbia,102842.0
+40525,Arab States,5799917.93107
+BDI,Burundi,20522.0
+40550,Small Island Developing States,1134525.08892
+MAC,"China, Macao Special Administrative Region",2687.0
+VGB,British Virgin Islands,
+CHN,China,29761249.0
+GTM,Guatemala,208229.0
+40613,South-Eastern Asia,1160316.60441
+40510,World,25282895.45997
+40520,Latin America and the Caribbean,11092651.2252
+40640,Northern America ,1897286.63326
+BLZ,Belize,70.0
+IDN,Indonesia,4514656.0
+KHM,Cambodia,116777.0
+SYC,Seychelles,644.0
+40505,Central Asia,14020.95972
+40042,Lower middle income countries,1627682.67231
+PHL,Philippines,1933084.0
+CUB,Cuba,163446.0
+40535,South and West Asia,23819835.00548
+40611,Eastern Asia,17019083.41594
+GHA,Ghana,4173.0
+40620,Europe,9822488.91631
+40640,Northern America ,8075012.38394
+ARE,United Arab Emirates,14127.0
+MDA,Republic of Moldova,11036.0
+THA,Thailand,208386.0
+BDI,Burundi,1112.0
+40618,Central and Southern Asia,479815.40161
+40630,Latin America and the Caribbean,1236529.63737
+ARM,Armenia,71732.0
+40651,Australia and New Zealand,30404.33453
+JOR,Jordan,166330.0
+KGZ,Kyrgyzstan,93642.0
+CMR,Cameroon,234396.0
+QAT,Qatar,3739.0
+CHN,China,13892728.0
+TUV,Tuvalu,
+TUN,Tunisia,64596.0
+MAR,Morocco,197665.0
+40344,Small Island Developing States,8642.15281
+40510,World,94484357.77339
+40030,Middle income countries,140552598.81833
+UKR,Ukraine,312781.0
+NPL,Nepal,224393.0
+40616,Southern Asia,3397565.33005
+AGO,Angola,167646.0
+SYC,Seychelles,195.0
+BLR,Belarus,119727.0
+40675,World,15973931.93995
+PHL,Philippines,4449978.0
+40640,Northern America ,2383865.02979
+SEN,Senegal,24619.0
+40041,High income countries,28098353.78858
+40515,East Asia and the Pacific,54558920.47934
+BTN,Bhutan,
+40043,Upper middle income countries,40636472.74473
+SXM,Sint Maarten (Dutch part),92.0
+40618,Central and Southern Asia,295248.9738
+40642,Europe and Northern America,12636286.77469
+SSD,South Sudan,
+SRB,Serbia,
+BHR,Bahrain,128.0
+40505,Central Asia,286634.31011
+JAM,Jamaica,39970.0
+LAO,Lao People's Democratic Republic,42458.0
+RWA,Rwanda,44858.0
+40651,Australia and New Zealand,1159447.97044
+TUN,Tunisia,108825.0
+MAR,Morocco,443763.0
+40520,Latin America and the Caribbean,15335071.83126
+40525,Arab States,628198.96817
+HKG,"China, Hong Kong Special Administrative Region",37331.0
+MDA,Republic of Moldova,6918.0
+40611,Eastern Asia,33844023.66783
+40530,Central and Eastern Europe,5294900.12859
+EGY,Egypt,1841071.0
+LBN,Lebanon,
+40042,Lower middle income countries,8190293.10396
+KGZ,Kyrgyzstan,61222.0
+SYC,Seychelles,176.0
+CMR,Cameroon,128632.0
+GTM,Guatemala,13713.0
+BDI,Burundi,909.0
+40535,South and West Asia,27837554.12988
+GIN,Guinea,19676.0
+SRB,Serbia,105184.0
+BMU,Bermuda,
+40616,Southern Asia,45882644.66493
+ALB,Albania,14208.0
+IND,India,2701663.74928
+MNE,Montenegro,8796.0
+40603,Northern Africa,274470.48771
+40630,Latin America and the Caribbean,1756897.05664
+CUB,Cuba,24567.0
+TON,Tonga,1619.0
+40650,Oceania,166165.20886
+40500,North America and Western Europe,9737723.67323
+COG,Congo,688.0
+UKR,Ukraine,163727.0
+BTN,Bhutan,
+OMN,Oman,1946.0
+NIC,Nicaragua,80313.0
+KHM,Cambodia,130151.0
+40617,Northern Africa and Western Asia,2166323.7286
+40618,Central and Southern Asia,7502744.62586
+TJK,Tajikistan,151005.0
+40550,Small Island Developing States,66264.5198
+BHR,Bahrain,4503.0
+CIV,Côte d'Ivoire,7025.0
+40550,Small Island Developing States,606291.34831
+BGD,Bangladesh,40427.0
+40613,South-Eastern Asia,8239786.43969
+TUN,Tunisia,4050.0
+PHL,Philippines,161101.0
+40525,Arab States,11251287.56283
+SXM,Sint Maarten (Dutch part),72.0
+VGB,British Virgin Islands,230.0
+40640,Northern America ,5752295.27591
+HKG,"China, Hong Kong Special Administrative Region",31934.0
+AND,Andorra,2520.5
+SXM,Sint Maarten (Dutch part),82.0
+PSE,Palestine,58468.0
+40620,Europe,3598687.80237
+PAK,Pakistan,1216623.0
+SYC,Seychelles,77.0
+SMR,San Marino,440.0
+40042,Lower middle income countries,279111.85705
+40510,World,2002850.40151
+JOR,Jordan,181912.0
+LAO,Lao People's Democratic Republic,17520.0
+GTM,Guatemala,28218.0
+TZA,United Republic of Tanzania,143371.0
+MDA,Republic of Moldova,33480.0
+40520,Latin America and the Caribbean,1236769.63737
+40043,Upper middle income countries,74728258.79206
+BMU,Bermuda,240.0
+GEO,Georgia,79095.0
+40612,Central Asia,146302.62135
+CUW,Curaçao,
+MNG,Mongolia,1906.0
+IND,India,36487764.41888
+CHN,China,3142729.0
+BMU,Bermuda,240.0
+SOM,Somalia,
+40614,Western Asia,4894616.82075
+GEO,Georgia,54431.0
+NIC,Nicaragua,
+40550,Small Island Developing States,435961.58166
+40619,Eastern and South-Eastern Asia,557422.49758
+CUB,Cuba,248257.0
+FJI,Fiji,18787.0
+PRI,Puerto Rico,63124.0
+ARM,Armenia,5005.0
+40650,Oceania,180067.45853
+BWA,Botswana,1287.0
+40041,High income countries,19887817.59238
+40603,Northern Africa,3372987.90958
+40675,World,2002850.40151
+MYS,Malaysia,30039.0
+40030,Middle income countries,9389770.48056
+MNE,Montenegro,
+MDG,Madagascar,94430.0
+40334,Least Developed Countries,581159.84159
+40612,Central Asia,1302868.96734
+HKG,"China, Hong Kong Special Administrative Region",137857.0
+CIV,Côte d'Ivoire,42129.0
+AZE,Azerbaijan,97258.0
+40611,Eastern Asia,1991053.99748
+OMN,Oman,4276.0
+QAT,Qatar,1265.0
+40520,Latin America and the Caribbean,13182558.55155
+PHL,Philippines,35085.0
+40535,South and West Asia,3932615.9857
+KHM,Cambodia,858.0
+RWA,Rwanda,260.0
+BGD,Bangladesh,2164475.0
+40617,Northern Africa and Western Asia,967669.68312
+AND,Andorra,43.0
+40620,Europe,18112136.51205
+SRB,Serbia,4959.0
+BRN,Brunei Darussalam,380.0
+PAK,Pakistan,
+SLV,El Salvador,8468.0
+SXM,Sint Maarten (Dutch part),7.0
+40043,Upper middle income countries,3580136.18939
+40630,Latin America and the Caribbean,15335071.83126
+CHN,China,337497.0
+40650,Oceania,823245.07354
+40344,Small Island Developing States,140148.1981
+MNG,Mongolia,25509.0
+40515,East Asia and the Pacific,25705445.15463
+KGZ,Kyrgyzstan,36638.0
+40642,Europe and Northern America,6576503.71334
+40530,Central and Eastern Europe,1891125.73156
+40619,Eastern and South-Eastern Asia,4999250.23261
+GEO,Georgia,26575.0
+BWA,Botswana,36752.0
+40675,World,25282895.45997
+MDG,Madagascar,977.0
+BIH,Bosnia and Herzegovina,14438.0
+40613,South-Eastern Asia,18490961.48771
+SEN,Senegal,218626.0
+GHA,Ghana,529752.0
+MYS,Malaysia,94822.0
+MAC,"China, Macao Special Administrative Region",5074.0
+NPL,Nepal,260111.0
+MNE,Montenegro,2930.0
+IDN,Indonesia,37747.0
+SYC,Seychelles,395.0
+40042,Lower middle income countries,30743770.62311
+BIH,Bosnia and Herzegovina,30320.0
+QAT,Qatar,34813.0
+40611,Eastern Asia,14527786.49064
+40030,Middle income countries,96942461.19776
+JOR,Jordan,1865.0
+TUN,Tunisia,122124.0
+MAR,Morocco,970162.0
+40535,South and West Asia,333512.78027
+DZA,Algeria,546903.0
+AZE,Azerbaijan,16894.0
+40642,Europe and Northern America,22348746.04585
+PAK,Pakistan,1437296.0
+PHL,Philippines,2051426.0
+LAO,Lao People's Democratic Republic,19343.0
+40640,Northern America ,201370.12443
+LSO,Lesotho,
+CIV,Côte d'Ivoire,52020.0
+BDI,Burundi,52321.0
+LBN,Lebanon,42983.0
+WSM,Samoa,739.0
+40675,World,94484357.77339
+ALB,Albania,71192.0
+40642,Europe and Northern America,4251648.87333
+KHM,Cambodia,19065.0
+40630,Latin America and the Caribbean,125862.21008
+SEN,Senegal,104382.0
+40041,High income countries,862065.69934
+40616,Southern Asia,23819835.00548
+40603,Northern Africa,3891396.02213
+MDG,Madagascar,11113.0
+BIH,Bosnia and Herzegovina,81.0
+UKR,Ukraine,730698.0
+GHA,Ghana,24657.0
+NPL,Nepal,
+40618,Central and Southern Asia,3483206.88697
+MYS,Malaysia,394924.0
+AZE,Azerbaijan,1502.0
+GTM,Guatemala,186855.0
+40515,East Asia and the Pacific,2811069.80747
+MNE,Montenegro,61.0
+BHR,Bahrain,44432.0
+CIV,Côte d'Ivoire,24921.0
+40535,South and West Asia,7330181.31575
+MNG,Mongolia,8767.0
+SRB,Serbia,18812.0
+BMU,Bermuda,
+MCO,Monaco,55.0
+40617,Northern Africa and Western Asia,8017390.75077
+KGZ,Kyrgyzstan,72718.0
+QAT,Qatar,10580.0
+BGD,Bangladesh,360213.0
+40603,Northern Africa,1002158.53801
+BWA,Botswana,1771.0
+LBN,Lebanon,179162.0
+SXM,Sint Maarten (Dutch part),
+BHR,Bahrain,18218.0
+JAM,Jamaica,11083.0
+GEO,Georgia,55606.0
+SMR,San Marino,77.0
+PRI,Puerto Rico,79487.0
+IDN,Indonesia,8274061.0
+40651,Australia and New Zealand,469121.56247
+WSM,Samoa,6.0
+40642,Europe and Northern America,11318329.56646
+BWA,Botswana,3354.0
+40041,High income countries,16884062.49163
+BLR,Belarus,5561.0
+MAR,Morocco,26004.0
+SXM,Sint Maarten (Dutch part),75.0
+BRN,Brunei Darussalam,656.0
+NPL,Nepal,63608.0
+COG,Congo,6817.0
+ARE,United Arab Emirates,303218.0
+SMR,San Marino,13.0
+MNG,Mongolia,45193.0
+BHR,Bahrain,2781.0
+GIN,Guinea,2211.0
+40616,Southern Asia,22062809.65945
+SXM,Sint Maarten (Dutch part),26.0
+COG,Congo,2225.0
+RWA,Rwanda,50784.0
+DZA,Algeria,369679.0
+40614,Western Asia,1164165.19059
+AND,Andorra,11.0
+GIN,Guinea,61502.0
+SEN,Senegal,6070.0
+BLZ,Belize,1653.0
+MCO,Monaco,10.0
+40651,Australia and New Zealand,171902.59649
+PAK,Pakistan,2538768.0
+EGY,Egypt,1750336.0
+40515,East Asia and the Pacific,5260607.45877
+40619,Eastern and South-Eastern Asia,28205223.39473
+CMR,Cameroon,38741.0
+KHM,Cambodia,2718.0
+GIN,Guinea,716.0
+PRI,Puerto Rico,134350.0
+SMR,San Marino,58.0
+40530,Central and Eastern Europe,11021792.02915
+BWA,Botswana,195.0
+BGD,Bangladesh,1907461.0
+MDG,Madagascar,162560.0
+UKR,Ukraine,369578.0
+NPL,Nepal,513784.0
+JOR,Jordan,15247.0
+SXM,Sint Maarten (Dutch part),
+LBN,Lebanon,
+40614,Western Asia,557888.81293
+40525,Arab States,1448620.84962
+BLZ,Belize,17.0
+GIN,Guinea,41826.0
+40618,Central and Southern Asia,23064570.61317
+SXM,Sint Maarten (Dutch part),
+TZA,United Republic of Tanzania,258815.0
+40620,Europe,8277904.88245
+MDG,Madagascar,79809.0
+JAM,Jamaica,28887.0
+PAK,Pakistan,1322145.0
+40614,Western Asia,9784719.65838
+40515,East Asia and the Pacific,2449537.6513
+RWA,Rwanda,11270.0
+THA,Thailand,947403.0
+MNE,Montenegro,16780.0
+OMN,Oman,57076.0
+MNG,Mongolia,67258.0
+WSM,Samoa,550.0
+AZE,Azerbaijan,99638.0
+HKG,"China, Hong Kong Special Administrative Region",147316.0
+CIV,Côte d'Ivoire,17208.0
+MCO,Monaco,141.0
+40617,Northern Africa and Western Asia,8263090.74721
+BIH,Bosnia and Herzegovina,22994.0
+40042,Lower middle income countries,4420456.36833
+BGD,Bangladesh,1586982.0
+40510,World,28866889.40646
+ARM,Armenia,31364.0
+MCO,Monaco,621.0
+NPL,Nepal,29557.0
+PRI,Puerto Rico,
+BRN,Brunei Darussalam,6822.0
+SRB,Serbia,52288.0
+WSM,Samoa,1471.0
+THA,Thailand,98910.0
+BLR,Belarus,5022.0
+VGB,British Virgin Islands,
+40505,Central Asia,134591.55692
+BLR,Belarus,10583.0
+ARE,United Arab Emirates,739.0
+TLS,Timor-Leste,23182.0
+BLZ,Belize,2329.0
+SLV,El Salvador,22371.0
+ARE,United Arab Emirates,153634.0
+BHR,Bahrain,1722.0
+MAC,"China, Macao Special Administrative Region",12921.0
+COG,Congo,7071.0
+40344,Small Island Developing States,57360.05419
+COG,Congo,11318.0
+NIC,Nicaragua,3058.0
+KHM,Cambodia,8465.0
+WSM,Samoa,401.0
+MAR,Morocco,103971.0
+MDA,Republic of Moldova,25050.0
+AND,Andorra,72.0
+PRI,Puerto Rico,8261.0
+CHN,China,1658684.0
+BTN,Bhutan,
+WSM,Samoa,2021.0
+SXM,Sint Maarten (Dutch part),
+MNG,Mongolia,16742.0
+WSM,Samoa,117.0
+SMR,San Marino,332.0
+SMR,San Marino,772.0
+IDN,Indonesia,4452642.0
+BLZ,Belize,676.0
+40651,Australia and New Zealand,118425.27023
+VGB,British Virgin Islands,
+THA,Thailand,41868.0
+PRI,Puerto Rico,16538.0
+IDN,Indonesia,581773.0
+MCO,Monaco,252.0
+NIC,Nicaragua,
+PRY,Paraguay,113225.0
+CUW,Curaçao,2141.0
+COG,Congo,4846.0
+TLS,Timor-Leste,
+NIC,Nicaragua,478.0
+SMR,San Marino,135.0
+COG,Congo,4501.0
+UZB,Uzbekistan,531839.0
+40612,Central Asia,85641.55692
+40612,Central Asia,1001760.95372
+40612,Central Asia,172563.31011
+40612,Central Asia,86921.75319
+UZB,Uzbekistan,1009272.0
+40612,Central Asia,2064077.78308
+40612,Central Asia,1062316.82936
+UZB,Uzbekistan,477433.0
+UZB,Uzbekistan,15503.0
+UZB,Uzbekistan,17326.0
+UZB,Uzbekistan,32829.0
+SOM,Somalia,
+SOM,Somalia,
+SOM,Somalia,
+COG,Congo,
+COG,Congo,
+COG,Congo,
+PLW,Palau,90.0
+KIR,Kiribati,4561.0
+KIR,Kiribati,4561.0
+PLW,Palau,382.0
+KIR,Kiribati,4400.0
+KIR,Kiribati,4400.0
+PLW,Palau,292.0
+CUW,Curaçao,3339.0
+CUW,Curaçao,1632.0
+CUW,Curaçao,1707.0
+CUW,Curaçao,3339.0
+CUW,Curaçao,1707.0
+CUW,Curaçao,1632.0
+DZA,Algeria,37790.0
+DZA,Algeria,66971.0
+DZA,Algeria,29181.0
+DZA,Algeria,201602.0
+DZA,Algeria,535259.0
+DZA,Algeria,333657.0
+GMB,Gambia,2602.0
+GMB,Gambia,66793.0
+GMB,Gambia,138885.0
+GMB,Gambia,1340.0
+GMB,Gambia,72092.0
+GMB,Gambia,1262.0
+SOM,Somalia,
+TLS,Timor-Leste,19354.0
+NIC,Nicaragua,103073.0
+TLS,Timor-Leste,145.0
+TLS,Timor-Leste,92.0
+TLS,Timor-Leste,38275.0
+NIC,Nicaragua,5149.0
+NIC,Nicaragua,2380.0
+TLS,Timor-Leste,18921.0
+NIC,Nicaragua,177470.0
+TLS,Timor-Leste,53.0
+TLS,Timor-Leste,4169.0
+NIC,Nicaragua,74397.0
+NIC,Nicaragua,2769.0
