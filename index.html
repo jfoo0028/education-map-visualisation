@@ -66,11 +66,13 @@
                                 "type": "log",
                                 "scheme": "blues"
                             },
-                            "title": "Enrollment"
+                            "legend": {
+                                "title": "Enrollment (log scale)"
+                            }
                         },
                         "tooltip": [
-                            {"field": "Country", "type": "nominal", "title": "Country"},
-                            {"field": "enrollment", "type": "quantitative", "title": "Enrollment"}
+                            {"field": "Country", "type": "nominal"},
+                            {"field": "enrollment", "type": "quantitative", "format": ",.0f"}
                         ]
                     }
                 }
