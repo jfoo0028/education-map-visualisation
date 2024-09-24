@@ -1,89 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pre-primary Education Enrollment Map (Latest Available Data)</title>
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-</head>
-<body>
-    <div id="vis"></div>
-    <script>
-        const spec = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "title": "Pre-primary Education Enrollment (Latest Available Data)",
-            "width": 800,
-            "height": 400,
-            "projection": {
-                "type": "equalEarth"
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Pre-primary Education Enrollment (Latest Available Data)",
+  "width": 800,
+  "height": 400,
+  "projection": {
+    "type": "equalEarth"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/vega/vega-datasets/master/data/world-110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white"
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_countries_only.csv"
+      },
+      "transform": [
+        {
+          "lookup": "id",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/vega/vega-datasets/master/data/country-codes.json"
             },
-            "layer": [
-                {
-                    "data": {
-                        "url": "https://raw.githubusercontent.com/vega/vega-datasets/master/data/world-110m.json",
-                        "format": {
-                            "type": "topojson",
-                            "feature": "countries"
-                        }
-                    },
-                    "mark": {
-                        "type": "geoshape",
-                        "fill": "lightgray",
-                        "stroke": "white"
-                    }
-                },
-                {
-                    "data": {
-                        "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_countries_only.csv"
-                    },
-                    "transform": [
-                        {
-                            "lookup": "id",
-                            "from": {
-                                "data": {
-                                    "url": "https://raw.githubusercontent.com/vega/vega-datasets/master/data/world-110m.json",
-                                    "format": {
-                                        "type": "topojson",
-                                        "feature": "countries"
-                                    }
-                                },
-                                "key": "id",
-                                "fields": ["type", "properties", "geometry"]
-                            }
-                        },
-                        {
-                            "calculate": "datum.enrollment > 0 ? datum.enrollment : null",
-                            "as": "valid_enrollment"
-                        }
-                    ],
-                    "mark": {
-                        "type": "geoshape"
-                    },
-                    "encoding": {
-                        "shape": {"field": "geometry", "type": "geojson"},
-                        "color": {
-                            "field": "valid_enrollment",
-                            "type": "quantitative",
-                            "scale": {
-                                "type": "log",
-                                "scheme": "blues"
-                            },
-                            "legend": {
-                                "title": "Enrollment (log scale)"
-                            }
-                        },
-                        "tooltip": [
-                            {"field": "Country", "type": "nominal"},
-                            {"field": "enrollment", "type": "quantitative", "title": "Enrollment"},
-                            {"field": "Time", "type": "temporal", "title": "Year"}
-                        ]
-                    }
-                }
-            ]
-        };
-        vegaEmbed('#vis', spec);
-    </script>
-</body>
-</html>
+            "key": "alpha3",
+            "fields": ["numeric"]
+          }
+        },
+        {
+          "lookup": "numeric",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/vega/vega-datasets/master/data/world-110m.json",
+              "format": {
+                "type": "topojson",
+                "feature": "countries"
+              }
+            },
+            "key": "id"
+          },
+          "as": "geo"
+        },
+        {
+          "calculate": "datum.enrollment > 0 ? datum.enrollment : null",
+          "as": "valid_enrollment"
+        }
+      ],
+      "mark": {
+        "type": "geoshape"
+      },
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+          "field": "valid_enrollment",
+          "type": "quantitative",
+          "scale": {
+            "type": "log",
+            "scheme": "blues"
+          },
+          "legend": {
+            "title": "Enrollment (log scale)"
+          }
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "valid_enrollment", "type": "quantitative", "title": "Enrollment", "format": ",.0f"},
+          {"field": "Time", "type": "temporal", "title": "Year", "timeUnit": "year"}
+        ]
+      }
+    }
+  ]
+}
