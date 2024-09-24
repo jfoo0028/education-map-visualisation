@@ -13,12 +13,29 @@
     <script>
         const spec = {
             "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "title": "Pre-primary Education Enrollment (2023)",
+            "title": "Pre-primary Education Enrollment (Latest Available Data)",
             "width": 800,
             "height": 400,
             "projection": {
                 "type": "equalEarth"
             },
+            "data": {
+                "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_latest.csv"
+            },
+            "transform": [
+                {
+                    "calculate": "datum.id.length === 3 ? datum.id : null",
+                    "as": "country_code"
+                },
+                {
+                    "calculate": "datum.enrollment > 0 ? datum.enrollment : null",
+                    "as": "valid_enrollment"
+                },
+                {
+                    "calculate": "datum.valid_enrollment ? datum.valid_enrollment : 'No data'",
+                    "as": "enrollment_display"
+                }
+            ],
             "layer": [
                 {
                     "data": {
@@ -35,32 +52,16 @@
                     }
                 },
                 {
-                    "data": {
-                        "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_countries_only.csv"
-                    },
-                    "transform": [
-                        {
-                            "lookup": "id",
-                            "from": {
-                                "data": {
-                                    "url": "https://raw.githubusercontent.com/vega/vega-datasets/master/data/world-110m.json",
-                                    "format": {
-                                        "type": "topojson",
-                                        "feature": "countries"
-                                    }
-                                },
-                                "key": "id"
-                            },
-                            "as": "geo"
-                        }
-                    ],
                     "mark": {
                         "type": "geoshape"
                     },
                     "encoding": {
-                        "shape": {"field": "geo", "type": "geojson"},
+                        "shape": {
+                            "field": "country_code",
+                            "type": "geojson"
+                        },
                         "color": {
-                            "field": "enrollment",
+                            "field": "valid_enrollment",
                             "type": "quantitative",
                             "scale": {
                                 "type": "log",
@@ -72,7 +73,8 @@
                         },
                         "tooltip": [
                             {"field": "Country", "type": "nominal"},
-                            {"field": "enrollment", "type": "quantitative", "format": ",.0f"}
+                            {"field": "enrollment_display", "type": "nominal", "title": "Enrollment"},
+                            {"field": "Time", "type": "temporal", "title": "Year"}
                         ]
                     }
                 }
