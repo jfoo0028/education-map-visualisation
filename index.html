@@ -11,7 +11,6 @@
         body { font-family: Arial, sans-serif; }
         .vis-container { display: flex; justify-content: space-around; flex-wrap: wrap; }
         .vis { width: 800px; margin: 20px; }
-        select { margin: 10px 0; }
     </style>
 </head>
 <body>
@@ -19,15 +18,6 @@
     <div class="vis-container">
         <div class="vis">
             <h2>Pre-primary Education Enrollment Map (2023)</h2>
-            <select id="regionFilter">
-                <option value="All">All Regions</option>
-                <option value="Europe">Europe</option>
-                <option value="Asia">Asia</option>
-                <option value="Africa">Africa</option>
-                <option value="North America">North America</option>
-                <option value="South America">South America</option>
-                <option value="Oceania">Oceania</option>
-            </select>
             <div id="map"></div>
         </div>
         <div class="vis">
@@ -35,6 +25,7 @@
             <div id="scatterplot"></div>
         </div>
     </div>
+
     <script>
         const mapSpec = {
             "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -54,96 +45,29 @@
                             "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_countries_only.csv"
                         },
                         "key": "Country",
-                        "fields": ["enrollment", "Region"]
+                        "fields": ["enrollment"]
                     }
                 },
                 {
                     "calculate": "datum.enrollment > 0 ? datum.enrollment : null",
                     "as": "enrollment"
-                },
-                {
-                    "filter": "regionSelection == 'All' || datum.Region == regionSelection"
                 }
             ],
-            "mark": { "type": "geoshape" },
+            "mark": { 
+                "type": "geoshape" 
+            },
             "encoding": {
                 "color": {
                     "field": "enrollment",
                     "type": "quantitative",
-                    "scale": {
-                        "type": "log",
-                        "scheme": "blues"
+                    "scale": { 
+                        "type": "log", 
+                        "scheme": "blues" 
                     },
-                    "legend": { "title": "Enrollment (log scale)" }
+                    "legend": { 
+                        "title": "Enrollment (log scale)" 
+                    }
                 },
                 "tooltip": [
-                    {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-                    {"field": "enrollment", "type": "quantitative", "format": ".0f"}
-                ]
-            },
-            "params": [
-                {
-                    "name": "regionSelection",
-                    "value": "All",
-                    "bind": {
-                        "input": "select",
-                        "options": ["All", "Europe", "Asia", "Africa", "North America", "South America", "Oceania"],
-                        "labels": ["All Regions", "Europe", "Asia", "Africa", "North America", "South America", "Oceania"],
-                        "element": "#regionFilter"
-                    }
-                }
-            ],
-            "layer": [
-                {"mark": {"type": "geoshape"}},
-                {
-                    "mark": {
-                        "type": "text",
-                        "align": "right",
-                        "dx": -10,
-                        "dy": -10,
-                        "fontSize": 8
-                    },
-                    "encoding": {
-                        "text": {"field": "properties.NAME", "type": "nominal"},
-                        "opacity": {
-                            "condition": {"test": "datum.properties.NAME == 'United States of America' || datum.properties.NAME == 'China' || datum.properties.NAME == 'India'", "value": 1},
-                            "value": 0
-                        }
-                    }
-                }
-            ]
-        };
-
-        const scatterplotSpec = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "title": "Education Spending vs. Literacy Rate",
-            "width": 600,
-            "height": 400,
-            "data": {
-                "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/education_spending_literacy.csv"
-            },
-            "mark": "point",
-            "encoding": {
-                "x": {
-                    "field": "Education Spending (% of GDP)",
-                    "type": "quantitative",
-                    "title": "Education Spending (% of GDP)"
-                },
-                "y": {
-                    "field": "Literacy Rate",
-                    "type": "quantitative",
-                    "title": "Literacy Rate (%)"
-                },
-                "tooltip": [
-                    {"field": "Country", "type": "nominal"},
-                    {"field": "Education Spending (% of GDP)", "type": "quantitative", "format": ".2f"},
-                    {"field": "Literacy Rate", "type": "quantitative", "format": ".1f"}
-                ]
-            }
-        };
-
-        vegaEmbed('#map', mapSpec);
-        vegaEmbed('#scatterplot', scatterplotSpec);
-    </script>
-</body>
-</html>
+                    {"field": "properties.NAME", "type": "nominal",  "title": "Country"},
+                    {"field": "enrollment", "type": "quantitative",
