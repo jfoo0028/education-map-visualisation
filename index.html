@@ -25,7 +25,7 @@
                 {
                     // Ocean background
                     "data": {
-                        "url": "https://github.com/jfoo0028/education-map-visualisation/blob/main/topoocean.topojson",
+                        "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/main/topoocean.topojson",
                         "format": {"type": "topojson", "feature": "ocean"}
                     },
                     "mark": {"type": "geoshape", "fill": "lightblue"}
@@ -51,32 +51,31 @@
                                     "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_countries_only.csv"
                                 },
                                 "key": "Country",
-                                "fields": ["enrollment"]
+                                // Ensure your CSV includes this field
+                                "fields": ["enrollment_per_capita"]
                             }
-                        },
-                        {
-                            "calculate": "datum.enrollment > 0 ? datum.enrollment : null", 
-                            "as": "enrollment"
                         }
                     ],
                     "mark": {
                         "type": "geoshape"
                     },
                     "encoding": {
+                        // Use normalized data for color encoding
                         "color": {
-                            "field": "enrollment",
+                            "field": "enrollment_per_capita",
                             "type": "quantitative",
                             "scale": {
                                 "type": "log",
                                 "scheme": "blues"
                             },
                             "legend": {
-                                "title": "Enrollment (log scale)"
+                                "title": "Enrollment per 1,000 People (log scale)"
                             }
                         },
+                        // Update tooltip to show normalized data
                         "tooltip": [
-                            {"field": "properties.NAME", "type": "nominal",  "title": "Country"},
-                            {"field": "enrollment", "type": "quantitative",  "title": "Enrollment",  format: ".0f"}
+                            {"field":  properties.NAME,  type:  nominal,  title:  Country},
+                            {"field":"enrollment_per_capita", type: quantitative, title: Enrollment per 1,000 People, format: ".2f"}
                         ]
                     }
                 }
