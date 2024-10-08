@@ -84,60 +84,49 @@
     };
 
     const barSpec = {
-        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": "Top 20 Countries by Pre-primary Education Enrollment (2023)",
-        "data": {
-            "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_countries_only.csv"
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "title": "Top 20 Countries by Pre-primary Education Enrollment (2023)",
+      "data": {
+        "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_countries_only.csv"
+      },
+      "transform": [
+        {"filter": "datum.enrollment > 0"},
+        {"window": [{"op": "rank", "as": "rank"}], "sort": [{"field": "enrollment", "order": "descending"}]},
+        {"filter": "datum.rank <= 20"}
+      ],
+      "width": 600,
+      "height": 400,
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "Country",
+          "type": "nominal",
+          "sort": "-x",
+          "axis": {"title": null}
         },
-        "transform": [
-            {"filter": "datum.enrollment > 0"},
-            {"window": [{"op": "rank", "as": "rank"}], "sort": [{"field": "enrollment", "order": "descending"}]},
-            {"filter": "datum.rank <= 20"}
-        ],
-        "width": 600,
-        "height": 400,
-        "mark": "bar",
-        "encoding": {
-            "y": {
-                "field": "Country",
-                "type": "nominal",
-                "sort": "-x",
-                "axis": {"title": null}
-            },
-            "x": {
-                "field": "enrollment",
-                "type": "quantitative",
-                "axis": {"title": "Enrollment"}
-            },
-            "color": {
-                "field": "enrollment",
-                "type": "quantitative",
-                "scale": {"scheme": "blues"},
-                "legend": null
-            },
-            "tooltip": [
-                {"field": "Country", "type": "nominal"},
-                {"field": "enrollment", "type": "quantitative", "format": ".0f", "title": "Enrollment"}
-            ]
+        "x": {
+          "field": "enrollment",
+          "type": "quantitative",
+          "axis": {"title": "Enrollment"}
         },
-        "selection": {
-            "highlight": {"type": "single", "empty": "none", "on": "mouseover"},
-            "select": {"type": "multi"}
+        "color": {
+          "field": "enrollment",
+          "type": "quantitative",
+          "scale": {"scheme": "blues"},
+          "legend": null
         },
-        "transform": [
-            {"filter": {"selection": "select"}}
-        ],
-        "mark": {"type": "bar", "fill": "#4C78A8", "stroke": "black", "cursor": "pointer"},
-        "encoding": {
-            "opacity": {
-                "condition": {"selection": "highlight", "value": 1},
-                "value": 0.7
-            },
-            "fillOpacity": {
-                "condition": {"selection": "select", "value": 1},
-                "value": 0.5
-            }
-        }
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "enrollment", "type": "quantitative", "format": ",.0f", "title": "Enrollment"}
+        ]
+      },
+      "selection": {
+        "highlight": {"type": "single", "empty": "none", "on": "mouseover"}
+      },
+      "opacity": {
+        "condition": {"selection": "highlight", "value": 1},
+        "value": 0.7
+      }
     };
 
     vegaEmbed('#map-vis', mapSpec);
