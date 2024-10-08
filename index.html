@@ -90,7 +90,7 @@
         "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_countries_only.csv"
       },
       "transform": [
-        {"filter": "datum.enrollment > 0"},
+        {"filter": "datum.enrollment != null && datum.enrollment > 0"},
         {"window": [{"op": "rank", "as": "rank"}], "sort": [{"field": "enrollment", "order": "descending"}]},
         {"filter": "datum.rank <= 20"}
       ],
