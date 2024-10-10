@@ -8,7 +8,76 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
     <style>
-        /* Your existing styles here */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5f0;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #a63603;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #e6550d;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        .vis-container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(166, 54, 3, 0.1);
+            padding: 20px;
+            margin-bottom: 40px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .chart-container {
+            width: 100%;
+            min-width: 300px;
+        }
+        .description-container {
+            width: 100%;
+            min-width: 300px;
+            padding-top: 20px;
+        }
+        #map-vis {
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        #map-vis > div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        #bar-vis, #continent-bar-vis {
+            width: 100%;
+            height: 400px;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .vis-container {
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -17,34 +86,34 @@
     
         <div class="vis-container">
             <div class="chart-container">
-                <h2>Pre-primary Education Enrollment Rate Map</h2>
+                <h2>Pre-primary Education Enrollment Map</h2>
                 <div id="map-vis"></div>
             </div>
             <div class="description-container">
                 <h2>Description</h2>
-                <p>This map visualizes pre-primary education enrollment rates across different countries. The color intensity represents the enrollment rate per 1,000 population, with darker shades indicating higher rates. This normalized perspective helps identify regional trends and disparities in early childhood education access while accounting for population differences.</p>
+                <p>This map visualizes pre-primary education enrollment across different countries. The color intensity represents the enrollment numbers, with darker shades indicating higher enrollment. This global perspective helps identify regional trends and disparities in early childhood education access.</p>
             </div>
         </div>
     
         <div class="vis-container">
             <div class="chart-container">
-                <h2>Top 20 Countries by Enrollment Rate</h2>
+                <h2>Top 20 Countries by Enrollment</h2>
                 <div id="bar-vis"></div>
             </div>
             <div class="description-container">
                 <h2>Description</h2>
-                <p>This bar chart showcases the top 20 countries with the highest pre-primary education enrollment rates per 1,000 population. It provides a clear comparison of enrollment rates among leading nations, highlighting which countries are at the forefront of early childhood education initiatives relative to their population size.</p>
+                <p>This bar chart showcases the top 20 countries with the highest pre-primary education enrollment. It provides a clear comparison of enrollment numbers among leading nations, highlighting which countries are at the forefront of early childhood education initiatives.</p>
             </div>
         </div>
 
         <div class="vis-container">
             <div class="chart-container">
-                <h2>Pre-primary Education Enrollment Rate by Continent</h2>
+                <h2>Pre-primary Education Enrollment by Continent</h2>
                 <div id="continent-bar-vis"></div>
             </div>
             <div class="description-container">
                 <h2>Description</h2>
-                <p>This chart breaks down pre-primary education enrollment rates by continent. It offers insights into how different regions prioritize early childhood education relative to their population sizes, allowing for continental comparisons and potentially revealing socio-economic factors influencing enrollment rates.</p>
+                <p>This chart breaks down pre-primary education enrollment by continent. It offers insights into how different regions prioritize early childhood education, allowing for continental comparisons and potentially revealing socio-economic factors influencing enrollment rates.</p>
             </div>
         </div>
     </div>
@@ -52,7 +121,7 @@
     <script>
     const mapSpec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": "Pre-primary Education Enrollment Rate per 1,000 Population (2023)",
+        "title": "Pre-primary Education Enrollment Map (2023)",
         "width": "container",
         "height": "container",
         "autosize": {
@@ -82,24 +151,28 @@
                         "lookup": "properties.NAME",
                         "from": {
                             "data": {
-                                "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/enrollment_per_1000_population.csv"
+                                "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_countries_only.csv"
                             },
                             "key": "Country",
-                            "fields": ["Enrollment_per_1000"]
+                            "fields": ["enrollment"]
                         }
+                    },
+                    {
+                        "calculate": "datum.enrollment > 0 ? datum.enrollment : null",
+                        "as": "enrollment"
                     }
                 ],
                 "mark": {"type": "geoshape"},
                 "encoding": {
                     "color": {
-                        "field": "Enrollment_per_1000",
+                        "field": "enrollment",
                         "type": "quantitative",
                         "scale": {"type": "log", "scheme": "oranges"},
-                        "legend": {"title": "Enrollment Rate per 1,000 Population (log scale)"}
+                        "legend": {"title": "Enrollment (log scale)"}
                     },
                     "tooltip": [
                         {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-                        {"field": "Enrollment_per_1000", "type": "quantitative", "title": "Enrollment Rate per 1,000", "format": ".2f"}
+                        {"field": "enrollment", "type": "quantitative", "title": "Enrollment", "format": ".0f"}
                     ]
                 }
             }
@@ -108,13 +181,14 @@
 
     const barSpec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": "Top 20 Countries by Pre-primary Education Enrollment Rate (2023)",
+        "title": "Top 20 Countries by Pre-primary Education Enrollment (2023)",
         "data": {
-            "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/enrollment_per_1000_population.csv"
+            "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/main/preprimary_enrollment_countries_only.csv"
         },
         "transform": [
-            {"filter": "datum.Enrollment_per_1000 > 0"},
-            {"window": [{"op": "rank", "as": "rank"}], "sort": [{"field": "Enrollment_per_1000", "order": "descending"}]},
+            {"calculate": "isValid(datum.enrollment) ? toNumber(datum.enrollment) : 0", "as": "enrollmentNumber"},
+            {"filter": "datum.enrollmentNumber > 0"},
+            {"window": [{"op": "rank", "as": "rank"}], "sort": [{"field": "enrollmentNumber", "order": "descending"}]},
             {"filter": "datum.rank <= 20"}
         ],
         "width": "container",
@@ -128,19 +202,19 @@
                 "axis": {"title": null}
             },
             "x": {
-                "field": "Enrollment_per_1000",
+                "field": "enrollmentNumber",
                 "type": "quantitative",
-                "axis": {"title": "Enrollment Rate per 1,000 Population", "format": ",.1f"}
+                "axis": {"title": "Enrollment", "format": ",.0f"}
             },
             "color": {
-                "field": "Enrollment_per_1000",
+                "field": "enrollmentNumber",
                 "type": "quantitative",
                 "scale": {"scheme": "oranges"},
                 "legend": null
             },
             "tooltip": [
                 {"field": "Country", "type": "nominal"},
-                {"field": "Enrollment_per_1000", "type": "quantitative", "format": ",.1f", "title": "Enrollment Rate per 1,000"}
+                {"field": "enrollmentNumber", "type": "quantitative", "format": ",.0f", "title": "Enrollment"}
             ]
         },
         "selection": {
@@ -154,19 +228,11 @@
 
     const continentBarSpec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": "Pre-primary Education Enrollment Rate by Continent (2023)",
+        "title": "Pre-primary Education Enrollment by Continent (2023)",
         "data": {
-            "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/enrollment_per_1000_population.csv"
+            "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/cleaned_continent_data.csv"
         },
         "transform": [
-            {
-                "aggregate": [{
-                    "op": "mean",
-                    "field": "Enrollment_per_1000",
-                    "as": "avg_enrollment_rate"
-                }],
-                "groupby": ["Continent"]
-            },
             {"filter": "datum.Continent != null"},
             {
                 "filter": {
@@ -191,19 +257,19 @@
                 }
             },
             "y": {
-                "field": "avg_enrollment_rate",
+                "field": "enrollment",
                 "type": "quantitative",
-                "title": "Average Enrollment Rate per 1,000 Population"
+                "title": "Enrollment"
             },
             "color": {
-                "field": "avg_enrollment_rate",
+                "field": "enrollment",
                 "type": "quantitative",
                 "scale": {"scheme": "oranges"},
                 "legend": null
             },
             "tooltip": [
                 {"field": "Continent", "type": "nominal", "title": "Continent"},
-                {"field": "avg_enrollment_rate", "type": "quantitative", "title": "Avg. Enrollment Rate per 1,000", "format": ",.1f"}
+                {"field": "enrollment", "type": "quantitative", "title": "Enrollment", "format": ","}
             ]
         },
         "params": [
