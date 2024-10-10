@@ -151,14 +151,14 @@
                         "lookup": "properties.NAME",
                         "from": {
                             "data": {
-                                "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/preprimary_enrollment_countries_only.csv"
+                                "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/enrollment_per_1000_population.csv"
                             },
                             "key": "Country",
-                            "fields": ["enrollment"]
+                            "fields": ["Enrollment_per_1000"]
                         }
                     },
                     {
-                        "calculate": "datum.enrollment > 0 ? datum.enrollment : null",
+                        "calculate": "datum.Enrollment_per_1000 > 0 ? datum.Enrollment_per_1000 : null",
                         "as": "enrollment"
                     }
                 ],
@@ -168,11 +168,11 @@
                         "field": "enrollment",
                         "type": "quantitative",
                         "scale": {"type": "log", "scheme": "oranges"},
-                        "legend": {"title": "Enrollment (log scale)"}
+                        "legend": {"title": "Enrollment per 1000 population (log scale)"}
                     },
                     "tooltip": [
                         {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-                        {"field": "enrollment", "type": "quantitative", "title": "Enrollment", "format": ".0f"}
+                        {"field": "enrollment", "type": "quantitative", "title": "Enrollment per 1000 population", "format": ".1f"}
                     ]
                 }
             }
