@@ -12,7 +12,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f4f8;
+            background-color: #fff5f0;
             color: #333;
         }
         .container {
@@ -21,13 +21,13 @@
             padding: 20px;
         }
         h1 {
-            color: #2a6592;
+            color: #a63603;
             text-align: center;
             margin-bottom: 30px;
             font-size: 2.5em;
         }
         h2 {
-            color: #3a7ca5;
+            color: #e6550d;
             margin-top: 0;
             margin-bottom: 20px;
             font-size: 1.8em;
@@ -35,7 +35,7 @@
         .vis-container {
             background-color: #ffffff;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(166, 54, 3, 0.1);
             padding: 20px;
             margin-bottom: 40px;
             display: flex;
@@ -53,7 +53,7 @@
         #map-vis {
             width: 100%;
             height: 0;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            padding-bottom: 56.25%;
             position: relative;
         }
         #map-vis > div {
@@ -82,7 +82,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Education Enrollment Visualizations</h1>
+        <h1>Education Enrollment Visualizations (Red-Orange Theme)</h1>
     
         <div class="vis-container">
             <div class="chart-container">
@@ -135,7 +135,7 @@
                 "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
                 "format": { "type": "topojson", "feature": "oceans" }
               },
-              "mark": { "type": "geoshape", "fill": "skyblue" }
+              "mark": { "type": "geoshape", "fill": "#ffe0b2" }
             },
             {
                 "data": {"graticule": true},
@@ -167,7 +167,7 @@
                     "color": {
                         "field": "enrollment",
                         "type": "quantitative",
-                        "scale": {"type": "log", "scheme": "blues"},
+                        "scale": {"type": "log", "scheme": "oranges"},
                         "legend": {"title": "Enrollment (log scale)"}
                     },
                     "tooltip": [
@@ -209,7 +209,7 @@
             "color": {
                 "field": "enrollmentNumber",
                 "type": "quantitative",
-                "scale": {"scheme": "blues"},
+                "scale": {"scheme": "oranges"},
                 "legend": null
             },
             "tooltip": [
@@ -260,6 +260,12 @@
                 "field": "enrollment",
                 "type": "quantitative",
                 "title": "Enrollment"
+            },
+            "color": {
+                "field": "enrollment",
+                "type": "quantitative",
+                "scale": {"scheme": "oranges"},
+                "legend": null
             },
             "tooltip": [
                 {"field": "Continent", "type": "nominal", "title": "Continent"},
