@@ -32,6 +32,12 @@
             margin-bottom: 20px;
             font-size: 1.8em;
         }
+        .quote {
+            font-style: italic;
+            text-align: center;
+            color: #a63603;
+            margin-bottom: 30px;
+        }
         .vis-container {
             background-color: #ffffff;
             border-radius: 8px;
@@ -93,6 +99,7 @@
 <body>
     <div class="container">
         <h1>Education Enrollment Visualizations</h1>
+        <p class="quote">"Education is the most powerful weapon which you can use to change the world." — Nelson Mandela</p>
     
         <div class="vis-container">
             <div class="chart-container">
@@ -104,9 +111,9 @@
             </div>
             <div class="description-container">
                 <h2>Description</h2>
-                <p>This world map visualizes pre-primary education enrollment per 1000 people across different countries as of 2023. The color intensity represents the enrollment rates, with darker orange shades indicating higher enrollment per capita. Countries are colored on a logarithmic scale ranging from less than 1 to over 100 enrollments per 1000 population.
-This visualization offers a global perspective on early childhood education participation, highlighting regional trends and disparities. It allows for quick identification of countries with high pre-primary enrollment rates, such as several African nations, parts of South America, and some European countries, as well as areas with lower participation rates.
-The map provides valuable insights into the prioritization of early childhood education across different regions and can be used to inform policy discussions, identify areas for improvement, and compare educational approaches globally. It's important to note that while this data shows enrollment rates, it doesn't reflect the quality of education or other factors influencing early childhood development.</p>
+                <p>This world map visualizes pre-primary education enrollment per 1000 people across different countries as of 2023. The color intensity represents the enrollment rates, with darker orange shades indicating higher enrollment per capita. Countries are colored on a logarithmic scale ranging from less than 1 to over 100 enrollments per 1000 population.</p>
+                <p>This visualization offers a global perspective on early childhood education participation, highlighting regional trends and disparities. It allows for quick identification of countries with high pre-primary enrollment rates, as well as areas with lower participation rates.</p>
+                <p>The map provides valuable insights into the prioritization of early childhood education across different regions and can be used to inform policy discussions, identify areas for improvement, and compare educational approaches globally. It's important to note that while this data shows enrollment rates, it doesn't reflect the quality of education or other factors influencing early childhood development.</p>
             </div>
         </div>
     
@@ -276,7 +283,7 @@ The map provides valuable insights into the prioritization of early childhood ed
                 "field": "Continent",
                 "type": "nominal",
                 "axis": {
-                    "labelAngle": 30,
+                    "labelAngle": 0,
                     "labelPadding": 10,
                     "labelFontSize": 12
                 }
