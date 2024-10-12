@@ -151,13 +151,6 @@
             "contains": "padding"
         },
         "projection": {"type": "equalEarth"},
-        "params": [
-            {
-                "name": "country_search",
-                "bind": {"input": "text", "placeholder": "Search for a country"},
-                "value": ""
-            }
-        ],
         "layer": [
             {
               "data": {
@@ -189,9 +182,6 @@
                     {
                         "calculate": "datum.Enrollment_per_1000 > 0 ? datum.Enrollment_per_1000 : null",
                         "as": "enrollment"
-                    },
-                    {
-                        "filter": "!country_search || test(regexp(country_search, 'i'), datum.properties.NAME)"
                     }
                 ],
                 "mark": {"type": "geoshape"},
@@ -324,7 +314,11 @@
     vegaEmbed('#map-vis', mapSpec).then((result) => {
         const view = result.view;
         document.getElementById('country-search').addEventListener('input', function(event) {
-            view.signal('country_search', event.target.value).run();
+            const searchTerm = event.target.value.toLowerCase();
+            view.data('ne_110m_admin_0_countries_topojson', view.data('ne_110m_admin_0_countries_topojson').filter(d => 
+                d.properties.NAME.toLowerCase().includes(searchTerm)
+            ));
+            view.runAsync();
         });
     });
     vegaEmbed('#bar-vis', barSpec);
