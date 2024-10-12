@@ -62,16 +62,7 @@
         }
         #map-vis {
             width: 100%;
-            height: 0;
-            padding-bottom: 56.25%;
-            position: relative;
-        }
-        #map-vis > div {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            height: 500px;
         }
         #bar-vis, #continent-bar-vis {
             width: 100%;
@@ -106,6 +97,7 @@
             <div class="description">
                 <p>This world map visualizes pre-primary education enrollment per 1000 people across different countries as of 2023. The color intensity represents the enrollment rates, with darker orange shades indicating higher enrollment per capita. Countries are colored on a logarithmic scale ranging from less than 1 to over 100 enrollments per 1000 population.</p>
                 <p>This visualization offers a global perspective on early childhood education participation, highlighting regional trends and disparities. It allows for quick identification of countries with high pre-primary enrollment rates, as well as areas with lower participation rates.</p>
+                <p>The map provides valuable insights into the prioritization of early childhood education across different regions and can be used to inform policy discussions, identify areas for improvement, and compare educational approaches globally. It's important to note that while this data shows enrollment rates, it doesn't reflect the quality of education or other factors influencing early childhood development.</p>
             </div>
         </div>
     
@@ -127,8 +119,175 @@
     </div>
 
     <script>
-    // Your existing JavaScript code for the visualizations goes here
-    // (mapSpec, barSpec, continentBarSpec, and vegaEmbed calls)
+    const mapSpec = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": "Pre-primary Education Enrollment Map (2023)",
+        "width": "container",
+        "height": 400,
+        "projection": {"type": "equalEarth"},
+        "layer": [
+            {
+              "data": {
+                "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+                "format": { "type": "topojson", "feature": "oceans" }
+              },
+              "mark": { "type": "geoshape", "fill": "skyblue" }
+            },
+            {
+                "data": {"graticule": true},
+                "mark": {"type": "geoshape", "stroke": "#ccc"}
+            },
+            {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/ne_110m_admin_0_countries.topojson",
+                    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+                },
+                "transform": [
+                    {
+                        "lookup": "properties.NAME",
+                        "from": {
+                            "data": {
+                                "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/enrollment_per_1000_population.csv"
+                            },
+                            "key": "Country",
+                            "fields": ["Enrollment_per_1000"]
+                        }
+                    },
+                    {
+                        "calculate": "datum.Enrollment_per_1000 > 0 ? datum.Enrollment_per_1000 : null",
+                        "as": "enrollment"
+                    }
+                ],
+                "mark": {"type": "geoshape"},
+                "encoding": {
+                    "color": {
+                        "field": "enrollment",
+                        "type": "quantitative",
+                        "scale": {"type": "log", "scheme": "oranges"},
+                        "legend": {"title": "Enrollment per 1000 population (log scale)"}
+                    },
+                    "tooltip": [
+                        {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+                        {"field": "enrollment", "type": "quantitative", "title": "Enrollment per 1000 population", "format": ".1f"}
+                    ]
+                }
+            }
+        ]
+    };
+
+    const barSpec = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": "Top 20 Countries by Pre-primary Education Enrollment (2023)",
+        "data": {
+            "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/main/preprimary_enrollment_countries_only.csv"
+        },
+        "transform": [
+            {"calculate": "isValid(datum.enrollment) ? toNumber(datum.enrollment) : 0", "as": "enrollmentNumber"},
+            {"filter": "datum.enrollmentNumber > 0"},
+            {"window": [{"op": "rank", "as": "rank"}], "sort": [{"field": "enrollmentNumber", "order": "descending"}]},
+            {"filter": "datum.rank <= 20"}
+        ],
+        "width": "container",
+        "height": 400,
+        "mark": "bar",
+        "encoding": {
+            "y": {
+                "field": "Country",
+                "type": "nominal",
+                "sort": "-x",
+                "axis": {"title": null}
+            },
+            "x": {
+                "field": "enrollmentNumber",
+                "type": "quantitative",
+                "axis": {"title": "Enrollment", "format": ",.0f"}
+            },
+            "color": {
+                "field": "enrollmentNumber",
+                "type": "quantitative",
+                "scale": {"scheme": "oranges"},
+                "legend": null
+            },
+            "tooltip": [
+                {"field": "Country", "type": "nominal"},
+                {"field": "enrollmentNumber", "type": "quantitative", "format": ",.0f", "title": "Enrollment"}
+            ]
+        },
+        "selection": {
+            "highlight": {"type": "single", "empty": "none", "on": "mouseover"}
+        },
+        "opacity": {
+            "condition": {"selection": "highlight", "value": 1},
+            "value": 0.7
+        }
+    };
+
+    const continentBarSpec = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": "Pre-primary Education Enrollment by Continent (2023)",
+        "data": {
+            "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/cleaned_continent_data.csv"
+        },
+        "transform": [
+            {"filter": "datum.Continent != null"},
+            {
+                "filter": {
+                    "or": [
+                        {"param": "continent_selection", "empty": true},
+                        {"param": "continent_selection", "field": "Continent"}
+                    ]
+                }
+            }
+        ],
+        "width": "container",
+        "height": 400,
+        "mark": "bar",
+        "encoding": {
+            "x": {
+                "field": "Continent",
+                "type": "nominal",
+                "axis": {
+                    "labelAngle": 0,
+                    "labelPadding": 10,
+                    "labelFontSize": 12
+                }
+            },
+            "y": {
+                "field": "enrollment",
+                "type": "quantitative",
+                "title": "Enrollment"
+            },
+            "color": {
+                "field": "enrollment",
+                "type": "quantitative",
+                "scale": {"scheme": "oranges"},
+                "legend": null
+            },
+            "tooltip": [
+                {"field": "Continent", "type": "nominal", "title": "Continent"},
+                {"field": "enrollment", "type": "quantitative", "title": "Enrollment", "format": ","}
+            ]
+        },
+        "params": [
+            {
+                "name": "continent_selection",
+                "select": {
+                    "type": "point",
+                    "fields": ["Continent"]
+                },
+                "bind": {
+                    "input": "select",
+                    "options": [null, "Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
+                    "labels": ["All", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
+                    "name": "Select Continent: "
+                }
+            }
+        ]
+    };
+
+    vegaEmbed('#map-vis', mapSpec);
+    vegaEmbed('#bar-vis', barSpec);
+    vegaEmbed('#continent-bar-vis', continentBarSpec);
     </script>
 </body>
 </html>
