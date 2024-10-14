@@ -104,9 +104,6 @@
         <div class="vis-container">
             <div class="chart-container">
                 <h2>Pre-primary Education Enrollment Map</h2>
-                <div class="search-container">
-                    <input type="text" id="country-search" placeholder="Search for a country...">
-                </div>
                 <div id="map-vis"></div>
             </div>
             <div class="description-container">
@@ -138,79 +135,95 @@
                 <p>This chart breaks down pre-primary education enrollment by continent. It offers insights into how different regions prioritize early childhood education, allowing for continental comparisons and potentially revealing socio-economic factors influencing enrollment rates.</p>
             </div>
         </div>
+
+        <div class="vis-container">
+            <div class="chart-container">
+                <h2>Pre-primary Education Enrollment by Gender (World)</h2>
+                <div id="gender-enrollment-vis"></div>
+            </div>
+            <div class="description-container">
+                <h2>Description</h2>
+                <p>This chart displays the pre-primary education enrollment by gender worldwide from 2017 to 2023. It allows for comparison between male and female enrollment rates over time, highlighting any gender disparities in early childhood education access.</p>
+                <p>Use the slider to adjust the starting year of the data displayed, providing a dynamic view of enrollment trends. The chart offers insights into global efforts towards gender equality in education and the overall growth of pre-primary enrollment.</p>
+            </div>
+        </div>
     </div>
 
     <script>
-    const mapSpec = {
-        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": "Pre-primary Education Enrollment Map (2023)",
-        "width": "container",
-        "height": "container",
-        "autosize": {
-            "type": "fit",
-            "contains": "padding"
-        },
-        "projection": {"type": "equalEarth"},
-        "params": [
-            {
+        const mapSpec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "title": "Pre-primary Education Enrollment Map (2023)",
+            "width": "container",
+            "height": "container",
+            "autosize": {
+              "type": "fit",
+              "contains": "padding"
+            },
+            "projection": { "type": "equalEarth" },
+            "params": [
+              {
                 "name": "country_search",
-                "bind": {"input": "text", "placeholder": "Search for a country"},
+                "bind": {
+                  "input": "text",
+                  "placeholder": "Search for a country",
+                  "name": "Select Country: "
+                },
                 "value": ""
-            }
-        ],
-        "layer": [
-            {
-              "data": {
-                "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
-                "format": { "type": "topojson", "feature": "oceans" }
-              },
-              "mark": { "type": "geoshape", "fill": "skyblue" }
-            },
-            {
-                "data": {"graticule": true},
-                "mark": {"type": "geoshape", "stroke": "#ccc"}
-            },
-            {
+              }
+            ],
+            "layer": [
+              {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/ne_110m_admin_0_countries.topojson",
-                    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+                  "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+                  "format": { "type": "topojson", "feature": "oceans" }
+                },
+                "mark": { "type": "geoshape", "fill": "skyblue" }
+              },
+              {
+                "data": { "graticule": true },
+                "mark": { "type": "geoshape", "stroke": "#ccc" }
+              },
+              {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/ne_110m_admin_0_countries.topojson",
+                  "format": { "type": "topojson", "feature": "ne_110m_admin_0_countries" }
                 },
                 "transform": [
-                    {
-                        "lookup": "properties.NAME",
-                        "from": {
-                            "data": {
-                                "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/enrollment_per_1000_population.csv"
-                            },
-                            "key": "Country",
-                            "fields": ["Enrollment_per_1000"]
-                        }
-                    },
-                    {
-                        "calculate": "datum.Enrollment_per_1000 > 0 ? datum.Enrollment_per_1000 : null",
-                        "as": "enrollment"
-                    },
-                    {
-                        "filter": "!country_search || test(regexp(country_search, 'i'), datum.properties.NAME)"
+                  {
+                    "lookup": "properties.NAME",
+                    "from": {
+                      "data": {
+                        "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/enrollment_per_1000_population.csv"
+                      },
+                      "key": "Country",
+                      "fields": ["Enrollment_per_1000"]
                     }
+                  },
+                  {
+                    "calculate": "datum.Enrollment_per_1000 > 0 ? datum.Enrollment_per_1000 : null",
+                    "as": "enrollment"
+                  },
+                  {
+                    "filter": "!country_search || test(regexp(country_search, 'i'), datum.properties.NAME)"  // Use "country_search" as filter name
+                  }
                 ],
-                "mark": {"type": "geoshape"},
+                "mark": { "type": "geoshape" },
                 "encoding": {
-                    "color": {
-                        "field": "enrollment",
-                        "type": "quantitative",
-                        "scale": {"type": "log", "scheme": "oranges"},
-                        "legend": {"title": "Enrollment per 1000 population (log scale)"}
-                    },
-                    "tooltip": [
-                        {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-                        {"field": "enrollment", "type": "quantitative", "title": "Enrollment per 1000 population", "format": ".1f"}
-                    ]
+                  "color": {
+                    "field": "enrollment",
+                    "type": "quantitative",
+                    "scale": { "type": "log", "scheme": "oranges" },
+                    "legend": { "title": "Enrollment per 1000 population (log scale)" }
+                  },
+                  "tooltip": [
+                    { "field": "properties.NAME", "type": "nominal", "title": "Country" },
+                    { "field": "enrollment", "type": "quantitative", "title": "Enrollment per 1000 population", "format": ".1f" }
+                  ]
                 }
-            }
-        ]
-    };
-
+              }
+            ]
+        };
+          
     const barSpec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "title": "Top 20 Countries by Pre-primary Education Enrollment (2023)",
@@ -321,6 +334,68 @@
         ]
     };
 
+    const genderBarSpec = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": "Pre-primary Education Enrollment by Gender (World)",
+        "width": 600,
+        "height": 400,
+        "data": {
+          "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/cleaned_gender_enrolment.csv"
+        },
+        "params": [
+          {
+            "name": "min_year",
+            "value": 2017,
+            "bind": {
+              "input": "range",
+              "min": 2017,
+              "max": 2023,
+              "step": 1,
+              "name": "Year Range (Max: 2023)"
+            }
+          }
+        ],
+        "transform": [
+          {"filter": "datum.Time >= min_year && datum.Time <= 2023"}
+        ],
+        "mark": "bar",
+        "encoding": {
+          "x": {
+            "field": "Time",
+            "type": "ordinal",
+            "title": "Year",
+            "axis": {
+              "labelAngle": 0
+            }
+          },
+          "y": {
+            "field": "Value",
+            "type": "quantitative",
+            "title": "Enrollment",
+            "axis": {"format": ",.0f"}
+          },
+          "color": {
+            "field": "Gender",
+            "type": "nominal",
+            "scale": {
+              "domain": ["female", "male"],
+              "range": ["#FF69B4", "#4169E1"]
+            },
+            "title": "Gender"
+          },
+          "xOffset": {"field": "Gender"},
+          "tooltip": [
+            {"field": "Time", "type": "ordinal", "title": "Year"},
+            {"field": "Gender", "type": "nominal", "title": "Gender"},
+            {"field": "Value", "type": "quantitative", "title": "Enrollment", "format": ",.0f"}
+          ]
+        },
+        "config": {
+          "view": {"stroke": null},
+          "axis": {"grid": false}
+        }
+      }
+
     vegaEmbed('#map-vis', mapSpec).then((result) => {
         const view = result.view;
         document.getElementById('country-search').addEventListener('input', function(event) {
@@ -329,6 +404,7 @@
     });
     vegaEmbed('#bar-vis', barSpec);
     vegaEmbed('#continent-bar-vis', continentBarSpec);
+    vegaEmbed('#gender-enrollment-vis', genderBarSpec);
     </script>
 </body>
 </html>
