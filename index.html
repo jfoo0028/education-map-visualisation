@@ -128,7 +128,7 @@
         <div class="vis-container">
             <div class="chart-container">
                 <h2>Pre-primary Education Enrollment by Continent</h2>
-                <div id="continent-bar-vis"></div>
+                <div id="continent-pie-vis"></div>
             </div>
             <div class="description-container">
                 <h2>Description</h2>
@@ -147,7 +147,21 @@
                 <p>Use the slider to adjust the starting year of the data displayed, providing a dynamic view of enrollment trends. The chart offers insights into global efforts towards gender equality in education and the overall growth of pre-primary enrollment.</p>
             </div>
         </div>
+
+        <div class="vis-container">
+            <div class="chart-container">
+                <h2>Pre-primary Education Enrollment by Income Group</h2>
+                <div id="income-group-bubble-vis"></div>
+            </div>
+            <div class="description-container">
+                <h2>Description</h2>
+                <p>This bubble chart illustrates pre-primary education enrollment across different income groups from 2017 to 2023. The size of each bubble represents the enrollment number, while different colors represent various income groups. This visualization allows for easy comparison of enrollment trends among different economic categories over time.</p>
+                <p>The chart provides insights into how economic factors might influence early childhood education participation globally. It can help identify patterns such as whether higher-income countries consistently have higher enrollment rates or if there are notable changes in enrollment for specific income groups over the years.</p>
+            </div>
+        </div>
     </div>
+
+
 
     <script>
         const mapSpec = {
@@ -271,7 +285,7 @@
         }
     };
 
-    const continentBarSpec = {
+    const continentPieSpec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "title": "Pre-primary Education Enrollment by Continent (2023)",
         "data": {
@@ -288,35 +302,26 @@
                 }
             }
         ],
-        "width": "container",
+        "width": 400,
         "height": 400,
-        "mark": "bar",
+        "mark": {"type": "arc", "innerRadius": 50},
         "encoding": {
-            "x": {
-                "field": "Continent",
-                "type": "nominal",
-                "axis": {
-                    "labelAngle": 0,
-                    "labelPadding": 10,
-                    "labelFontSize": 12
-                }
-            },
-            "y": {
+            "theta": {
                 "field": "enrollment",
                 "type": "quantitative",
-                "title": "Enrollment"
+                "stack": true
             },
             "color": {
-                "field": "enrollment",
-                "type": "quantitative",
-                "scale": {"scheme": "oranges"},
-                "legend": null
+                "field": "Continent",
+                "type": "nominal",
+                "scale": {"scheme": "category10"}
             },
             "tooltip": [
                 {"field": "Continent", "type": "nominal", "title": "Continent"},
                 {"field": "enrollment", "type": "quantitative", "title": "Enrollment", "format": ","}
             ]
         },
+        "view": {"stroke": null},
         "params": [
             {
                 "name": "continent_selection",
@@ -396,6 +401,56 @@
         }
       }
 
+    const incomeGroupBubbleSpec = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": "Pre-primary Education Enrollment by Income Group (2017-2023)",
+        "width": 600,
+        "height": 400,
+        "data": {
+            "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/enrollment_income_groups.csv"
+        },
+        "mark": "circle",
+        "encoding": {
+            "x": {
+                "field": "Time",
+                "type": "ordinal",
+                "title": "Year"
+            },
+            "y": {
+                "field": "Value",
+                "type": "quantitative",
+                "title": "Enrollment",
+                "axis": {"format": "~s"}
+            },
+            "size": {
+                "field": "Value",
+                "type": "quantitative",
+                "scale": {
+                    "range": [100, 5000]
+                },
+                "legend": null
+            },
+            "color": {
+                "field": "Country",
+                "type": "nominal",
+                "title": "Income Group",
+                "scale": {
+                    "domain": ["Low income countries", "Lower middle income countries", "Upper middle income countries", "High income countries"],
+                    "range": ["#e41a1c", "#377eb8", "#984ea3", "#ff7f00"]
+                }
+            },
+            "tooltip": [
+                {"field": "Country", "type": "nominal", "title": "Income Group"},
+                {"field": "Time", "type": "ordinal", "title": "Year"},
+                {"field": "Value", "type": "quantitative", "title": "Enrollment", "format": ","}
+            ]
+        },
+        "config": {
+            "view": {"stroke": null}
+        }
+    };
+
+
     vegaEmbed('#map-vis', mapSpec).then((result) => {
         const view = result.view;
         document.getElementById('country-search').addEventListener('input', function(event) {
@@ -403,8 +458,9 @@
         });
     });
     vegaEmbed('#bar-vis', barSpec);
-    vegaEmbed('#continent-bar-vis', continentBarSpec);
+    vegaEmbed('#continent-pie-vis', continentPieSpec);
     vegaEmbed('#gender-enrollment-vis', genderBarSpec);
+    vegaEmbed('#income-group-bubble-vis', incomeGroupBubbleSpec);
     </script>
 </body>
 </html>
