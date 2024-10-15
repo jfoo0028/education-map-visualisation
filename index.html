@@ -16,7 +16,7 @@
             color: #333;
         }
         .container {
-            max-width: 1200px;
+            width: 1000px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -44,16 +44,12 @@
             box-shadow: 0 4px 6px rgba(166, 54, 3, 0.1);
             padding: 20px;
             margin-bottom: 40px;
-            display: flex;
-            flex-wrap: wrap;
         }
         .chart-container {
             width: 100%;
-            min-width: 300px;
         }
         .description-container {
             width: 100%;
-            min-width: 300px;
             padding-top: 20px;
         }
         #map-vis {
@@ -69,7 +65,7 @@
             right: 0;
             bottom: 0;
         }
-        #bar-vis, #continent-bar-vis {
+        #bar-vis, #continent-pie-vis, #gender-enrollment-vis, #income-group-bubble-vis {
             width: 100%;
             height: 400px;
         }
@@ -83,15 +79,47 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #666;
+            background-color: #f5f5f5;
+            border-top: 1px solid #ddd;
+        }
+        .footer a {
+            color: #a63603;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .pie-chart-section {
+            margin-bottom: 40px;
+        }
+        
+        .pie-chart-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        
+        #continent-pie-vis {
+            flex: 0 0 400px;
+            height: 400px;
+        }
+        
+        .pie-description {
+            flex: 1;
+        }
+        
         @media (max-width: 768px) {
-            h1 {
-                font-size: 2em;
+            .pie-chart-container {
+                flex-direction: column;
             }
-            h2 {
-                font-size: 1.5em;
-            }
-            .vis-container {
-                padding: 10px;
+        
+            #continent-pie-vis {
+                width: 100%;
             }
         }
     </style>
@@ -100,68 +128,56 @@
     <div class="container">
         <h1>Education Enrollment Visualizations</h1>
         <p class="quote">"Education is the most powerful weapon which you can use to change the world." — Nelson Mandela</p>
+        
+        <div class="vis-container">
+            <h2>Pre-primary Education Enrollment Visualizations</h2>
+            
+            <div class="chart-section">
+                <h3>Countries by Pre-primary Education Enrollment</h3>
+                <div id="bar-vis" class="chart"></div>
+                <p class="description">This chart showcases the top 20 or bottom 20 countries according to their pre-primary education enrollment numbers. Based on the top 20 bar chart, <b>India</b> and <b>China</b> are among the countries with the highest number of enrollments, whereas for the Bottom 20 bar chart, <b>Tokelau</b> and <b>Niue</b> are among the countries with the lowest number of enrollments.</p>
+            </div>
     
-        <div class="vis-container">
-            <div class="chart-container">
-                <h2>Pre-primary Education Enrollment Map</h2>
-                <div id="map-vis"></div>
+            <div class="chart-section">
+                <h3>Pre-primary Education Enrollment Map</h3>
+                <div id="map-vis" class="chart"></div>
+                <p class="description"><br>This world map visualizes <b>Enrollment Rate per 1000 people</b> across different countries as of 2023. The color intensity represents the enrollment rates, with darker orange shades indicating higher enrollment per capita. Countries are colored on a logarithmic scale ranging from less than 1 to over 100 enrollments per 1000 population.</p>
+                <p class="description">Using the "Select Country" filter, we can see that Malaysia has an enrollment rate of <b>27.8 per 1000 people</b>, which is higher than the average for countries worldwide. This suggests that Malaysia places a strong emphasis on early childhood education compared to many other nations.</p>
             </div>
-            <div class="description-container">
-                <h2>Description</h2>
-                <p>This world map visualizes pre-primary education enrollment per 1000 people across different countries as of 2023. The color intensity represents the enrollment rates, with darker orange shades indicating higher enrollment per capita. Countries are colored on a logarithmic scale ranging from less than 1 to over 100 enrollments per 1000 population.</p>
-                <p>This visualization offers a global perspective on early childhood education participation, highlighting regional trends and disparities. It allows for quick identification of countries with high pre-primary enrollment rates, as well as areas with lower participation rates.</p>
-                <p>The map provides valuable insights into the prioritization of early childhood education across different regions and can be used to inform policy discussions, identify areas for improvement, and compare educational approaches globally. It's important to note that while this data shows enrollment rates, it doesn't reflect the quality of education or other factors influencing early childhood development.</p>
-            </div>
-        </div>
     
-        <div class="vis-container">
-            <div class="chart-container">
-                <h2>Top 20 Countries by Enrollment</h2>
-                <div id="bar-vis"></div>
+            <div class="chart-section pie-chart-section">
+                <h3>Pre-primary Education Enrollment by Continent</h3>
+                <div class="pie-chart-container">
+                    <div id="continent-pie-vis" class="chart"></div>
+                    <div class="pie-description">
+                        <p>This chart illustrates the distribution of pre-primary education enrollment across continents in 2023. <b>Asia</b> dominates the chart with a significantly larger share, roughly <strong>115.819K</strong> enrollments. Asia's lead in pre-primary education enrollment is driven by its large population, a cultural emphasis on early education, and increased investment in educational infrastructure.</p>
+                    </div>
+                </div>
             </div>
-            <div class="description-container">
-                <h2>Description</h2>
-                <p>This bar chart showcases the top 20 countries with the highest pre-primary education enrollment. It provides a clear comparison of enrollment numbers among leading nations, highlighting which countries are at the forefront of early childhood education initiatives.</p>
+    
+            <br>
+            <div class="chart-section">
+                <h3>Pre-primary Education Enrollment by Gender (World)</h3>
+                <div id="gender-enrollment-vis" class="chart"></div>
+                <p class="description">This chart compares pre-primary education enrollment between males and females globally from 2017 to 2023. The visualization reveals a remarkable trend towards <b>gender parity in early childhood education.</b> Over this period, the enrollment numbers for both genders remain consistently close, with only slight variations. This near-equal representation suggests significant progress in providing equitable access to pre-primary education worldwide, regardless of gender. Users can adjust the year range using the slider, allowing for a more detailed examination of enrollment trends and any subtle shifts in gender balance over time. The chart not only highlights the current state of gender equality in early education but also reflects global efforts to ensure inclusive and accessible pre-primary schooling for all children.</p>
             </div>
-        </div>
-
-        <div class="vis-container">
-            <div class="chart-container">
-                <h2>Pre-primary Education Enrollment by Continent</h2>
-                <div id="continent-pie-vis"></div>
-            </div>
-            <div class="description-container">
-                <h2>Description</h2>
-                <p>This chart breaks down pre-primary education enrollment by continent. It offers insights into how different regions prioritize early childhood education, allowing for continental comparisons and potentially revealing socio-economic factors influencing enrollment rates.</p>
-            </div>
-        </div>
-
-        <div class="vis-container">
-            <div class="chart-container">
-                <h2>Pre-primary Education Enrollment by Gender (World)</h2>
-                <div id="gender-enrollment-vis"></div>
-            </div>
-            <div class="description-container">
-                <h2>Description</h2>
-                <p>This chart displays the pre-primary education enrollment by gender worldwide from 2017 to 2023. It allows for comparison between male and female enrollment rates over time, highlighting any gender disparities in early childhood education access.</p>
-                <p>Use the slider to adjust the starting year of the data displayed, providing a dynamic view of enrollment trends. The chart offers insights into global efforts towards gender equality in education and the overall growth of pre-primary enrollment.</p>
+    
+            <div class="chart-section">
+                <h3>Pre-primary Education Enrollment by Income Group</h3>
+                <div id="income-group-bubble-vis" class="chart"></div>
+                <p class="description">The size of each bubble represents the enrollment number, while different colors represent various income groups. It can be said that <b>upper and lower middle income countries</b> focus on education more compared the low and high income countries.</p>
+                <p>Upper and lower middle income countries are often in a phase of rapid economic growth and development. During this stage, there's typically:</p>
+                <ul>
+                    <li>Increased investment in human capital, including education, to support economic advancement.</li>
+                    <li>A growing middle class with higher aspirations for their children's education and future prospects.</li>
+                </ul>
             </div>
         </div>
 
-        <div class="vis-container">
-            <div class="chart-container">
-                <h2>Pre-primary Education Enrollment by Income Group</h2>
-                <div id="income-group-bubble-vis"></div>
-            </div>
-            <div class="description-container">
-                <h2>Description</h2>
-                <p>This bubble chart illustrates pre-primary education enrollment across different income groups from 2017 to 2023. The size of each bubble represents the enrollment number, while different colors represent various income groups. This visualization allows for easy comparison of enrollment trends among different economic categories over time.</p>
-                <p>The chart provides insights into how economic factors might influence early childhood education participation globally. It can help identify patterns such as whether higher-income countries consistently have higher enrollment rates or if there are notable changes in enrollment for specific income groups over the years.</p>
-            </div>
+        <div class="footer">
+            <p>Foo Jia Wei, Bryan. 10/10/2024. Data from <a href="https://data.uis.unesco.org/index.aspx?queryid=3813">Unesco</a>. Source code on <a href="https://github.com/jfoo0028/education-map-visualisation">GitHub</a>.</p>
         </div>
     </div>
-
-
 
     <script>
         const mapSpec = {
@@ -240,50 +256,67 @@
           
     const barSpec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": "Top 20 Countries by Pre-primary Education Enrollment (2023)",
+        "title": "Countries by Pre-primary Education Enrollment (2023)",
         "data": {
-            "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/main/preprimary_enrollment_countries_only.csv"
+          "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/main/preprimary_enrollment_countries_only.csv"
         },
+        "params": [
+          {
+            "name": "rankType",
+            "value": "top",
+            "bind": {
+              "input": "radio",
+              "options": ["top", "bottom"],
+              "labels": ["Top 20", "Bottom 20"],
+              "name": "Select Ranking: "
+            }
+          }
+        ],
         "transform": [
-            {"calculate": "isValid(datum.enrollment) ? toNumber(datum.enrollment) : 0", "as": "enrollmentNumber"},
-            {"filter": "datum.enrollmentNumber > 0"},
-            {"window": [{"op": "rank", "as": "rank"}], "sort": [{"field": "enrollmentNumber", "order": "descending"}]},
-            {"filter": "datum.rank <= 20"}
+          {"calculate": "isValid(datum.enrollment) ? toNumber(datum.enrollment) : 0", "as": "enrollmentNumber"},
+          {"filter": "datum.enrollmentNumber > 0"},
+          {
+            "window": [
+              {"op": "rank", "as": "rank"},
+              {"op": "count", "as": "totalCount"}
+            ],
+            "sort": [{"field": "enrollmentNumber", "order": "descending"}]
+          },
+          {
+            "filter": "rankType === 'top' ? datum.rank <= 20 : datum.rank >= datum.totalCount - 19"
+          },
+          {
+            "filter": "rankType === 'bottom' ? datum.rank >= 173 : datum.rank >= datum.totalCount - 19"
+          }
         ],
         "width": "container",
         "height": 400,
         "mark": "bar",
         "encoding": {
-            "y": {
-                "field": "Country",
-                "type": "nominal",
-                "sort": "-x",
-                "axis": {"title": null}
-            },
-            "x": {
-                "field": "enrollmentNumber",
-                "type": "quantitative",
-                "axis": {"title": "Enrollment", "format": ",.0f"}
-            },
-            "color": {
-                "field": "enrollmentNumber",
-                "type": "quantitative",
-                "scale": {"scheme": "oranges"},
-                "legend": null
-            },
-            "tooltip": [
-                {"field": "Country", "type": "nominal"},
-                {"field": "enrollmentNumber", "type": "quantitative", "format": ",.0f", "title": "Enrollment"}
-            ]
-        },
-        "selection": {
-            "highlight": {"type": "single", "empty": "none", "on": "mouseover"}
-        },
-        "opacity": {
-            "condition": {"selection": "highlight", "value": 1},
-            "value": 0.7
+          "y": {
+            "field": "Country",
+            "type": "nominal",
+            "sort": {"field": "enrollmentNumber", "order": {"expr": "rankType === 'top' ? 'descending' : 'ascending'"}},
+            "axis": {"title": null}
+          },
+          "x": {
+            "field": "enrollmentNumber",
+            "type": "quantitative",
+            "axis": {"title": "Enrollment", "format": ",.0f"}
+          },
+          "color": {
+            "field": "enrollmentNumber",
+            "type": "quantitative",
+            "scale": {"scheme": "oranges"},
+            "legend": null
+          },
+          "tooltip": [
+            {"field": "Country", "type": "nominal"},
+            {"field": "enrollmentNumber", "type": "quantitative", "format": ",.0f", "title": "Enrollment"}
+          ]
         }
-    };
+      };
+      
 
     const continentPieSpec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
