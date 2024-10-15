@@ -336,17 +336,6 @@
         "data": {
             "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/cleaned_continent_data.csv"
         },
-        "transform": [
-            {"filter": "datum.Continent != null"},
-            {
-                "filter": {
-                    "or": [
-                        {"param": "continent_selection", "empty": true},
-                        {"param": "continent_selection", "field": "Continent"}
-                    ]
-                }
-            }
-        ],
         "width": 400,
         "height": 400,
         "mark": {"type": "arc", "innerRadius": 50},
@@ -367,21 +356,6 @@
             ]
         },
         "view": {"stroke": null},
-        "params": [
-            {
-                "name": "continent_selection",
-                "select": {
-                    "type": "point",
-                    "fields": ["Continent"]
-                },
-                "bind": {
-                    "input": "select",
-                    "options": [null, "Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
-                    "labels": ["All", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"],
-                    "name": "Select Continent: "
-                }
-            }
-        ]
     };
 
     const genderBarSpec = {
