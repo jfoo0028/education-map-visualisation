@@ -175,10 +175,10 @@
             </div>
     
             <div class="chart-section">
-                <h3>Pre-primary Education Enrollment by Income Group</h3>
-                <div id="income-group-bubble-vis" class="chart"></div>
-                <p class="description">The size of each bubble represents the enrollment number, while different colors represent various income groups. It can be said that <b>upper and lower middle income countries</b> focus on education more compared the low and high income countries.</p>
-                <p>Upper and lower middle income countries are often in a phase of rapid economic growth and development. During this stage, there's typically:</p>
+                <h3>Pre-primary Education Enrollment by Income Country Group</h3>
+                <div id="income-group-line-vis" class="chart"></div>
+                <p class="description">This line chart illustrates the trends in pre-primary education enrollment across different income groups from 2017 to 2023. Each line represents a different income group category: low income, lower middle income, upper middle income, and high income countries.</p>
+                <p>It can be seen that the <b>upper and lower middle income countries</b> focus on education more compared the low and high income countries.Upper and lower middle income countries are often in a phase of rapid economic growth and development. During this stage, there's typically:</p>
                 <ul>
                     <li>Increased investment in human capital, including education, to support economic advancement.</li>
                     <li>A growing middle class with higher aspirations for their children's education and future prospects.</li>
@@ -446,54 +446,49 @@
         }
       }
 
-    const incomeGroupBubbleSpec = {
+    const incomeGroupLineSpec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": "Pre-primary Education Enrollment by Income Group (2017-2023)",
+        "title": "Pre-primary Education Enrollment by Income Country Group (2017-2023)",
         "width": 600,
         "height": 400,
         "data": {
-            "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/enrollment_income_groups.csv"
+          "url": "https://raw.githubusercontent.com/jfoo0028/education-map-visualisation/refs/heads/main/enrollment_income_groups.csv"
         },
-        "mark": "circle",
+        "mark": {
+          "type": "line",
+          "point": true
+        },
         "encoding": {
-            "x": {
-                "field": "Time",
-                "type": "ordinal",
-                "title": "Year"
-            },
-            "y": {
-                "field": "Value",
-                "type": "quantitative",
-                "title": "Enrollment",
-                "axis": {"format": "~s"}
-            },
-            "size": {
-                "field": "Value",
-                "type": "quantitative",
-                "scale": {
-                    "range": [100, 5000]
-                },
-                "legend": null
-            },
-            "color": {
-                "field": "Country",
-                "type": "nominal",
-                "title": "Income Group",
-                "scale": {
-                    "domain": ["Low income countries", "Lower middle income countries", "Upper middle income countries", "High income countries"],
-                    "range": ["#e41a1c", "#377eb8", "#984ea3", "#ff7f00"]
-                }
-            },
-            "tooltip": [
-                {"field": "Country", "type": "nominal", "title": "Income Group"},
-                {"field": "Time", "type": "ordinal", "title": "Year"},
-                {"field": "Value", "type": "quantitative", "title": "Enrollment", "format": ","}
-            ]
+          "x": {
+            "field": "Time",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          "y": {
+            "field": "Value",
+            "type": "quantitative",
+            "title": "Enrollment",
+            "axis": {"format": "~s"}
+          },
+          "color": {
+            "field": "Country",
+            "type": "nominal",
+            "title": "Income Country Group",
+            "scale": {
+              "domain": ["Low income countries", "Lower middle income countries", "Upper middle income countries", "High income countries"],
+              "range": ["#e41a1c", "#377eb8", "#984ea3", "#ff7f00"]
+            }
+          },
+          "tooltip": [
+            {"field": "Country", "type": "nominal", "title": "Income Group"},
+            {"field": "Time", "type": "ordinal", "title": "Year"},
+            {"field": "Value", "type": "quantitative", "title": "Enrollment", "format": ","}
+          ]
         },
         "config": {
-            "view": {"stroke": null}
+          "view": {"stroke": null}
         }
-    };
+      };
 
 
     vegaEmbed('#map-vis', mapSpec).then((result) => {
@@ -505,7 +500,7 @@
     vegaEmbed('#bar-vis', barSpec);
     vegaEmbed('#continent-pie-vis', continentPieSpec);
     vegaEmbed('#gender-enrollment-vis', genderBarSpec);
-    vegaEmbed('#income-group-bubble-vis', incomeGroupBubbleSpec);
+    vegaEmbed('#income-group-line-vis', incomeGroupLineSpec);
     </script>
 </body>
 </html>
